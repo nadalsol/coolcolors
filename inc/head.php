@@ -8,7 +8,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Cool Colors - Web Architect &amp; UX Designer</title>
         <meta name="description" content="Cool Colors - Web Architect &amp; UX Designer">
-        <meta name="keywords" content="web, design, webdesign, ux, barcelona">
+        <meta name="keywords" content="web, design, webdesign, interface, hci, designer, ux, ui, architecture, creativity, art, direction, barcelona">
+        <meta name="author" content="Miriam Soto, Nadal Soler">
         <meta name="robots" content="index, follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script type="text/javascript">document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js');</script>
@@ -40,13 +41,36 @@
             </div>
         <![endif]-->
 
-        <header>
-            <nav>
-                <a href="/">
-                    <img src="/img/logo.png" alt="Cool Colors logo">
+        <header id="top" class="navbar navbar-static-top">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">
+                    <img src="/img/logo_cool_colors.png" alt="Cool Colors logo">
                 </a>
-                <div>
-                    burger
-                </div>
+            </div>
+            <!-- Collect the nav links for toggling -->
+            <nav class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="/about-me.php">Miriam</a>
+                    </li>
+                    <li>
+                        <a href="/my-work.php">My work</a>
+                    </li>
+                    <li>
+                        <a href="/experience.php">Experience</a>
+                    </li>
+                    <li>
+                        <a href="/contact.php">Contact</a>
+                    </li>
+                </ul>
             </nav>
         </header>
+
+        <div id="content" class="container">
