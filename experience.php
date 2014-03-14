@@ -2,13 +2,12 @@
 include_once ($_SERVER['DOCUMENT_ROOT'].'/inc/head.php');
 ?>
 
-<!-- TODO
-     Take a look at http://html5doctor.com/the-section-element/ documentation,
-     to decide if this should be a <div> or a <section> tag.
--->
 <div>
 
-    <h1>Experience</h1>
+    <header>
+        <h1>Experience</h1>
+        <p>Designing since 1999</p>
+    </header>
 
     <article>
         <header class="heading-comp-toggle">
