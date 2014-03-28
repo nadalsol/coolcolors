@@ -1,0 +1,267 @@
+//
+// Mixins
+// --------------------------------------------------
+
+
+// Utilities
+// -------------------------
+
+// Clearfix
+// Source: http://nicolasgallagher.com/micro-clearfix-hack/
+//
+// For modern browsers
+// 1. The space content is one way to avoid an Opera bug when the
+//    contenteditable attribute is included anywhere else in the document.
+//    Otherwise it causes space to appear at the top and bottom of elements
+//    that are clearfixed.
+// 2. The use of `table` rather than `block` is only necessary if using
+//    `:before` to contain the top-margins of child elements.
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// WebKit-style focus
+@mixin tab-focus() {
+  // Default
+  outline: thin dotted #333;
+  // WebKit
+  outline: 5px auto $brand-primary;
+  outline-offset: -2px;
+}
+
+// Center-align a block level element
+@mixin center-block() {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Text overflow
+// Requires inline-block or block for proper styling
+@mixin text-overflow() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// Toggling content
+@mixin text-hide() {
+  font: unquote("0/0") a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+@mixin show() {
+  display: block !important;
+}
+
+@mixin hidden() {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+
+// FONTS
+// --------------------------------------------------
+
+@mixin font-family-sans-serif-light() {
+  font-family: $font-family-sans-serif-light;
+}
+@mixin font-family-sans-serif-roman() {
+  font-family: $font-family-sans-serif-roman;
+}
+@mixin font-family-sans-serif-italic() {
+  font-family: $font-family-sans-serif-italic;
+}
+@mixin font-family-sans-serif-medium() {
+  font-family: $font-family-sans-serif-medium;
+}
+@mixin font-family-sans-serif-bold() {
+  font-family: $font-family-sans-serif-bold;
+  font-weight: 400; // Overrides default browser bold style, showing bold @font-face font instead
+}
+
+
+// CSS3 PROPERTIES
+// --------------------------------------------------
+
+// Border Radius
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+
+// Drop shadows
+@mixin box-shadow($shadow) {
+  -webkit-box-shadow: $shadow; // i-o-s <4.3 & Android <4.1
+          box-shadow: $shadow;
+}
+
+// Transitions
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+          transition: $transition;
+}
+@mixin transition-property($transition-property) {
+  -webkit-transition-property: $transition-property;
+          transition-property: $transition-property;
+}
+@mixin transition-delay($transition-delay) {
+  -webkit-transition-delay: $transition-delay;
+          transition-delay: $transition-delay;
+}
+@mixin transition-duration($transition-duration) {
+  -webkit-transition-duration: $transition-duration;
+          transition-duration: $transition-duration;
+}
+@mixin transition-transform($transition) {
+  -webkit-transition: -webkit-transform $transition;
+     -moz-transition: -moz-transform $transition;
+       -o-transition: -o-transform $transition;
+          transition: transform $transition;
+}
+
+// Box sizing
+@mixin box-sizing($boxmodel) {
+  -webkit-box-sizing: $boxmodel;
+     -moz-box-sizing: $boxmodel;
+          box-sizing: $boxmodel;
+}
+
+// User select
+// For selecting text on the page
+@mixin user-select($select) {
+  -webkit-user-select: $select;
+     -moz-user-select: $select;
+      -ms-user-select: $select; // IE10+
+       -o-user-select: $select;
+          user-select: $select;
+}
+
+// Opacity
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  // IE8 filter
+  $opacity-ie: ($opacity * 100);
+  filter: unquote("alpha(opacity=#{$opacity-ie})");
+}
+
+// Responsive image
+//
+// Keep images from scaling beyond the width of their parents.
+@mixin img-responsive($display: block) {
+  display: $display;
+  max-width: 100%; // Part 1: Set a maximum relative to the parent
+  height: auto; // Part 2: Scale the height according to the width, otherwise you get stretching
+}
+
+
+// COMPONENT MIXINS
+// --------------------------------------------------
+
+// Grid System
+// ------------
+
+// Centered container element
+@mixin container-fixed() {
+  margin-right: auto;
+  margin-left: auto;
+  @include clearfix;
+}
+
+@mixin col() {
+  border: 0 solid rgba(0,0,0,0);
+  float: left;
+  -webkit-background-clip: padding-box !important;
+     -moz-background-clip: padding-box !important;
+          background-clip: padding-box !important;
+}
+
+@mixin col-span($col-num, $grid-gutter-pc, $grid-gutter-px, $grid-col-padding, $grid-max-columns) {
+  $one-col: (100% - ($grid-gutter-pc * ($grid-max-columns - 1))) / $grid-max-columns;
+  width: ($one-col * $col-num) + ($grid-gutter-pc * ($col-num - 1));
+  border-left-width: $grid-gutter-px;
+  padding: $grid-col-padding;
+  margin-left: $grid-gutter-pc;
+}
+
+@mixin col-span-first() {
+  margin-left: 0;
+}
+
+
+// APP MIXINS (project specific mixins)
+// --------------------------------------------------
+
+// Variable sprite icon sizes
+@mixin sprite-icon-size($width, $height) {
+  width: $width;
+  height: $height;
+  line-height: $height;
+}
+
+// Reset default list styles
+@mixin list-reset() {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+  > dt,
+  > dd {
+    margin-left: 0;
+  }
+}
+
+// Turns list items into inline-block
+@mixin list-inline($pad-left: 5px, $pad-right: 5px) {
+  @include list-reset;
+  > li,
+  > dt,
+  > dd {
+    display: inline-block;
+    padding-left: $pad-left;
+    padding-right: $pad-right;
+    &:first-child {
+      padding-left: 0;
+    }
+  }
+}
+
+// Modular media queries
+// Source: http://www.impressivewebs.com/modular-css-media-queries-sass/
+//
+// It keeps media query styles near the styles they override.
+//
+@mixin modular-mq($breakpoint) {
+  @if $breakpoint == lg {
+    @media #{$mq-media} and ($mq-feature-min-width: $screen-lg-min) { @content; }
+  }
+  /*@else if $breakpoint == md {
+    @media #{$mq-media} and ($mq-feature: $screen-md-min) { @content; }
+  }*/
+  @else if $breakpoint == sm {
+    @media #{$mq-media} and ($mq-feature-max-width: $screen-sm-min) { @content; }
+  }
+}
+
+// Height cropper
+@mixin height-cropper($height) {
+  height: $height;
+  overflow: hidden;
+}
+
+// Position absolute
+@mixin position-absolute($top: 0, $left: 0, $zindex: 10) {
+  position: absolute;
+  top: $top;
+  left: $left;
+  z-index: $zindex;
+}
