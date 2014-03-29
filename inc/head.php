@@ -20,6 +20,7 @@
              * File name should be suffixed with a number, which should be incremented
                in every server upload, to break user's browser cache (i.e. 'base_01.css').
         -->
+        <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
         <!-- Head styles (production) -->
         <!--<link type="text/css" rel="stylesheet" href="/css/base_01.css">-->
         <!-- Head styles (development) -->

@@ -73,21 +73,15 @@
 // FONTS
 // --------------------------------------------------
 
-@mixin font-family-sans-serif-light() {
-  font-family: $font-family-sans-serif-light;
-}
-@mixin font-family-sans-serif-roman() {
-  font-family: $font-family-sans-serif-roman;
-}
-@mixin font-family-sans-serif-italic() {
-  font-family: $font-family-sans-serif-italic;
-}
-@mixin font-family-sans-serif-medium() {
-  font-family: $font-family-sans-serif-medium;
+@mixin font-family-sans-serif() {
+  font-family: $font-family-sans-serif;
 }
 @mixin font-family-sans-serif-bold() {
-  font-family: $font-family-sans-serif-bold;
-  font-weight: 400; // Overrides default browser bold style, showing bold @font-face font instead
+  font-family: $font-family-sans-serif;
+  font-weight: 700;
+}
+@mixin font-family-serif() {
+  font-family: $font-family-serif;
 }
 
 

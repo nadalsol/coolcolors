@@ -47,12 +47,12 @@ $link-hover-color:      darken($link-color, 15%) !default;
 // Typography
 // -------------------------
 
-$font-family-sans-serif-light:   "HelveticaNeueW01-45Ligh", Helvetica, Arial, sans-serif !default;
-$font-family-sans-serif-roman:   "HelveticaNeueW01-55Roma", Helvetica, Arial, sans-serif !default;
-$font-family-sans-serif-italic:  "HelveticaNeueW01-56It"  , Helvetica, Arial, sans-serif !default;
-$font-family-sans-serif-medium:  "HelveticaNeueW01-65Medi", Helvetica, Arial, sans-serif !default;
-$font-family-sans-serif-bold:    "HelveticaNeueW01-75Bold", "Arial Black", "Arial Bold", Gadget, sans-serif !default;
-$font-family-base:               $font-family-sans-serif-roman !default;
+//$font-family-sans-serif:  		 "equiplight", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif:		 "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-serif:       		 "equipslablight", Georgia, "Times New Roman", Times, serif !default;
+// Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+//$font-family-monospace:   		 Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:        		 $font-family-sans-serif !default;
 
 $font-size-base:                 14px !default;
 $font-size-xxxl:                 ceil($font-size-base * 3.92) !default;  // ~55px
@@ -85,6 +85,12 @@ $headings-color:                 $black !default;
 // -------------------------
 
 $icon-sprite-path:           "../img/sprite_icon_01.png" !default;
+
+
+// Fonts
+// -------------------------
+
+$fonts-path:           		 "../fonts/" !default;
 
 
 // COMPONENT VARIABLES
