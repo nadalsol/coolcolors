@@ -42,22 +42,19 @@
             </div>
         <![endif]-->
 
-        <header id="top" class="navbar navbar-static-top">
-            <!-- Brand and toggle get grouped for better mobile display -->
+        <header class="navbar" id="top">
+            <!-- Navbar Header (brand and toggle get grouped for better mobile display) -->
             <div class="navbar-header">
-                <button class="navbar-toggle" type="button">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
                 <a class="navbar-brand" href="/">
                     <img src="/img/logo_cool_colors.png" alt="Cool Colors logo">
                 </a>
+                <button class="navbar-toggle">
+                    <span class="icon icon-three-line"></span>
+                </button>
             </div>
-            <!-- Collect the nav links for toggling -->
-            <nav class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
+            <!-- Navbar Menu (links for toggling) -->
+            <nav class="navbar-menu">
+                <ul>
                     <li>
                         <a href="/about-me.php">Miriam</a>
                     </li>
