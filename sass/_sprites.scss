@@ -28,9 +28,9 @@
 
 // Icons
 // row #1 - sprite image
-.icon-facebook                   { background-position:     0       0  ; @include sprite-icon-size( 36px,  36px); }
-.icon-twitter                    { background-position:   -50px     0  ; @include sprite-icon-size( 36px,  36px); }
+.icon-three-line                 { background-position:     0       0  ; @include sprite-icon-size( 33px,  23px); }
+//.icon-twitter                    { background-position:   -50px     0  ; @include sprite-icon-size( 36px,  36px); }
 
 // row #2 - sprite image
-.icon-cc-visa-sm                 { background-position:     0     -50px; @include sprite-icon-size( 37px,  22px); }
-.icon-cc-paypal-sm               { background-position:   -50px   -50px; @include sprite-icon-size( 37px,  22px); }
+//.icon-cc-visa-sm                 { background-position:     0     -50px; @include sprite-icon-size( 37px,  22px); }
+//.icon-cc-paypal-sm               { background-position:   -50px   -50px; @include sprite-icon-size( 37px,  22px); }

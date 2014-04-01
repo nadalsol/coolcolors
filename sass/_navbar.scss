@@ -1,0 +1,332 @@
+//
+// Navbars
+// --------------------------------------------------
+
+
+// Base class
+// --------------------
+
+.navbar {
+  height: $navbar-header-height;
+  text-align: center;
+  // Original image: 'bg_header.png'
+  background: $white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAEAgMAAADHSDYZAAAACVBMVEX+/v7y8vLz8/PpkQ9mAAAAE0lEQVQIHWMAgakhAgwg0MQWCgAMNgHXijqEowAAAABJRU5ErkJggg==) repeat left top;
+  /*.container {
+    padding-top: $line-height-computed / 2;
+    padding-bottom: $line-height-computed / 2;
+  }
+  @include modular-mq(lg) {
+    @include clearfix;
+    .container {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }*/
+}
+
+
+// Inner classes
+// --------------------
+
+.navbar-header {
+  @include clearfix;
+}
+
+.navbar-toggle {
+  float: right;
+  margin-top: $line-height-computed;
+  margin-right: 30px;
+}
+
+.navbar-brand {
+  img {
+    display: inline-block;
+    margin-top: $line-height-computed / 2;
+    //margin-bottom: 15px;
+  }
+}
+
+.navbar-menu {}
+
+
+
+
+
+//
+// Navbars HEADER
+// --------------------------------------------------
+
+/*
+// Navbar MAIN HEADER (sub-class)
+.navbar-main-header {
+  background-color: $black;
+  line-height: 30px;
+  @include modular-mq(lg) {
+    line-height: $navbar-main-header-height;
+    .dropdown-menu {
+      @include dropdown-menu-position($navbar-main-header-height + $dropdown-shadow-overlay-height, 0);
+    }
+    &.navbar-fixed {
+      @include header-fixed($navbar-secondary-header-height, $navbar-main-header-height, 1010);
+    }
+  }
+}
+
+// Navbar MAIN HEADER (inner classes)
+.navbar-main-sections {
+  text-align: center;
+  @include list-reset;
+  > li {
+    border-top: 1px solid $gray-darkest;
+    font-size: $font-size-md;
+    text-transform: uppercase;
+    &:first-child {
+      border-top: none;
+    }
+    &:hover {
+      background-color: $white;
+    }
+    > a {
+      display: block;
+      color: $white;
+      &:hover {
+        color: $text-color;
+      }
+    }
+  }
+  @include modular-mq(lg) {
+    text-align: left;
+    @include clearfix;
+    > li {
+      float: left;
+      border-top: none;
+      border-right: 1px solid $gray-darkest;
+      @include transition(all .3s ease);
+      &:first-child {
+        border-left: 1px solid $gray-darkest;
+      }
+      > a {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+  }
+}
+
+// Navbar SECONDARY HEADER (sub-class)
+.navbar-secondary-header {
+  background-color: $white;
+  color: $text-color;
+  line-height: 30px;
+  a {
+    color: $text-color;
+    &:hover {
+      color: $link-color;
+    }
+  }
+  @include modular-mq(lg) {
+    line-height: $navbar-secondary-header-height;
+    .dropdown-menu {
+      @include dropdown-menu-position($navbar-secondary-header-height, -30px);
+    }
+    &.navbar-fixed {
+      @include header-fixed(0, $navbar-secondary-header-height, 1020);
+    }
+  }
+}
+
+// Navbar SECONDARY HEADER (inner classes)
+.navbar-secondary-lang {
+  text-align: center;
+  @include modular-mq(lg) {
+    float: left;
+    padding-right: 30px;
+    font-size: $font-size-xs;
+    text-align: left;
+  }
+}
+.navbar-secondary-cart {
+  text-align: center;
+  span {
+    padding: 1px 6px;
+    background-color: $link-color;
+    color: $white;
+  }
+  @include modular-mq(lg) {
+    float: right;
+    padding-right: 20px;
+    text-align: left;
+  }
+}
+.navbar-secondary-account {
+  text-align: center;
+  @include modular-mq(lg) {
+    float: right;
+    padding-left: 20px;
+    // Original image: 'bg_pipe_666666_1x25.png'
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAZCAMAAADHTrRNAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAADUExURWZmZnxWggQAAAAMSURBVAjXY2AgFQAAADIAAZAfg0kAAAAASUVORK5CYII=) no-repeat left center;
+    text-align: left;
+    font-size: $font-size-xs;
+  }
+}
+
+
+//
+// Navbars FOOTER
+// --------------------------------------------------
+
+// Navbar MAIN FOOTER (sub-class)
+.navbar-main-footer {
+  padding-top: $vertical-space-md;
+  padding-bottom: $vertical-space-md;
+  background: url("../img/bg_footer.jpg") repeat left top;
+  @include font-family-sans-serif-medium;
+  font-size: $font-size-sm;
+  color: $gray-darker;
+  line-height: 20px;
+  a {
+    color: $gray-darker;
+    &:hover {
+      color: $link-color;
+    }
+  }
+  ul {
+    @include list-reset;
+  }
+  @include modular-mq(lg) {
+    padding-bottom: $vertical-space-md * 4;
+    line-height: 25px;
+  }
+}
+
+// Navbar MAIN FOOTER (inner classes)
+.navbar-main-legal {
+  margin-bottom: $line-height-computed;
+  text-align: center;
+  p {
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  ul {
+    @include list-inline(10px, 5px);
+  }
+  li {
+    // Original image: 'bg_pipe_666666_1x13.png'
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAANCAMAAABfCfTAAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAADUExURWZmZnxWggQAAAALSURBVAjXY2DABQAAGgABJERO5QAAAABJRU5ErkJggg==) no-repeat left center;
+    &:first-child {
+      background: none;
+    }
+  }
+  @include modular-mq(lg) {
+    margin-bottom: 0;
+    text-align: left;
+  }
+}
+.navbar-main-categories {
+  margin-bottom: $line-height-computed;
+  text-align: center;
+  h3 {
+    margin-bottom: 12px;
+  }
+  i {
+    margin-right: 5px;
+    vertical-align: baseline;
+  }
+  @include modular-mq(lg) {
+    margin-bottom: 0;
+    text-align: left;
+  }
+}
+.navbar-main-social {
+  text-align: center;
+  h3 {
+    margin-bottom: 15px;
+  }
+  ul {
+    @include list-inline(8px, 8px);
+    margin-bottom: ($line-height-computed / 2);
+  }
+  p {
+    margin-bottom: 0;
+    i {
+      margin-right: 5px;
+      vertical-align: baseline;
+    }
+  }
+  @include modular-mq(lg) {
+    text-align: left;
+  }
+}
+
+// Navbar SECONDARY FOOTER (sub-class)
+.navbar-secondary-footer {
+  background-color: $black;
+  color: $white;
+  line-height: 30px;
+  a {
+    color: $white;
+    &:hover {
+      color: $link-color;
+    }
+  }
+  @include modular-mq(lg) {
+    line-height: $navbar-secondary-footer-height;
+  }
+}
+
+// Navbar SECONDARY FOOTER (inner classes)
+.navbar-secondary-secure,
+.navbar-secondary-payment {
+  text-align: center;
+  @include list-inline(2px, 2px);
+  @include modular-mq(lg) {
+    float: right;
+    padding-left: 25px;
+    text-align: left;
+    font-size: $font-size-xs;
+  }
+}
+
+
+//
+// Navbars HEADER & FOOTER
+// --------------------------------------------------
+
+// Navbar SECONDARY HEADER & FOOTER (inner classes)
+.navbar-secondary-delivery {
+  text-align: center;
+  @include list-reset;
+  @include modular-mq(lg) {
+    float: left;
+    @include clearfix;
+    > li {
+      float: left;
+      padding-left: 20px;
+      padding-right: 20px;
+      // Original image: 'bg_pipe_666666_1x25.png'
+      background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAZCAMAAADHTrRNAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAADUExURWZmZnxWggQAAAAMSURBVAjXY2AgFQAAADIAAZAfg0kAAAAASUVORK5CYII=) no-repeat left center;
+      &:first-child {
+        padding-left: 0;
+        background: none;
+      }
+    }
+    i {
+      vertical-align: baseline;
+    }
+    &.navbar-secondary-delivery-no-pipe {
+      > li {
+        background: none;
+      }
+    }
+  }
+}
+.navbar-secondary-free {
+  strong {
+    text-transform: uppercase;
+  }
+}
+.navbar-secondary-phone {
+  @include font-family-sans-serif-bold;
+  font-size: $font-size-lg;
+}
+*/
