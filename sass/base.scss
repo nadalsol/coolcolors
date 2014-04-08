@@ -2,7 +2,7 @@
  * CoolColors.es
  *
  * Created: March 2014.
- * Author : Nadal Soler / Front-end Developer
+ * Author : Nadal Soler </> Front-end Developer
  *          nadal dot soler at gmail dot com
  *          @nadalsol
  */
@@ -79,9 +79,11 @@
 //@import "orders";
 //@import "trust";
 //@import "ideas";
+@import "body-bg";
+@import "intro";
 
 // Fallbacks for Non JavaScript Browsers
 @import "no-js";
 
 // External plugins
-//@import "plugins-overwritten"; // Has to be last to override when necessary
+//@import "plugins"; // Has to be last to override when necessary

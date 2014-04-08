@@ -34,14 +34,13 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body>
+    <body class="body-bg body-bg-intro">
         <!--[if lt IE 8]>
             <div class="alert alert-info">
                 <button type="button" class="close" data-dismiss="alert">&times;</button>
                 You_are_using_an_outdated_browser
             </div>
         <![endif]-->
-
         <header class="navbar" id="top">
             <!-- Navbar Header (brand and toggle get grouped for better mobile display) -->
             <div class="navbar-header">
@@ -70,5 +69,5 @@
                 </ul>
             </nav>
         </header>
-
-        <div id="content" class="container">
+        <!-- Content -->
+        <!--<div id="content" class="container">-->

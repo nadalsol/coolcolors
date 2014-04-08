@@ -43,6 +43,12 @@
   margin-right: auto;
 }
 
+// Sizing shortcuts
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
+
 // Text overflow
 // Requires inline-block or block for proper styling
 @mixin text-overflow() {
@@ -259,3 +265,14 @@
   left: $left;
   z-index: $zindex;
 }
+
+// Dynamic centering
+/*@mixin dynamic-centering($width, $height) {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: $width;
+  height: $height;
+  margin-left: -(floor($width / 2));
+  margin-top: -(floor($height / 2));
+}*/
