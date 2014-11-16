@@ -1,9 +1,10 @@
 /*
- * MyDrap.com
+ * CoolColors.es
  *
- * Created: January 2014.
- * Authors: The "BaseEcommerce" team.
- *
+ * Created: March 2014.
+ * Author : Nadal Soler </> Front-end Developer
+ *          nadal dot soler at gmail dot com
+ *          @nadalsol
  */
 
 

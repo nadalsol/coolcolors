@@ -41,7 +41,7 @@
         You_are_using_an_outdated_browser
       </div>
     <![endif]-->
-    <header class="navbar" id="top">
+    <header id="top" class="navbar">
       <!-- Navbar Header (brand and toggle get grouped for better mobile display) -->
       <div class="navbar-header">
         <a class="navbar-brand" href="/">
@@ -69,5 +69,3 @@
         </ul>
       </nav>
     </header>
-    <!-- Content -->
-    <!--<div id="content" class="container">-->
