@@ -1,10 +1,10 @@
 //
 // Utility classes
 // --------------------------------------------------
+//
 
 
-// Floats
-// -------------------------
+// Misc
 
 .clearfix {
   @include clearfix;
@@ -12,6 +12,10 @@
 .center-block {
   @include center-block;
 }
+
+
+// Floats
+
 .pull-right {
   float: right !important;
 }
@@ -21,7 +25,6 @@
 
 
 // Toggling content
-// -------------------------
 
 // Hide from screenreaders and browsers
 .hidden {
@@ -33,34 +36,31 @@
 .invisible {
   visibility: hidden;
 }
-.text-hide {
-  @include text-hide;
-}
 
 
 // Vertical alignment
-// -------------------------
 
-/*.valign-tt {
-  vertical-align: text-top;
-}
-.valign-t {
-  vertical-align: top;
-}
-.valign-bl {
-  vertical-align: baseline;
-}*/
+// .valign-tt {
+//   vertical-align: text-top;
+// }
+// .valign-t {
+//   vertical-align: top;
+// }
+// .valign-bl {
+//   vertical-align: baseline;
+// }
 
 
+//
 // Spacer
-// -------------------------
-
+//
 // Use it as a placeholder "silent class", to leave empty
 // vertical space between components.
 // (http://blog.teamtreehouse.com/extending-placeholder-selectors-with-sass)
-/*%spacer {
-  margin-bottom: $line-height-computed;
-  @include modular-mq(lg) {
-    margin-bottom: ($line-height-computed * 3);
-  }
-}*/
+//
+// %spacer {
+//   margin-bottom: $line-height-computed;
+//   @include media-query(lg) {
+//     margin-bottom: ($line-height-computed * 3);
+//   }
+// }

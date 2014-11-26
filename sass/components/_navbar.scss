@@ -3,30 +3,24 @@
 // --------------------------------------------------
 
 
-// Base class
-// --------------------
-
 .navbar {
   height: $navbar-header-height;
   text-align: center;
   // Original image: 'bg_header.png'
   background: $white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAEAgMAAADHSDYZAAAACVBMVEX+/v7y8vLz8/PpkQ9mAAAAE0lEQVQIHWMAgakhAgwg0MQWCgAMNgHXijqEowAAAABJRU5ErkJggg==) repeat left top;
-  /*.container {
-    padding-top: $line-height-computed / 2;
-    padding-bottom: $line-height-computed / 2;
-  }
-  @include modular-mq(lg) {
-    @include clearfix;
-    .container {
-      padding-top: 0;
-      padding-bottom: 0;
-    }
-  }*/
+  // .container {
+  //   padding-top: $line-height-computed / 2;
+  //   padding-bottom: $line-height-computed / 2;
+  // }
+  // @include media-query(lg) {
+  //   @include clearfix;
+  //   .container {
+  //     padding-top: 0;
+  //     padding-bottom: 0;
+  //   }
+  // }
 }
 
-
-// Inner classes
-// --------------------
 
 .navbar-header {
   @include clearfix;
@@ -46,7 +40,7 @@
   }
 }
 
-.navbar-menu {}
+// .navbar-menu {}
 
 
 
@@ -61,7 +55,7 @@
 .navbar-main-header {
   background-color: $black;
   line-height: 30px;
-  @include modular-mq(lg) {
+  @include media-query(lg) {
     line-height: $navbar-main-header-height;
     .dropdown-menu {
       @include dropdown-menu-position($navbar-main-header-height + $dropdown-shadow-overlay-height, 0);
@@ -94,7 +88,7 @@
       }
     }
   }
-  @include modular-mq(lg) {
+  @include media-query(lg) {
     text-align: left;
     @include clearfix;
     > li {
@@ -124,7 +118,7 @@
       color: $link-color;
     }
   }
-  @include modular-mq(lg) {
+  @include media-query(lg) {
     line-height: $navbar-secondary-header-height;
     .dropdown-menu {
       @include dropdown-menu-position($navbar-secondary-header-height, -30px);
@@ -138,7 +132,7 @@
 // Navbar SECONDARY HEADER (inner classes)
 .navbar-secondary-lang {
   text-align: center;
-  @include modular-mq(lg) {
+  @include media-query(lg) {
     float: left;
     padding-right: 30px;
     font-size: $font-size-xs;
@@ -152,7 +146,7 @@
     background-color: $link-color;
     color: $white;
   }
-  @include modular-mq(lg) {
+  @include media-query(lg) {
     float: right;
     padding-right: 20px;
     text-align: left;
@@ -160,7 +154,7 @@
 }
 .navbar-secondary-account {
   text-align: center;
-  @include modular-mq(lg) {
+  @include media-query(lg) {
     float: right;
     padding-left: 20px;
     // Original image: 'bg_pipe_666666_1x25.png'
@@ -193,7 +187,7 @@
   ul {
     @include list-reset;
   }
-  @include modular-mq(lg) {
+  @include media-query(lg) {
     padding-bottom: $vertical-space-md * 4;
     line-height: 25px;
   }
@@ -217,7 +211,7 @@
       background: none;
     }
   }
-  @include modular-mq(lg) {
+  @include media-query(lg) {
     margin-bottom: 0;
     text-align: left;
   }
@@ -232,7 +226,7 @@
     margin-right: 5px;
     vertical-align: baseline;
   }
-  @include modular-mq(lg) {
+  @include media-query(lg) {
     margin-bottom: 0;
     text-align: left;
   }
@@ -253,7 +247,7 @@
       vertical-align: baseline;
     }
   }
-  @include modular-mq(lg) {
+  @include media-query(lg) {
     text-align: left;
   }
 }
@@ -269,7 +263,7 @@
       color: $link-color;
     }
   }
-  @include modular-mq(lg) {
+  @include media-query(lg) {
     line-height: $navbar-secondary-footer-height;
   }
 }
@@ -279,7 +273,7 @@
 .navbar-secondary-payment {
   text-align: center;
   @include list-inline(2px, 2px);
-  @include modular-mq(lg) {
+  @include media-query(lg) {
     float: right;
     padding-left: 25px;
     text-align: left;
@@ -296,7 +290,7 @@
 .navbar-secondary-delivery {
   text-align: center;
   @include list-reset;
-  @include modular-mq(lg) {
+  @include media-query(lg) {
     float: left;
     @include clearfix;
     > li {

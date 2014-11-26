@@ -1,0 +1,58 @@
+//
+// Application (project specific) mixins
+// --------------------------------------------------
+
+// Variable sprite icon sizes
+@mixin sprite-icon-size($width, $height) {
+  width: $width;
+  height: $height;
+  line-height: $height;
+}
+
+// Reset default list styles
+@mixin list-reset() {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  > dt,
+  > dd {
+    margin-left: 0;
+  }
+}
+
+// Turns list items into inline-block
+@mixin list-inline($pad-left: 5px, $pad-right: 5px) {
+  @include list-reset;
+  > li,
+  > dt,
+  > dd {
+    display: inline-block;
+    padding-left: $pad-left;
+    padding-right: $pad-right;
+  }
+}
+
+// Height cropper
+// @mixin height-cropper($height) {
+//   height: $height;
+//   overflow: hidden;
+// }
+
+// Position absolute
+// @mixin position-absolute($top: 0, $left: 0, $zindex: 10) {
+//   position: absolute;
+//   top: $top;
+//   left: $left;
+//   z-index: $zindex;
+// }
+
+// Dynamic centering
+// @mixin dynamic-centering($width, $height) {
+//   position: absolute;
+//   left: 50%;
+//   top: 50%;
+//   width: $width;
+//   height: $height;
+//   margin-left: -(floor($width / 2));
+//   margin-top: -(floor($height / 2));
+// }

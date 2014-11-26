@@ -1,0 +1,12 @@
+//
+// Visibility
+// --------------------------------------------------
+
+@mixin show() {
+  display: block !important;
+}
+
+@mixin hidden() {
+  display: none !important;
+  visibility: hidden !important;
+}

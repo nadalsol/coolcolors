@@ -1,0 +1,31 @@
+//
+// Grid system
+// --------------------------------------------------
+//
+// Generate semantic grid columns with these mixins.
+
+@mixin container-fixed() {
+  margin-right: auto;
+  margin-left: auto;
+  @include clearfix;
+}
+
+@mixin col() {
+  border: 0 solid rgba(0,0,0,0);
+  float: left;
+  -webkit-background-clip: padding-box !important;
+     -moz-background-clip: padding-box !important;
+          background-clip: padding-box !important;
+}
+
+@mixin col-span($col-num, $grid-gutter-pc, $grid-gutter-px, $grid-col-padding, $grid-max-columns) {
+  $one-col: (100% - ($grid-gutter-pc * ($grid-max-columns - 1))) / $grid-max-columns;
+  width: ($one-col * $col-num) + ($grid-gutter-pc * ($col-num - 1));
+  border-left-width: $grid-gutter-px;
+  padding: $grid-col-padding;
+  margin-left: $grid-gutter-pc;
+}
+
+@mixin col-span-first() {
+  margin-left: 0;
+}

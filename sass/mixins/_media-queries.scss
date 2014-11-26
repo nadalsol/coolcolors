@@ -1,0 +1,19 @@
+//
+// Modular media queries
+// --------------------------------------------------
+//
+// Keep media query styles near the styles they override.
+// Source: http://www.impressivewebs.com/modular-css-media-queries-sass/
+//
+
+@mixin media-query($breakpoint) {
+  @if $breakpoint == lg {
+    @media #{$mq-media} and ($mq-feature-min-width: $screen-lg-min) { @content; }
+  }
+  // @else if $breakpoint == md {
+  //   @media #{$mq-media} and ($mq-feature: $screen-md-min) { @content; }
+  // }
+  @else if $breakpoint == sm {
+    @media #{$mq-media} and ($mq-feature-max-width: $screen-sm-min) { @content; }
+  }
+}

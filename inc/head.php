@@ -34,7 +34,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body class="body-bg body-bg-intro">
+  <body class="body-bg body-bg--intro">
     <!--[if lt IE 8]>
       <div class="alert alert-info">
         <button type="button" class="close" data-dismiss="alert">&times;</button>

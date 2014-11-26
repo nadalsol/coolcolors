@@ -1,6 +1,7 @@
 //
 // Responsive: Utility classes
 // --------------------------------------------------
+//
 
 
 @-ms-viewport {
@@ -17,7 +18,7 @@
   display: none;
 }
 
-@include modular-mq(lg) {
+@include media-query(lg) {
   .visible-lg {
     display: block;
   }

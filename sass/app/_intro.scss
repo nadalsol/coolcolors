@@ -3,9 +3,6 @@
 // --------------------------------------------------
 
 
-// Base class
-// --------------------
-
 .intro {
   > div {
     @include size(460px, 320px);
@@ -26,7 +23,7 @@
   }
   ul {
     @include list-reset;
-    //margin-bottom: $line-height-computed * 5;
+    // margin-bottom: $line-height-computed * 5;
     font-size: $font-size-lg;
     line-height: 2.2;
     color: $white;

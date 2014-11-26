@@ -21,13 +21,9 @@ small,
 }
 
 // http://www.impressivewebs.com/bold-italic-html5/
-strong {
-  @include font-family-sans-serif-bold;
-}
+strong,
 b {
   @include font-family-sans-serif-bold;
-  font-weight: normal;
-  color: $link-color;
 }
 em {
   font-style: italic;
@@ -69,7 +65,7 @@ h6, .h6 { font-size: $font-size-h6; }
 
 
 // Lists
-// --------------------------------------------------
+// -------------------------
 
 // Unordered and Ordered lists
 ul,
@@ -84,7 +80,7 @@ ol {
 
 
 // Misc
-// -----
+// -------------------------
 
 // Abbreviations and acronyms
 abbr[title],

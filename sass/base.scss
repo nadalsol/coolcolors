@@ -11,79 +11,58 @@
 @import "variables";
 @import "mixins";
 
-// Reset
-@import "normalize";
-@import "print";
-
-// Page structure
-//@import "layouts";
+// Reset and dependencies
+@import "reset/normalize";
+@import "reset/print";
+// @import "reset/glyphicons";
 
 // Core CSS
-@import "scaffolding";
-@import "fonts";
-@import "type";
-//@import "code";
-@import "grid";
-//@import "tables";
-//@import "forms";
-//@import "buttons";
+@import "core/scaffolding";
+@import "core/fonts";
+@import "core/type";
+// @import "core/code";
+@import "core/grid";
+// @import "core/tables";
+// @import "core/forms";
+// @import "core/buttons";
 
-// Components: common
-//@import "component-animations";
-@import "sprites";
-//@import "dropdowns";
-//@import "button-groups";
-//@import "input-groups";
-//@import "navs";
-@import "navbar";
-//@import "breadcrumbs";
-//@import "pagination";
-//@import "pager";
-//@import "labels";
-//@import "badges";
-//@import "jumbotron";
-//@import "thumbnails";
-//@import "progress-bars";
-//@import "media";
-//@import "list-group";
-//@import "panels";
-//@import "wells";
-//@import "close";
+// Components
+// @import "components/component-animations";
+@import "components/sprites";
+// @import "components/dropdowns";
+// @import "components/button-groups";
+// @import "components/input-groups";
+// @import "components/navs";
+@import "components/navbar";
+// @import "components/breadcrumbs";
+// @import "components/pagination";
+// @import "components/pager";
+// @import "components/labels";
+// @import "components/badges";
+// @import "components/jumbotron";
+// @import "components/thumbnails";
+// @import "components/alerts";
+// @import "components/progress-bars";
+// @import "components/media";
+// @import "components/list-group";
+// @import "components/panels";
+// @import "components/responsive-embed";
+// @import "components/wells";
+// @import "components/close";
 
-// Components w/ javascript
-//@import "alerts";
-//@import "modals";
-//@import "tooltip";
-//@import "popovers";
-//@import "carousel";
+// Components w/ JavaScript
+// @import "components/modals";
+// @import "components/tooltip";
+// @import "components/popovers";
+// @import "components/carousel";
 
 // Utility classes
-@import "utilities";
-@import "responsive-utilities"; 
+@import "utilities/utilities";
+@import "utilities/responsive-utilities";
 
 // Application (project specific) styles
-//@import "app";
-//@import "banners";
-//@import "bricks";
-//@import "headings";
-//@import "wrap-media";
-//@import "filters";
-//@import "product";
-//@import "price";
-//@import "reference";
-//@import "cart";
-//@import "delivery";
-//@import "login";
-//@import "confirmation";
-//@import "contact";
-//@import "orders";
-//@import "trust";
-//@import "ideas";
-@import "body-bg";
-@import "intro";
+@import "app/body-bg";
+@import "app/intro";
 
-// Fallbacks for Non JavaScript Browsers
-@import "no-js";
-
-// External plugins
-//@import "plugins"; // Has to be last to override when necessary
+// Third-party
+// @import "third-party/font-awesome/font-awesome";
