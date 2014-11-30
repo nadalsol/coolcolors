@@ -7,7 +7,7 @@
   height: $navbar-header-height;
   text-align: center;
   // Original image: 'bg_header.png'
-  background: $white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAEAgMAAADHSDYZAAAACVBMVEX+/v7y8vLz8/PpkQ9mAAAAE0lEQVQIHWMAgakhAgwg0MQWCgAMNgHXijqEowAAAABJRU5ErkJggg==) repeat left top;
+  background: white url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAEAgMAAADHSDYZAAAACVBMVEX+/v7y8vLz8/PpkQ9mAAAAE0lEQVQIHWMAgakhAgwg0MQWCgAMNgHXijqEowAAAABJRU5ErkJggg==) repeat left top;
   // .container {
   //   padding-top: $line-height-computed / 2;
   //   padding-bottom: $line-height-computed / 2;
@@ -40,9 +40,11 @@
   }
 }
 
-// .navbar-menu {}
-
-
+.navbar-menu {
+  > ul {
+    @include list-reset;
+  }
+}
 
 
 
@@ -53,7 +55,7 @@
 /*
 // Navbar MAIN HEADER (sub-class)
 .navbar-main-header {
-  background-color: $black;
+  background-color: black;
   line-height: 30px;
   @include media-query(lg) {
     line-height: $navbar-main-header-height;
@@ -78,11 +80,11 @@
       border-top: none;
     }
     &:hover {
-      background-color: $white;
+      background-color: white;
     }
     > a {
       display: block;
-      color: $white;
+      color: white;
       &:hover {
         color: $text-color;
       }
@@ -109,7 +111,7 @@
 
 // Navbar SECONDARY HEADER (sub-class)
 .navbar-secondary-header {
-  background-color: $white;
+  background-color: white;
   color: $text-color;
   line-height: 30px;
   a {
@@ -144,7 +146,7 @@
   span {
     padding: 1px 6px;
     background-color: $link-color;
-    color: $white;
+    color: white;
   }
   @include media-query(lg) {
     float: right;
@@ -254,11 +256,11 @@
 
 // Navbar SECONDARY FOOTER (sub-class)
 .navbar-secondary-footer {
-  background-color: $black;
-  color: $white;
+  background-color: black;
+  color: white;
   line-height: 30px;
   a {
-    color: $white;
+    color: white;
     &:hover {
       color: $link-color;
     }
