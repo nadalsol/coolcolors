@@ -60,7 +60,7 @@
 //
 // %spacer {
 //   margin-bottom: $line-height-computed;
-//   @include media-query(lg) {
+//   @media #{$large-up} {
 //     margin-bottom: ($line-height-computed * 3);
 //   }
 // }

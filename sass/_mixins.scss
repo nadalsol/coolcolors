@@ -12,7 +12,6 @@
 @import "mixins/text-overflow";
 @import "mixins/vendor-prefixes";
 @import "mixins/font-families";
-@import "mixins/media-queries";
 
 // Components
 // @import "mixins/alerts";
@@ -31,7 +30,6 @@
 // Layout
 @import "mixins/clearfix";
 @import "mixins/center-block";
-@import "mixins/grid";
 
 // Application (project specific) mixins
 @import "mixins/app"

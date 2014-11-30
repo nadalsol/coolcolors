@@ -18,7 +18,16 @@
   display: none;
 }
 
-@include media-query(lg) {
+@media #{$medium-up} {
+  .visible-md {
+    display: block;
+  }
+  .hidden-md {
+    display: none;
+  }
+}
+
+@media #{$large-up} {
   .visible-lg {
     display: block;
   }

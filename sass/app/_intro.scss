@@ -4,30 +4,27 @@
 
 
 .intro {
-  > div {
-    @include size(460px, 320px);
-    @include center-block;
-    margin-top: $line-height-computed * 6;
-    margin-bottom: $line-height-computed * 3;
-    padding-top: $line-height-computed * 5;
-    background: url("../img/heart.png") no-repeat center top;
-  }
+  padding-top: 120px;
+  padding-bottom: 60px;
   h1 {
+    height: 320px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 60px;
+    padding-top: 80px;
     font-size: 600%;
     font-weight: 700;
     color: white;
     text-transform: uppercase;
     text-align: center;
+    background: url("../img/heart.png") no-repeat center top;
+    // background-size: cover;
   }
   ul {
-    @include list-reset;
-    // margin-bottom: $line-height-computed * 5;
     font-size: $font-size-lg;
     line-height: 2.2;
     color: white;
     text-transform: uppercase;
     text-align: center;
+    @include list-reset;
   }
 }
