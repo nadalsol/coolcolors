@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artes>
+	<arte>
+		<nombre><![CDATA[interpartes]]></nombre>
+		<texto><![CDATA[Interpartes<br>Bufete de abogados]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[barealde]]></nombre>
+		<texto><![CDATA[Barealde<br>Coaching y psicología empresarial]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension> 
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[gentebonita]]></nombre>
+		<texto><![CDATA[Gentebonita<br>Estética y fotodepilación]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension> 
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[bandavisual]]></nombre>
+		<texto><![CDATA[Bandavisual<br>Organización audiovisual]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension> 
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[little_Me]]></nombre>
+		<texto><![CDATA[LittleMe<br>Proyecto personal]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension> 
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[rookie]]></nombre>
+		<texto><![CDATA[Rookie Papis<br>Portal Mi Primer Danone]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension> 
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[clubpadres]]></nombre>
+		<texto><![CDATA[Club Padres<br>Portal de Mi Primer Danone]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension> 
+	</arte>
+	
+	
+	<arte>
+		<nombre><![CDATA[lestenedor]]></nombre>
+		<texto><![CDATA[L'estenedor de la Marta<br>Mercería y boutique infantil]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension> 
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[martini]]></nombre>
+		<texto><![CDATA[L'Amore é Rosato<br>Propuesta para Martini]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension> 
+	</arte>
+	
+	
+	<arte>
+		<nombre><![CDATA[rsa]]></nombre>
+		<texto><![CDATA[Requena i Sanchez Advocats<br>Bufete de abogados]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension> 
+	</arte>
+		
+	<arte>
+		<nombre><![CDATA[mango]]></nombre>
+		<texto><![CDATA[Mango EveryDay<br>Propuesta para Mango]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension> 
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[oneday]]></nombre>
+		<texto><![CDATA[OneDay<br>Propuesta para Pronovias]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension> 
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[mivestidor]]></nombre>
+		<texto><![CDATA[Mi Vestidor<br>Propuesta de imagen para sección de la web de Pronovias]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension> 
+	</arte>
+	
+		<arte>
+		<nombre><![CDATA[imaginario]]></nombre>
+		<texto><![CDATA[Imaginario<br>Propropuesta para Bombay Sapphire]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension> 
+	</arte>
+</artes>	

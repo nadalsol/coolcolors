@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artes>
+	<arte>
+		<nombre><![CDATA[a1_bigbigbang]]></nombre>
+		<texto><![CDATA[Email teaser lanzamiento del A1]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[a6_corporate]]></nombre>
+		<texto><![CDATA[Email A6 Corporate]]></texto>
+		<imagenes><![CDATA[2]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[a6_lanzamiento]]></nombre>
+		<texto><![CDATA[Email lanzamiento del A6]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>	
+	
+	<arte>
+		<nombre><![CDATA[q3]]></nombre>
+		<texto><![CDATA[Email lanzamiento<br>del Audi Q3]]></texto>
+		<imagenes><![CDATA[2]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>	
+	
+	<arte>
+		<nombre><![CDATA[q3_teaser]]></nombre>
+		<texto><![CDATA[Email teaser<br> Audi Q3]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>	
+	
+	<arte>
+		<nombre><![CDATA[ach]]></nombre>
+		<texto><![CDATA[Email Audi Copa Horch]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>	
+	
+	<arte>
+		<nombre><![CDATA[citigo]]></nombre>
+		<texto><![CDATA[Email teaser del &Scaron;koda Citigo]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>	
+	
+	<arte>
+		<nombre><![CDATA[skoda]]></nombre>
+		<texto><![CDATA[Email de agradecimiento de &Scaron;koda]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>	
+	
+	<arte>
+		<nombre><![CDATA[eristoff]]></nombre>
+		<texto><![CDATA[Email seguimiento campaña]]></texto>
+		<imagenes><![CDATA[2]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>	
+	
+	<arte>
+		<nombre><![CDATA[iwi]]></nombre>
+		<texto><![CDATA[Newsletters de la campaña<br>Infused With Imagination]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>	
+	
+	<arte>
+		<nombre><![CDATA[mpd]]></nombre>
+		<texto><![CDATA[Email promocional<br>de Mi Primer Danone]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>	
+	
+	<arte>
+		<nombre><![CDATA[tiraelramo]]></nombre>
+		<texto><![CDATA[Email promocional<br>de Pronovias]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>	
+	
+	<arte>
+		<nombre><![CDATA[vinaesmeralda]]></nombre>
+		<texto><![CDATA[Email promocional<br>de Viña Esmeralda de Bodegas Torres]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>	
+	
+	<arte>
+		<nombre><![CDATA[vw_end]]></nombre>
+		<texto><![CDATA[Email de disculpas por la demora<br>en la eentrega del vehículo<br>para Volkswagen]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>	
+	
+	
+</artes>	

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artes>
+	<arte>
+		<nombre><![CDATA[activia_2_app]]></nombre>
+		<texto><![CDATA[Propuesta de aplicación para Activia]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+		<arte>
+		<nombre><![CDATA[audi_ipad_salon]]></nombre>
+		<texto><![CDATA[Aplicación para iPad<br>para el salón del automóvil]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[vw_app]]></nombre>
+		<texto><![CDATA[Propuesta de aplicación<br>para Volkswagen]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[pronovias_app]]></nombre>
+		<texto><![CDATA[Adaptación móvil<br>de la propuesta de site para Pronovias]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[pronovias]]></nombre>
+		<texto><![CDATA[Propuesta de página de Facebook para Pronovias]]></texto>
+		<imagenes><![CDATA[2]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[clubpadres]]></nombre>
+		<texto><![CDATA[Propuestas de imagen<br>para redes sociales para Club Padres]]></texto>
+		<imagenes><![CDATA[2]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[martini]]></nombre>
+		<texto><![CDATA[Propuestas de imagen<br>para redes sociales para Martini]]></texto>
+		<imagenes><![CDATA[3]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[habbo]]></nombre>
+		<texto><![CDATA[Campaña de promoción<br>del libro Eternidad en Habbo]]></texto>
+		<imagenes><![CDATA[3]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+		
+	
+</artes>	

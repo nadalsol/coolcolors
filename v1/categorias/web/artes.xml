@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artes>
+	<arte>
+		<nombre><![CDATA[iwi]]></nombre>
+		<texto><![CDATA[Arquitectura y diseño para Bombay Sapphire]]></texto>
+		<imagenes><![CDATA[14]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[martini]]></nombre>
+		<texto><![CDATA[Propuesta de blog para Martini]]></texto>
+		<imagenes><![CDATA[2]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+
+	<arte>
+		<nombre><![CDATA[pronovias_1]]></nombre>
+		<texto><![CDATA[Propuesta de web para Pronovias]]></texto>
+		<imagenes><![CDATA[8]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[pronovias]]></nombre>
+		<texto><![CDATA[Arquitectura y diseño<br>para Pronovias]]></texto>
+		<imagenes><![CDATA[9]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[tiraelramo]]></nombre>
+		<texto><![CDATA[Promoción para Pronovias]]></texto>
+		<imagenes><![CDATA[2]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[oneday]]></nombre>
+		<texto><![CDATA[Propuesta de blog<br>para Pronovias]]></texto>
+		<imagenes><![CDATA[2]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[mango]]></nombre>
+		<texto><![CDATA[Propuesta de web<br>para Mango]]></texto>
+		<imagenes><![CDATA[18]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[audiclass]]></nombre>
+		<texto><![CDATA[Arquitectura y propuesta de diseño de portal para clientes de Audi]]></texto>
+		<imagenes><![CDATA[7]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[vw_intro]]></nombre>
+		<texto><![CDATA[Introducción interactiva al portal para clientes Volkswagen]]></texto>
+		<imagenes><![CDATA[4]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[vw_inmotion]]></nombre>
+		<texto><![CDATA[Blog de la Comunidad<br>Volkswagen InMotion]]></texto>
+		<imagenes><![CDATA[1]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[mpd]]></nombre>
+		<texto><![CDATA[Microsite de promoción<br>de Mi Primer Danone]]></texto>
+		<imagenes><![CDATA[3]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[clubpadres]]></nombre>
+		<texto><![CDATA[Arquitectura y diseño<br>Portal de Mi Primer Danone]]></texto>
+		<imagenes><![CDATA[7]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[danonino]]></nombre>
+		<texto><![CDATA[Promociones para la web<br>de Danonino]]></texto>
+		<imagenes><![CDATA[3]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[citigo]]></nombre>
+		<texto><![CDATA[Microsite modelo &Scaron;koda Citigo]]></texto>
+		<imagenes><![CDATA[10]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[citigo_apalabrados]]></nombre>
+		<texto><![CDATA[Adaptación site Apalabrados para<br>el Torneo &Scaron;koda Citigo]]></texto>
+		<imagenes><![CDATA[3]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[eristoff_3]]></nombre>
+		<texto><![CDATA[Site para Eristoff III<br>Visionado en directo<br>de un concierto]]></texto>
+		<imagenes><![CDATA[8]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[eristoff_4]]></nombre>
+		<texto><![CDATA[Site para Eristoff IV<br>Visionado en directo<br>de un concierto]]></texto>
+		<imagenes><![CDATA[9]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[activia]]></nombre>
+		<texto><![CDATA[Propuesta de juego<br>para Activia]]></texto>
+		<imagenes><![CDATA[6]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+	<arte>
+		<nombre><![CDATA[activia_2]]></nombre>
+		<texto><![CDATA[Propuesta de microsite<br>para Activia]]></texto>
+		<imagenes><![CDATA[9]]></imagenes>
+		<extension><![CDATA[jpg]]></extension>
+	</arte>
+	
+</artes>	
