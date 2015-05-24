@@ -13,8 +13,8 @@
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript">document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js');</script>
-    <link href="/favicon.ico" rel="icon" type="image/vnd.microsoft.icon">
-    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">        
+    <link href="/v2/favicon.ico" rel="icon" type="image/vnd.microsoft.icon">
+    <link href="/v2/favicon.ico" rel="shortcut icon" type="image/x-icon">        
     <!-- Head styles
       * In 'production' environment should be unified and minified in a single file.
       * File name should be suffixed with a number, which should be incremented
@@ -22,9 +22,9 @@
     -->
     <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
     <!-- Head styles (production) -->
-    <!--<link type="text/css" rel="stylesheet" href="/css/base_01.css">-->
+    <!--<link type="text/css" rel="stylesheet" href="/v2/css/base_01.css">-->
     <!-- Head styles (development) -->
-    <link type="text/css" rel="stylesheet" href="/css/base.css">
+    <link type="text/css" rel="stylesheet" href="/v2/css/base.css">
     <!-- Head scripts
       * HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries.
       * WARNING: Respond.js doesn't work if you view the page via file://
@@ -44,8 +44,8 @@
     <header id="top" class="navbar">
       <!-- Navbar Header (brand and toggle get grouped for better mobile display) -->
       <div class="navbar-header">
-        <a class="navbar-brand" href="/">
-          <img src="/img/logo_cool_colors.png" alt="Cool Colors logo">
+        <a class="navbar-brand" href="/v2/">
+          <img src="/v2/img/logo_cool_colors.png" alt="Cool Colors logo">
         </a>
         <button class="navbar-toggle">
           <span class="icon icon-three-line"></span>
@@ -55,16 +55,16 @@
       <nav class="navbar-menu">
         <ul>
           <li>
-            <a href="/about-me.php">Miriam</a>
+            <a href="/v2/about-me.php">Miriam</a>
           </li>
           <li>
-            <a href="/my-work.php">My work</a>
+            <a href="/v2/my-work.php">My work</a>
           </li>
           <li>
-            <a href="/experience.php">Experience</a>
+            <a href="/v2/experience.php">Experience</a>
           </li>
           <li>
-            <a href="/contact.php">Contact</a>
+            <a href="/v2/contact.php">Contact</a>
           </li>
         </ul>
       </nav>

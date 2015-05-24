@@ -1,5 +1,5 @@
 <?php
-include_once ($_SERVER['DOCUMENT_ROOT'].'/inc/head.php');
+include_once ($_SERVER['DOCUMENT_ROOT'].'/v2/inc/head.php');
 ?>
 
 <div id="content">
@@ -41,5 +41,5 @@ include_once ($_SERVER['DOCUMENT_ROOT'].'/inc/head.php');
 </div>
 
 <?php
-include_once ($_SERVER['DOCUMENT_ROOT'].'/inc/foot.php');
+include_once ($_SERVER['DOCUMENT_ROOT'].'/v2/inc/foot.php');
 ?>
