@@ -1,0 +1,36 @@
+//
+// Responsive: Utility classes
+// --------------------------------------------------
+
+
+@-ms-viewport {
+  width: device-width;
+}
+
+
+// Visibility utilities
+
+.visible-sm {
+  display: block;
+}
+.hidden-sm {
+  display: none;
+}
+
+@media #{$medium-up} {
+  .visible-md {
+    display: block;
+  }
+  .hidden-md {
+    display: none;
+  }
+}
+
+@media #{$large-up} {
+  .visible-lg {
+    display: block;
+  }
+  .hidden-lg {
+    display: none;
+  }
+}

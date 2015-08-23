@@ -1,0 +1,108 @@
+//
+// Variables
+// --------------------------------------------------
+
+
+// Colors
+// -------------------------
+
+$gray-base:             #000 !default;
+$gray-darkest:          lighten($gray-base, 6.5%) !default;  // #111
+$gray-darker:           lighten($gray-base, 13.5%) !default; // #222
+$gray-dark:             lighten($gray-base, 20%) !default;   // #333
+$gray:                  lighten($gray-base, 33.5%) !default; // #555
+$gray-light:            lighten($gray-base, 46.7%) !default; // #777
+$gray-lighter:          lighten($gray-base, 60%) !default;   // #999
+$gray-lightest:         lighten($gray-base, 93.5%) !default; // #eee
+
+$brand-primary:         #fe4800 !default;
+
+
+// Scaffolding
+// -------------------------
+
+$body-bg:               $gray-dark !default;
+$text-color:            black !default;
+
+$link-color:            $brand-primary !default;
+$link-color-hover:      darken($link-color, 15%) !default;
+
+// Vertical space between components.
+// Use $line-height-computed as default value.
+$vertical-space-lg:     30px !default;
+$vertical-space-md:     25px !default;
+$vertical-space-sm:     15px !default;
+
+
+// Typography
+// -------------------------
+
+$font-family-sans-serif:         "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+// $font-family-serif:           "equipslablight", Georgia, "Times New Roman", Times, serif !default;
+$font-family-base:               $font-family-sans-serif !default;
+
+$font-size-base:                 14px !default;
+
+$font-size-xxxl:                 ceil($font-size-base * 3.92) !default;  // ~55px
+$font-size-xxl:                  ceil($font-size-base * 1.71) !default;  // ~24px
+$font-size-xl:                   ceil($font-size-base * 1.42) !default;  // ~20px
+$font-size-lg:                   ceil($font-size-base * 1.25) !default;  // ~18px
+$font-size-md:                   ceil($font-size-base * 1.07) !default;  // ~15px
+$font-size-sm:                   ceil($font-size-base * 0.92) !default;  // ~13px
+$font-size-xs:                   ceil($font-size-base * 0.85) !default;  // ~12px
+$font-size-xxs:                  ceil($font-size-base * 0.78) !default;  // ~11px
+$font-size-xxxs:                 ceil($font-size-base * 0.71) !default;  // ~10px
+
+$font-size-h1:                   ceil($font-size-base * 2.71) !default;  // ~38px
+$font-size-h2:                   floor($font-size-base * 2.00) !default; // ~28px
+$font-size-h3:                   ceil($font-size-base * 1.14) !default;  // ~16px
+$font-size-h4:                   $font-size-base !default;
+$font-size-h5:                   ceil($font-size-base * 0.85) !default;  // ~12px
+$font-size-h6:                   ceil($font-size-base * 0.71) !default;  // ~10px
+
+$line-height-base:               1.428571429 !default; // 20/14
+$line-height-computed:           floor($font-size-base * $line-height-base) !default; // ~20px
+
+$headings-font-family:           $font-family-base !default;
+$headings-font-weight:           400 !default; // ~normal
+$headings-line-height:           1.1 !default;
+$headings-color:                 black !default;
+
+
+// Media Queries
+// --------------------------------------------------
+
+// Breakpoints
+$screen-sm-min: 0em;        // 0
+$screen-sm-max: 40em;       // 640px
+
+$screen-md-min: 40.063em;   // 641px
+$screen-md-max: 64em;       // 1024px
+
+$screen-lg-min: 64.063em;   // 1025px
+$screen-lg-max: 90em;       // 1440px
+
+$screen-xl-min: 90.063em;   // 1441px
+$screen-xl-max: 120em;      // 1920px
+
+$screen-xxl-min: 120.063em; // 1921px
+
+// Media Queries
+$screen: "only screen" !default;
+
+$landscape: "#{$screen} and (orientation: landscape)" !default;
+$portrait: "#{$screen} and (orientation: portrait)" !default;
+
+$small-up: $screen !default;
+$small-only: "#{$screen} and (max-width: #{$screen-sm-max})" !default;
+
+$medium-up: "#{$screen} and (min-width:#{$screen-md-min})" !default;
+$medium-only: "#{$screen} and (min-width:#{$screen-md-min}) and (max-width:#{$screen-md-max})" !default;
+
+$large-up: "#{$screen} and (min-width:#{$screen-lg-min})" !default;
+$large-only: "#{$screen} and (min-width:#{$screen-lg-min}) and (max-width:#{$screen-lg-max})" !default;
+
+$xlarge-up: "#{$screen} and (min-width:#{$screen-xl-min})" !default;
+$xlarge-only: "#{$screen} and (min-width:#{$screen-xl-min}) and (max-width:#{$screen-xl-max})" !default;
+
+$xxlarge-up: "#{$screen} and (min-width:#{$screen-xxl-min})" !default;

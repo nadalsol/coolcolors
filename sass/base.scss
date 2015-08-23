@@ -1,0 +1,32 @@
+/*
+ * Miriam Soto Romero (aka Cool Colors) site
+ * Visual Designer, Lead UX / UI Design
+ * http://coolcolors.es/
+ *
+ * Created: August 2015.
+ * Author : Nadal Soler </> Front-end Developer
+ *          nadal dot soler at gmail dot com
+ *          https://github.com/nadalsol
+ *          https://twitter.com/nadalsol
+ */
+
+// Variables and mixins
+@import "variables";
+@import "mixins";
+
+// Reset and dependencies
+@import "reset/normalize";
+@import "reset/print";
+
+// Core CSS
+@import "core/scaffolding";
+// @import "core/fonts";
+// @import "core/type";
+// @import "core/grid";
+
+// Utility classes
+@import "utilities/utilities";
+@import "utilities/responsive-utilities";
+
+// Panels
+@import "panels/hero";
