@@ -130,6 +130,10 @@ $hero-heading-font-size-sm:      ceil(($font-size-base * 3.28)) !default; // ~46
 $about-me-color:                 #51555b !default;
 $about-me-font-size:             ceil(($font-size-base * 1.57)) !default; // ~22px
 
+// Portfolio
+$portfolio-categories-font-size: ceil(($font-size-base * 1.14)) !default; // ~16px
+$portfolio-categories-size:      48px;
+
 // Footer main
 $footer-main-contact-color:      #84909f !default;
 $footer-main-contact-pipe-color: #2b2e32 !default;

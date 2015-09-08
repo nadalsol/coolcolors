@@ -73,6 +73,21 @@
           transition: $transition;
 }
 
+// Rgba background with fallback for old browsers
+@mixin rgba-bg($hex, $rgba-r, $rgba-g, $rgba-b, $rgba-a) {
+  background-color: $hex; // fallback
+  background-color: rgba($rgba-r, $rgba-g, $rgba-b, $rgba-a);
+}
+
+// Positioner
+@mixin positioner($width, $height, $v-property, $v-value, $h-property, $h-value) {
+  position: absolute;
+  width: $width;
+  height: $height;
+  #{$v-property}: ($v-value);
+  #{$h-property}: ($h-value);
+}
+
 // WebKit-style focus
 @mixin tab-focus() {
   // Default

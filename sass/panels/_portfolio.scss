@@ -4,7 +4,40 @@
 
 
 .portfolio {
-  p {
-    background-color: gold;
+  background-color: white;
+  > .row {
+    > ul {
+      @include list-reset;
+      @include clearfix;
+    }
+  }
+  &__work {
+    position: relative;
+    float: left;
+    width: 33.055555555556%; // 476px / 1440px
+    margin-right: .416666666667%; // 6px / 1440px
+    margin-bottom: 6px;
+    &:nth-child(3n+0) {
+      margin-right: 0;
+    }
+    a {
+      display: block;
+    }
+    ul {
+      font-size: $portfolio-categories-font-size;
+      line-height: $portfolio-categories-size;
+      text-align: center;
+      color: white;
+      @include positioner(100%, $portfolio-categories-size, bottom, 0, left, 0);
+      @include list-inline;
+      @include rgba-bg(black, 0, 0, 0, .7);
+      abbr[title] {
+        border-bottom: none;
+      }
+    }
+    img {
+      display: block;
+      @include size(100%, auto);
+    }
   }
 }
