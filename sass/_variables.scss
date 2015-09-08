@@ -15,7 +15,7 @@ $gray-light:            lighten($gray-base, 46.7%) !default; // #777
 $gray-lighter:          lighten($gray-base, 60%) !default;   // #999
 $gray-lightest:         lighten($gray-base, 93.5%) !default; // #eee
 
-$brand-primary:         #c1de46 !default;
+$brand-primary:         #c9de55 !default;
 
 
 // Scaffolding
@@ -122,10 +122,17 @@ $xxlarge-up: "#{$screen} and (min-width:#{$screen-xxl-min})" !default;
 // -------------------------
 
 // Hero
-$hero-color:                #fff !default;
-$hero-heading-font-size-lg: ceil(($font-size-base * 5.71)) !default; // ~80px
-$hero-heading-font-size-sm: ceil(($font-size-base * 3.28)) !default; // ~46px
+$hero-color:                     #fff !default;
+$hero-heading-font-size-lg:      ceil(($font-size-base * 5.71)) !default; // ~80px
+$hero-heading-font-size-sm:      ceil(($font-size-base * 3.28)) !default; // ~46px
 
 // About me
-$about-me-color:            #51555b !default;
-$about-me-font-size:        ceil(($font-size-base * 1.57)) !default; // ~22px
+$about-me-color:                 #51555b !default;
+$about-me-font-size:             ceil(($font-size-base * 1.57)) !default; // ~22px
+
+// Footer main
+$footer-main-contact-color:      #84909f !default;
+$footer-main-contact-pipe-color: #2b2e32 !default;
+$footer-main-contact-font-size:  ceil(($font-size-base * 1.14)) !default; // ~16px
+$footer-main-btn-size:           60px !default;
+$footer-main-btn-color:          $footer-main-contact-pipe-color !default;

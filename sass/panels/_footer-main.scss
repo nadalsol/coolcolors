@@ -1,0 +1,58 @@
+//
+// Footer main
+// --------------------------------------------------
+
+
+.footer-main {
+  background-color: white;
+  @include clearfix;
+  &__contact {
+    float: left;
+    padding-left: $space-mega-byte;
+    color: $footer-main-contact-color;
+    @media #{$medium-up} {
+      padding-left: $space-peta-byte;
+    }
+    ul {
+      line-height: $footer-main-btn-size;
+      @include list-inline(0, 0);
+    }
+    li {
+      &:first-child {
+        font-size: $footer-main-contact-font-size;
+      }
+      &:after {
+        content: '|';
+        padding-left: $space-mega-byte;
+        padding-right: $space-mega-byte;
+        font-weight: 700;
+        color: $footer-main-contact-pipe-color;
+      }
+    }
+    a {
+      font-weight: 700;
+      color: $footer-main-contact-color;
+      @include transition(color .3s);
+      &:hover,
+      &:focus {
+        color: $brand-primary;
+      }
+    }
+  }
+  &__btn {
+    float: right;
+    display: block;
+    font-size: $font-size-lg;
+    font-weight: 800;
+    line-height: $footer-main-btn-size;
+    text-align: center;
+    color: $footer-main-btn-color;
+    background-color: $brand-primary;
+    @include size($footer-main-btn-size, $footer-main-btn-size);
+    @include transition(all .3s);
+    &:hover {
+      color: $brand-primary;
+      background-color: $footer-main-btn-color;
+    }
+  }
+}
