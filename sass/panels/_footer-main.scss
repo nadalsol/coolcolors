@@ -4,8 +4,15 @@
 
 
 .footer-main {
+  padding-top: 50px;
   background-color: white;
   @include clearfix;
+  @media #{$medium-up} {
+    padding-top: 70px;
+  }
+  @media #{$large-up} {
+    padding-top: 90px;
+  }
   &__contact {
     float: left;
     padding-left: $space-mega-byte;
