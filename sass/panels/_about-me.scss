@@ -9,8 +9,24 @@
   text-align: center;
   background-color: white;
   &__title {
-    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: $space-peta-byte;
+    font-size: $font-size-xxxl;
+    font-weight: 300;
+    color: $about-me-color;
   }
-  // &__subtitle {}
-  // p {}
+  &__subtitle,
+  p {
+    margin-top: 0;
+    margin-bottom: $space-peta-byte;
+    font-size: $about-me-font-size;
+    font-weight: 400;
+    line-height: 1.4;
+    color: $about-me-color;
+  }
+  p {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 }

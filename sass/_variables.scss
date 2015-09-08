@@ -21,8 +21,8 @@ $brand-primary:         #c1de46 !default;
 // Scaffolding
 // -------------------------
 
-$body-bg:               white !default;
-$text-color:            black !default;
+$body-bg:               #fff !default;
+$text-color:            $gray-dark !default;
 
 $link-color:            $brand-primary !default;
 $link-color-hover:      darken($link-color, 15%) !default;
@@ -47,40 +47,40 @@ $space-zeta-byte: $space-byte * 8;
 // Typography
 // -------------------------
 
-$font-family-sans-serif:         "Raleway", sans-serif !default;
-// $font-family-serif:           Georgia, "Times New Roman", Times, serif !default;
-$font-family-base:               $font-family-sans-serif !default;
+$font-family-sans-serif:  "Raleway", sans-serif !default;
+$font-family-base:        $font-family-sans-serif !default;
 
-$font-size-base:                 14px !default;
+$font-size-base:          14px !default;
 
-$font-size-xxxl:                 ceil($font-size-base * 3.92) !default;  // ~55px
-$font-size-xxl:                  ceil($font-size-base * 1.71) !default;  // ~24px
-$font-size-xl:                   ceil($font-size-base * 1.42) !default;  // ~20px
-$font-size-lg:                   ceil($font-size-base * 1.25) !default;  // ~18px
-$font-size-md:                   ceil($font-size-base * 1.07) !default;  // ~15px
-$font-size-sm:                   ceil($font-size-base * 0.92) !default;  // ~13px
-$font-size-xs:                   ceil($font-size-base * 0.85) !default;  // ~12px
-$font-size-xxs:                  ceil($font-size-base * 0.78) !default;  // ~11px
-$font-size-xxxs:                 ceil($font-size-base * 0.71) !default;  // ~10px
+$font-size-xxxl:          ceil($font-size-base * 3.42) !default;    // ~48px
+$font-size-xxl:           ceil($font-size-base * 1.71) !default;    // ~24px
+$font-size-xl:            ceil($font-size-base * 1.42) !default;    // ~20px
+$font-size-lg:            ceil($font-size-base * 1.25) !default;    // ~18px
+$font-size-md:            ceil($font-size-base * 1.07) !default;    // ~15px
+$font-size-sm:            ceil($font-size-base * 0.92) !default;    // ~13px
+$font-size-xs:            ceil($font-size-base * 0.85) !default;    // ~12px
+$font-size-xxs:           ceil($font-size-base * 0.78) !default;    // ~11px
+$font-size-xxxs:          ceil($font-size-base * 0.71) !default;    // ~10px
 
-$font-size-h1:                   ceil($font-size-base * 2.71) !default;  // ~38px
-$font-size-h2:                   floor($font-size-base * 2.00) !default; // ~28px
-$font-size-h3:                   ceil($font-size-base * 1.14) !default;  // ~16px
-$font-size-h4:                   $font-size-base !default;
-$font-size-h5:                   ceil($font-size-base * 0.85) !default;  // ~12px
-$font-size-h6:                   ceil($font-size-base * 0.71) !default;  // ~10px
+$font-size-h1:            floor(($font-size-base * 2.6)) !default;  // ~36px
+$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
+$font-size-h3:            ceil(($font-size-base * 1.7)) !default;   // ~24px
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default;  // ~18px
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default;  // ~12px
 
-$line-height-base:               1.428571429 !default; // 20/14
-$line-height-computed:           floor($font-size-base * $line-height-base) !default; // ~20px
+$line-height-base:        1.428571429 !default; // 20/14
+$line-height-computed:    floor($font-size-base * $line-height-base) !default; // ~20px
 
-$headings-font-family:           $font-family-base !default;
-$headings-font-weight:           400 !default; // ~normal
-$headings-line-height:           1.1 !default;
-$headings-color:                 black !default;
+// By default, this inherits from the `<body>`.
+$headings-font-family:    inherit !default;
+$headings-font-weight:    500 !default;
+$headings-line-height:    1.1 !default;
+$headings-color:          inherit !default;
 
 
 // Media Queries
-// --------------------------------------------------
+// -------------------------
 
 // Breakpoints
 $screen-sm-min: 0em;        // 0
@@ -116,3 +116,16 @@ $xlarge-up: "#{$screen} and (min-width:#{$screen-xl-min})" !default;
 $xlarge-only: "#{$screen} and (min-width:#{$screen-xl-min}) and (max-width:#{$screen-xl-max})" !default;
 
 $xxlarge-up: "#{$screen} and (min-width:#{$screen-xxl-min})" !default;
+
+
+// Panels
+// -------------------------
+
+// Hero
+$hero-color:                #fff !default;
+$hero-heading-font-size-lg: ceil(($font-size-base * 5.71)) !default; // ~80px
+$hero-heading-font-size-sm: ceil(($font-size-base * 3.28)) !default; // ~46px
+
+// About me
+$about-me-color:            #51555b !default;
+$about-me-font-size:        ceil(($font-size-base * 1.57)) !default; // ~22px

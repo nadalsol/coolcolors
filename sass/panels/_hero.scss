@@ -30,8 +30,7 @@
     margin: 0 auto 60px;
     padding-top: 60px;
     line-height: 1;
-    color: white;
-    text-transform: uppercase;
+    color: $hero-color;
     background: url("../img/hero/heart.png") no-repeat center top;
     background-size: contain;
     @media #{$medium-up} {
@@ -52,11 +51,11 @@
       > span {
         display: block;
         &:first-child {
-          font-size: 80px;
+          font-size: $hero-heading-font-size-lg;
           font-weight: 700;
         }
         &:last-child {
-          font-size: 46px;
+          font-size: $hero-heading-font-size-sm;
           font-weight: 400;
         }
       }
@@ -64,8 +63,7 @@
   }
   &__contact {
     font-weight: 700;
-    text-transform: uppercase;
-    color: white;
+    color: $hero-color;
     @include list-inline(0, 0);
     > li {
       &:first-child {
@@ -77,7 +75,7 @@
     a {
       padding-left: $space-kilo-byte;
       padding-right: $space-kilo-byte;
-      color: white;
+      color: $hero-color;
       @include transition(color .3s);
       &:hover {
         color: $brand-primary;
