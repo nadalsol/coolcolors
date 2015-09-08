@@ -37,6 +37,36 @@
   height: auto; // Part 2: Scale the height according to the width, otherwise you get stretching
 }
 
+// Reset default list styles
+@mixin list-reset() {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  > dt,
+  > dd {
+    margin-left: 0;
+  }
+}
+
+// Turns list items into inline-block
+@mixin list-inline($pad-left: 5px, $pad-right: 5px) {
+  @include list-reset;
+  > li,
+  > dt,
+  > dd {
+    display: inline-block;
+    padding-left: $pad-left;
+    padding-right: $pad-right;
+  }
+}
+
+// Transitions
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+       -o-transition: $transition;
+          transition: $transition;
+}
+
 // WebKit-style focus
 @mixin tab-focus() {
   // Default

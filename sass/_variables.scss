@@ -15,7 +15,7 @@ $gray-light:            lighten($gray-base, 46.7%) !default; // #777
 $gray-lighter:          lighten($gray-base, 60%) !default;   // #999
 $gray-lightest:         lighten($gray-base, 93.5%) !default; // #eee
 
-$brand-primary:         #fe4800 !default;
+$brand-primary:         #c1de46 !default;
 
 
 // Scaffolding
@@ -32,6 +32,16 @@ $link-color-hover:      darken($link-color, 15%) !default;
 $vertical-space-lg:     30px !default;
 $vertical-space-md:     25px !default;
 $vertical-space-sm:     15px !default;
+
+// Generic values for spacing
+$space-byte: 5px;
+$space-kilo-byte: $space-byte * 2;
+$space-mega-byte: $space-byte * 3;
+$space-giga-byte: $space-byte * 4;
+$space-tera-byte: $space-byte * 5;
+$space-peta-byte: $space-byte * 6;
+$space-exa-byte : $space-byte * 7;
+$space-zeta-byte: $space-byte * 8;
 
 
 // Typography
