@@ -88,6 +88,14 @@
   #{$h-property}: ($h-value);
 }
 
+@mixin splitter-after($content: '|', $pad-h: $space-mega-byte, $font-weight: 700, $color: white) {
+  content: $content;
+  padding-left: $pad-h;
+  padding-right: $pad-h;
+  font-weight: $font-weight;
+  color: $color;
+}
+
 // WebKit-style focus
 @mixin tab-focus() {
   // Default

@@ -36,8 +36,16 @@
       text-align: center;
       color: white;
       @include positioner(100%, $portfolio-categories-size, bottom, 0, left, 0);
-      @include list-inline;
       @include rgba-bg(black, 0, 0, 0, .7);
+      @include list-inline(0, 0);
+    }
+    li {
+      &:after {
+        @include splitter-after;
+      }
+      &:last-child:after {
+        @include splitter-after($content: '', $pad-h: 0);
+      }
     }
     abbr[title] {
       border-bottom: none;

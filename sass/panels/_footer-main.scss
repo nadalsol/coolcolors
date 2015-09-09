@@ -29,11 +29,7 @@
         font-size: $footer-main-contact-font-size;
       }
       &:after {
-        content: '|';
-        padding-left: $space-mega-byte;
-        padding-right: $space-mega-byte;
-        font-weight: 700;
-        color: $footer-main-contact-pipe-color;
+        @include splitter-after($color: $footer-main-contact-pipe-color);
       }
     }
     a {
