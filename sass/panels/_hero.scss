@@ -60,6 +60,9 @@
         }
       }
     }
+    abbr[title] {
+      border-bottom: none;
+    }
   }
   &__contact {
     font-weight: 700;
