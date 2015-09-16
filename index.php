@@ -20,7 +20,7 @@
   <body>
 
     <!-- Hero -->
-    <div class="hero" id="cool">
+    <div class="hero" id="top">
       <video autoplay loop muted poster="img/hero/dancing.jpg">
         <source src="video/dancing.mp4" type="video/mp4">
         <source src="video/dancing.ogg" type="video/ogg">
@@ -72,6 +72,7 @@
     <div class="portfolio">
       <div class="row">
         <ul>
+          <?php for ($i=0; $i < 3; $i++) : ?>
           <li class="portfolio__work">
             <a href="#">
               <ul>
@@ -82,6 +83,8 @@
               <img src="img/portfolio/placeholder.jpg" alt=" ">
             </a>
           </li>
+          <?php endfor; ?>
+          <?php for ($i=0; $i < 2; $i++) : ?>
           <li class="portfolio__work">
             <a href="#">
               <ul>
@@ -92,36 +95,7 @@
               <img src="img/portfolio/placeholder.jpg" alt=" ">
             </a>
           </li>
-          <li class="portfolio__work">
-            <a href="#">
-              <ul>
-                <li><abbr title="Information Architecture">IA</abbr></li>
-                <li><abbr title="User Experience">UX</abbr></li>
-                <li><abbr title="Visual Design">VD</abbr></li>
-              </ul>
-              <img src="img/portfolio/placeholder.jpg" alt=" ">
-            </a>
-          </li>
-          <li class="portfolio__work">
-            <a href="#">
-              <ul>
-                <li><abbr title="Information Architecture">IA</abbr></li>
-                <li><abbr title="User Experience">UX</abbr></li>
-                <li><abbr title="Visual Design">VD</abbr></li>
-              </ul>
-              <img src="img/portfolio/placeholder.jpg" alt=" ">
-            </a>
-          </li>
-          <li class="portfolio__work">
-            <a href="#">
-              <ul>
-                <li><abbr title="Information Architecture">IA</abbr></li>
-                <li><abbr title="User Experience">UX</abbr></li>
-                <li><abbr title="Visual Design">VD</abbr></li>
-              </ul>
-              <img src="img/portfolio/placeholder.jpg" alt=" ">
-            </a>
-          </li>
+          <?php endfor; ?>
           <li class="portfolio__work" id="portfolio-work-load-more">
             <a href="#">
               <img src="img/portfolio/load-more.png" alt="Load more works&hellip;">
@@ -141,7 +115,7 @@
           </li>
         </ul>
       </nav>
-      <a href="#cool" class="footer-main__btn text-uppercase">Up</a>
+      <a href="#top" class="footer-main__btn text-uppercase">Up</a>
     </footer>
 
   </body>
