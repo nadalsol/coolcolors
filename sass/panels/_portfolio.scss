@@ -16,13 +16,13 @@
     width: 97%;
     margin-left: 1.5%;
     margin-right: 1.5%;
-    margin-bottom: 10px;
+    border-bottom: 10px solid transparent;
     @media #{$medium-up} {
       float: left;
       width: 33.055555555556%; // 476px / 1440px
       margin-left: 0;
       margin-right: .416666666667%; // 6px / 1440px
-      margin-bottom: 6px;
+      border-bottom: 6px solid transparent;
     }
     &:nth-child(3n+0) {
       margin-right: 0;
