@@ -13,7 +13,7 @@
     margin-bottom: $space-peta-byte;
     font-size: $font-size-xxxl;
     font-weight: 300;
-    color: $about-me-color;
+    color: $about-me-font-color;
   }
   &__subtitle,
   p {
@@ -22,7 +22,7 @@
     font-size: $about-me-font-size;
     font-weight: 400;
     line-height: 1.4;
-    color: $about-me-color;
+    color: $about-me-font-color;
   }
   p {
     &:last-child {

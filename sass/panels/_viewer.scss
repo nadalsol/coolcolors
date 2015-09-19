@@ -4,10 +4,40 @@
 
 
 .viewer {
+  clear: both;
+  width: 100%;
+  padding-left: $btn-size;
+  padding-right: $btn-size;
+  background-color: $viewer-bg-color;
+  border-bottom: $viewer-border-width-sm solid $body-bg;
+  @media #{$medium-up} {
+    border-bottom-width: $viewer-border-width-md;
+  }
   &__header {
-    //
+    @include clearfix;
+    &__btn {
+      float: right;
+      margin-right: -$btn-size;
+      margin-bottom: $space-giga-byte;
+    }
+    &__title {
+      clear: both;
+      margin-bottom: $space-peta-byte;
+      font-size: $viewer-title-font-size;
+      font-weight: 300;
+      text-transform: uppercase;
+      color: $viewer-title-font-color;
+    }
   }
   &__body {
-    //
+    &__desc {
+      margin-bottom: 50px;
+      color: $viewer-body-font-color;
+    }
+    &__slider {
+      img {
+        width: 100%;
+      }
+    }
   }
 }

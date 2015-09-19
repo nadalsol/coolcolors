@@ -88,12 +88,16 @@
 
           <li class="viewer">
             <div class="viewer__header">
-              <span>&times;</span>
-              <h2>Lorem ipsum dolor sit amet</h2>
+              <a class="viewer__header__btn btn btn--close" href="#">&times;</a>
+              <h2 class="viewer__header__title">Lorem ipsum dolor sit amet</h2>
             </div>
             <div class="viewer__body">
-              <p>Lorem ipsum Sit incididunt sit laboris cupidatat dolore fugiat veniam est ut eu velit cupidatat eiusmod laboris dolore tempor ullamco.</p>
-              <img src="img/hero/dancing.jpg" alt=" ">
+              <div class="viewer__body__desc">
+                <p>Lorem ipsum Sit incididunt sit laboris cupidatat dolore fugiat veniam est ut eu velit cupidatat eiusmod laboris dolore tempor ullamco.</p>
+              </div>
+              <div class="viewer__body__slider">
+                <img src="img/hero/dancing.jpg" alt=" ">
+              </div>
             </div>
           </li>
 
@@ -130,7 +134,7 @@
           </li>
         </ul>
       </nav>
-      <a href="#top" class="footer-main__btn text-uppercase">Up</a>
+      <a class="footer-main__btn btn btn--top" href="#top">Up</a>
     </footer>
 
   </body>

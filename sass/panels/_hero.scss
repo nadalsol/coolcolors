@@ -30,7 +30,7 @@
     margin: 0 auto 60px;
     padding-top: 60px;
     line-height: 1;
-    color: $hero-color;
+    color: $hero-font-color;
     background: url("../img/hero/heart.png") no-repeat center top;
     background-size: contain;
     @media #{$medium-up} {
@@ -66,7 +66,7 @@
   }
   &__contact {
     font-weight: 700;
-    color: $hero-color;
+    color: $hero-font-color;
     ul {
       @include list-inline(0, 0);
     }
@@ -74,13 +74,14 @@
       &:first-child {
         &:after {
           content: '|';
+          color: $brand-secondary;
         }
       }
     }
     a {
       padding-left: $space-kilo-byte;
       padding-right: $space-kilo-byte;
-      color: $hero-color;
+      color: $hero-font-color;
       @include transition(color .3s);
       &:hover,
       &:focus {

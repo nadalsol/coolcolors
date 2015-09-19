@@ -21,13 +21,14 @@
 @import "reset/print";
 
 // Core CSS
+@import "core/buttons";
+@import "core/grid";
 @import "core/scaffolding";
 @import "core/type";
-@import "core/grid";
 
 // Utility classes
-@import "utilities/utilities";
 @import "utilities/responsive-utilities";
+@import "utilities/utilities";
 
 // Panels
 @import "panels/about-me";

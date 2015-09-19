@@ -15,7 +15,13 @@ $gray-light:            lighten($gray-base, 46.7%) !default; // #777
 $gray-lighter:          lighten($gray-base, 60%) !default;   // #999
 $gray-lightest:         lighten($gray-base, 93.5%) !default; // #eee
 
+$gray-cool-darker:      #2b2e32 !default;
+$gray-cool-dark:        #5c6470 !default;
+$gray-cool-light:       #84909f !default;
+$gray-cool-lighter:     #bdc6d2 !default;
+
 $brand-primary:         #c9de55 !default;
+$brand-secondary:       #fc7e6a !default;
 
 
 // Scaffolding
@@ -34,14 +40,14 @@ $vertical-space-md:     25px !default;
 $vertical-space-sm:     15px !default;
 
 // Generic values for spacing
-$space-byte: 5px;
-$space-kilo-byte: $space-byte * 2;
-$space-mega-byte: $space-byte * 3;
-$space-giga-byte: $space-byte * 4;
-$space-tera-byte: $space-byte * 5;
-$space-peta-byte: $space-byte * 6;
-$space-exa-byte : $space-byte * 7;
-$space-zeta-byte: $space-byte * 8;
+$space-byte:      5px !default;
+$space-kilo-byte: $space-byte * 2 !default;
+$space-mega-byte: $space-byte * 3 !default;
+$space-giga-byte: $space-byte * 4 !default;
+$space-tera-byte: $space-byte * 5 !default;
+$space-peta-byte: $space-byte * 6 !default;
+$space-exa-byte : $space-byte * 7 !default;
+$space-zeta-byte: $space-byte * 8 !default;
 
 
 // Typography
@@ -83,19 +89,19 @@ $headings-color:          inherit !default;
 // -------------------------
 
 // Breakpoints
-$screen-sm-min: 0em;        // 0
-$screen-sm-max: 40em;       // 640px
+$screen-sm-min: 0em !default;        // 0
+$screen-sm-max: 40em !default;       // 640px
 
-$screen-md-min: 40.063em;   // 641px
-$screen-md-max: 64em;       // 1024px
+$screen-md-min: 40.063em !default;   // 641px
+$screen-md-max: 64em !default;       // 1024px
 
-$screen-lg-min: 64.063em;   // 1025px
-$screen-lg-max: 90em;       // 1440px
+$screen-lg-min: 64.063em !default;   // 1025px
+$screen-lg-max: 90em !default;       // 1440px
 
-$screen-xl-min: 90.063em;   // 1441px
-$screen-xl-max: 120em;      // 1920px
+$screen-xl-min: 90.063em !default;   // 1441px
+$screen-xl-max: 120em !default;      // 1920px
 
-$screen-xxl-min: 120.063em; // 1921px
+$screen-xxl-min: 120.063em !default; // 1921px
 
 // Media Queries
 $screen: "only screen" !default;
@@ -118,25 +124,52 @@ $xlarge-only: "#{$screen} and (min-width:#{$screen-xl-min}) and (max-width:#{$sc
 $xxlarge-up: "#{$screen} and (min-width:#{$screen-xxl-min})" !default;
 
 
+// Buttons
+// -------------------------
+
+$btn-size:                       60px !default;
+$btn-font-size:                  $font-size-lg !default;
+$btn-font-weight:                400 !default;
+$btn-line-height:                $btn-size !default;
+$btn-font-color:                 #fff !default;
+$btn-font-color-hover:           $brand-primary !default;
+$btn-bg-color:                   $brand-primary !default;
+$btn-bg-color-hover:             $gray-cool-darker !default;
+
+$btn-font-size-close:            ceil(($font-size-base * 7.14)) !default; // ~100px
+$btn-font-weight-close:          300 !default;
+$btn-line-height-close:          40px !default;
+
+$btn-font-weight-top:            800 !default;
+
+
 // Panels
 // -------------------------
 
 // Hero
-$hero-color:                     #fff !default;
+$hero-font-color:                #fff !default;
 $hero-heading-font-size-lg:      ceil(($font-size-base * 5.71)) !default; // ~80px
 $hero-heading-font-size-sm:      ceil(($font-size-base * 3.28)) !default; // ~46px
 
 // About me
-$about-me-color:                 #51555b !default;
+$about-me-font-color:            #51555b !default;
 $about-me-font-size:             ceil(($font-size-base * 1.57)) !default; // ~22px
 
 // Portfolio
+$portfolio-border-width-sm:      $space-kilo-byte !default;
+$portfolio-border-width-md:      6px !default;
 $portfolio-categories-font-size: ceil(($font-size-base * 1.14)) !default; // ~16px
-$portfolio-categories-size:      48px;
+$portfolio-categories-size:      48px !default;
+
+// Viewer
+$viewer-border-width-sm:         $portfolio-border-width-sm !default;
+$viewer-border-width-md:         $portfolio-border-width-md !default;
+$viewer-title-font-size:         $font-size-h1 !default;
+$viewer-title-font-color:        $gray-cool-darker !default;
+$viewer-body-font-color:         $gray-cool-dark !default;
+$viewer-bg-color:                $gray-lightest !default;
 
 // Footer main
-$footer-main-contact-color:      #84909f !default;
-$footer-main-contact-pipe-color: #2b2e32 !default;
+$footer-main-contact-font-color: #84909f !default;
+$footer-main-contact-pipe-color: $gray-cool-darker !default;
 $footer-main-contact-font-size:  ceil(($font-size-base * 1.14)) !default; // ~16px
-$footer-main-btn-size:           60px !default;
-$footer-main-btn-color:          $footer-main-contact-pipe-color !default;
