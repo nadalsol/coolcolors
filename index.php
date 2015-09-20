@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
   <head>
-    <link href='https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800" rel="stylesheet">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Miriam Soto Romero - Visual Designer, Lead UX / UI Design</title>
@@ -13,9 +13,9 @@
     <meta name="author" content="Miriam Soto, Nadal Soler">
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript">document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js');</script>
-    <link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link type="text/css" rel="stylesheet" href="css/base.css">
+    <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js');</script>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
   </head>
   <body>
 
@@ -136,6 +136,10 @@
       </nav>
       <a class="footer-main__btn btn btn--top" href="#top">Up</a>
     </footer>
+
+    <!-- Scripts (placed at the end of the document so the pages load faster) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/app.js"></script>
 
   </body>
 </html>
