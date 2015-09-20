@@ -20,7 +20,7 @@
   <body>
 
     <!-- Hero -->
-    <div class="hero" id="top">
+    <div class="hero" id="hero">
       <video autoplay loop muted poster="img/hero/dancing.jpg">
         <source src="video/dancing.mp4" type="video/mp4">
         <source src="video/dancing.ogg" type="video/ogg">
@@ -134,7 +134,7 @@
           </li>
         </ul>
       </nav>
-      <a class="footer-main__btn btn btn--top" href="#top">Up</a>
+      <a class="footer-main__btn btn btn--top" href="#hero">Up</a>
     </footer>
 
     <!-- Scripts (placed at the end of the document so the pages load faster) -->
