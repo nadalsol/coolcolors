@@ -1,0 +1,43 @@
+//
+// Header main
+// --------------------------------------------------
+
+
+.header-main {
+  padding-top: $space-giga-byte;
+  padding-bottom: $space-giga-byte;
+  background-color: white;
+  &__brand {
+    display: inline-block;
+  }
+  &__contact {
+    font-weight: 700;
+    color: $header-main-contact-font-color;
+    text-align: right;
+    ul {
+      @include list-inline(0, 0);
+    }
+    li {
+      &:first-child {
+        &:after {
+          content: '|';
+          color: $brand-secondary;
+        }
+      }
+    }
+    a {
+      padding-left: $space-kilo-byte;
+      padding-right: $space-kilo-byte;
+      color: $header-main-contact-font-color;
+      @include transition(color .3s);
+      &:hover,
+      &:focus {
+        color: $brand-primary;
+      }
+    }
+    i {
+      font-size: $font-size-xl;
+      vertical-align: bottom;
+    }
+  }
+}

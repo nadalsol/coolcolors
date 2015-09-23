@@ -20,6 +20,26 @@
   <body>
 
     <!-- Header -->
-    <header id="top">
-      Header
+    <header class="header-main" id="top">
+      <div class="row">
+        <div class="small-6 columns">
+          <a class="header-main__brand" href="/">
+            <img src="img/logo-cool-colors.png" alt="CoolColors logo">
+          </a>
+        </div>
+        <div class="small-6 columns">
+          <nav class="header-main__contact">
+            <ul>
+              <li>
+                <a href="mailto:coolcolors@gmail.com" class="text-uppercase">Contact me</a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/miriamsoto" target="_blank">
+                  <i class="fa fa-linkedin-square"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>

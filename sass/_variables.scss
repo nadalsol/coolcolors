@@ -146,14 +146,22 @@ $btn-font-weight-top:            800 !default;
 // Panels
 // -------------------------
 
+// About me
+$about-me-font-color:            $gray-cool-dark !default;
+$about-me-font-size:             ceil(($font-size-base * 1.57)) !default; // ~22px
+
+// Footer main
+$footer-main-contact-font-color: $gray-cool-light !default;
+$footer-main-contact-pipe-color: $gray-cool-darker !default;
+$footer-main-contact-font-size:  ceil(($font-size-base * 1.14)) !default; // ~16px
+
+// Header main
+$header-main-contact-font-color: $gray-cool-dark !default;
+
 // Hero
 $hero-font-color:                #fff !default;
 $hero-heading-font-size-lg:      ceil(($font-size-base * 5.71)) !default; // ~80px
 $hero-heading-font-size-sm:      ceil(($font-size-base * 3.28)) !default; // ~46px
-
-// About me
-$about-me-font-color:            #51555b !default;
-$about-me-font-size:             ceil(($font-size-base * 1.57)) !default; // ~22px
 
 // Portfolio
 $portfolio-border-width-sm:      $space-kilo-byte !default;
@@ -168,8 +176,3 @@ $viewer-title-font-size:         $font-size-h1 !default;
 $viewer-title-font-color:        $gray-cool-darker !default;
 $viewer-body-font-color:         $gray-cool-dark !default;
 $viewer-bg-color:                $gray-lightest !default;
-
-// Footer main
-$footer-main-contact-font-color: #84909f !default;
-$footer-main-contact-pipe-color: $gray-cool-darker !default;
-$footer-main-contact-font-size:  ceil(($font-size-base * 1.14)) !default; // ~16px

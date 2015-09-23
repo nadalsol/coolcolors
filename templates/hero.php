@@ -5,6 +5,7 @@
     <source src="video/dancing.ogg" type="video/ogg">
     <source src="video/dancing.webm" type="video/webm">
   </video>
+<!--
   <p class="hero__brand">
     <img src="img/hero/logo-cool-colors.png" alt="CoolColors logo">
   </p>
@@ -34,4 +35,5 @@
       </li>
     </ul>
   </nav>
+-->
 </div>
