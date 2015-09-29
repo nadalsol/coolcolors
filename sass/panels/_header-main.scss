@@ -7,13 +7,26 @@
   padding-top: $space-giga-byte;
   padding-bottom: $space-giga-byte;
   background-color: white;
+  @include size($header-main-width, $header-main-height);
+  &--fixed {
+    position: fixed;
+    z-index: $zindex-header-main;
+  }
   &__brand {
     display: inline-block;
+    padding-left: $space-mega-byte;
+    padding-right: $space-mega-byte;
+    @include transition(transform .3s);
+    &:hover,
+    &:focus {
+      @include scale(1.05);
+    }
   }
   &__contact {
     font-weight: 700;
-    color: $header-main-contact-font-color;
+    line-height: $header-main-height / 2;
     text-align: right;
+    color: $header-main-contact-font-color;
     ul {
       @include list-inline(0, 0);
     }
@@ -26,18 +39,18 @@
       }
     }
     a {
-      padding-left: $space-kilo-byte;
-      padding-right: $space-kilo-byte;
+      padding-left: $space-mega-byte;
+      padding-right: $space-mega-byte;
       color: $header-main-contact-font-color;
       @include transition(color .3s);
       &:hover,
       &:focus {
-        color: $brand-primary;
+        color: $brand-secondary;
       }
     }
     i {
       font-size: $font-size-xl;
-      vertical-align: bottom;
+      vertical-align: baseline;
     }
   }
 }

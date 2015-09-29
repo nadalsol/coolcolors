@@ -20,7 +20,7 @@
   <body>
 
     <!-- Header -->
-    <header class="header-main" id="top">
+    <header class="header-main header-main--fixed" id="top">
       <div class="row">
         <div class="small-6 columns">
           <a class="header-main__brand" href="/">
@@ -35,7 +35,7 @@
               </li>
               <li>
                 <a href="https://www.linkedin.com/in/miriamsoto" target="_blank">
-                  <i class="fa fa-linkedin-square"></i>
+                  <i class="fa fa-linkedin"></i>
                 </a>
               </li>
             </ul>

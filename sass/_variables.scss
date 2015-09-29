@@ -85,6 +85,12 @@ $headings-line-height:    1.1 !default;
 $headings-color:          inherit !default;
 
 
+// Z-index master list
+// -------------------------
+
+$zindex-header-main:      1000 !default;
+
+
 // Media Queries
 // -------------------------
 
@@ -156,6 +162,8 @@ $footer-main-contact-pipe-color: $gray-cool-darker !default;
 $footer-main-contact-font-size:  ceil(($font-size-base * 1.14)) !default; // ~16px
 
 // Header main
+$header-main-width:              100% !default;
+$header-main-height:             82px !default;
 $header-main-contact-font-color: $gray-cool-dark !default;
 
 // Hero
