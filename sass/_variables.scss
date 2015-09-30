@@ -168,8 +168,7 @@ $header-main-contact-font-color: $gray-cool-dark !default;
 
 // Hero
 $hero-font-color:                #fff !default;
-$hero-heading-font-size-lg:      ceil(($font-size-base * 5.71)) !default; // ~80px
-$hero-heading-font-size-sm:      ceil(($font-size-base * 3.28)) !default; // ~46px
+$hero-heading-font-size:         ceil(($font-size-base * 5.42)) !default; // ~76px
 
 // Portfolio
 $portfolio-border-width-sm:      $space-kilo-byte !default;

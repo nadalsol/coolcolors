@@ -20,20 +20,23 @@
 $(document).ready(function() {
 
   /*
-   * Set Hero size 
+   * Set Hero height
+   *
+   * Get Viewport height - Header Main height
+   * and assign it to the Hero.
+   *
    */
-  function setHeroSize() {
-    // Get the width and height of the viewport
-    var viewportWidth = $(window).width();
-    var viewportHeight = $(window).height();
-    // Then assign it to Hero
-    $('#hero').css('height', viewportHeight);
+  function setHeroHeight() {
+    var viewportHeight = $(window).height(),
+        headerMainHeight = $('#top').outerHeight(),
+        heroHeight = viewportHeight - headerMainHeight;
+    $('#hero').css('height', heroHeight);
   }
   // On window load
-  setHeroSize();
+  setHeroHeight();
   // On window resize
   $(window).resize(function() {
-    setHeroSize();
+    setHeroHeight();
   });
 
 });

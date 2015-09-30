@@ -10,6 +10,8 @@
   @include size($header-main-width, $header-main-height);
   &--fixed {
     position: fixed;
+    top: 0;
+    left: 0;
     z-index: $zindex-header-main;
   }
   &__brand {
