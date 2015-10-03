@@ -64,6 +64,11 @@ small,
 .text-uppercase      { text-transform: uppercase; }
 .text-capitalize     { text-transform: capitalize; }
 
+// Abbreviation
+abbr[title] {
+  border-bottom: none;
+}
+
 
 // Lists
 // -------------------------

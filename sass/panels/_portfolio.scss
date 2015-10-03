@@ -47,9 +47,6 @@
         @include splitter-after($content: '', $pad-h: 0);
       }
     }
-    abbr[title] {
-      border-bottom: none;
-    }
     img {
       display: block;
       @include size(100%, auto);

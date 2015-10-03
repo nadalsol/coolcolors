@@ -4,29 +4,56 @@
 
 
 .about-me {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   text-align: center;
   background-color: white;
+  @media #{$medium-up} {
+    text-align: left;
+  }
   &__title {
+    position: relative;
     margin-top: 0;
-    margin-bottom: $space-peta-byte;
-    font-size: $font-size-xxxl;
+    margin-bottom: $space-giga-byte;
+    padding-bottom: $space-giga-byte;
+    font-size: $about-me-title-font-size;
     font-weight: 300;
-    color: $about-me-font-color;
+    line-height: .9;
+    color: $about-me-title-font-color;
+    &:after {
+      content: '';
+      background-color: $brand-primary;
+      @include positioner(50px, 1px, bottom, 0, left, 0);
+    }
   }
-  &__subtitle,
-  p {
+  &__subtitle {
     margin-top: 0;
-    margin-bottom: $space-peta-byte;
-    font-size: $about-me-font-size;
+    margin-bottom: 0;
+    font-size: $about-me-subtitle-font-size;
     font-weight: 400;
-    line-height: 1.4;
-    color: $about-me-font-color;
+    line-height: 1.2;
+    color: $about-me-subtitle-font-color;
   }
-  p {
-    &:last-child {
-      margin-bottom: 0;
+  &__lead {
+    margin-top: 0;
+    margin-bottom: $space-byte;
+    font-size: $about-me-lead-font-size;
+    font-weight: 300;
+    color: $about-me-lead-font-color;
+  }
+  &__desc {
+    p,
+    ul,
+    ol {
+      margin-bottom: $space-giga-byte;
+      font-size: $about-me-desc-font-size;
+      font-weight: 400;
+      color: $about-me-desc-font-color;
+    }
+    p {
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 }

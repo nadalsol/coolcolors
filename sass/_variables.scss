@@ -153,8 +153,14 @@ $btn-font-weight-top:            800 !default;
 // -------------------------
 
 // About me
-$about-me-font-color:            $gray-cool-dark !default;
-$about-me-font-size:             ceil(($font-size-base * 1.57)) !default; // ~22px
+$about-me-title-font-size:       $font-size-xxxl !default;
+$about-me-title-font-color:      $gray-cool-darker !default;
+$about-me-subtitle-font-size:    $font-size-xl !default;
+$about-me-subtitle-font-color:   $gray-cool-dark !default;
+$about-me-lead-font-size:        ceil(($font-size-base * 1.78)) !default; // ~25px
+$about-me-lead-font-color:       $gray-cool-darker !default;
+$about-me-desc-font-size:        ceil(($font-size-base * 1.21)) !default; // ~17px
+$about-me-desc-font-color:       $gray-cool-dark !default;
 
 // Footer main
 $footer-main-contact-font-color: $gray-cool-light !default;
