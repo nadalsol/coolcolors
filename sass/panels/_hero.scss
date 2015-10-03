@@ -7,23 +7,12 @@
   position: relative;
   width: 100%;
   margin-top: $header-main-height;
-  padding-top: $space-exa-byte;
-  padding-bottom: $space-exa-byte;
-  text-align: center;
-  @media #{$medium-up} {
-    text-align: right;
-  }
   video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
     min-width: 100%;
     min-height: 100%;
-    width: auto;
-    height: auto;
     z-index: -1;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
+    @include translate(-50%, -50%);
+    @include positioner(auto, auto, top, 50%, left, 50%);
   }
   &__title {
     margin: 0;
@@ -31,6 +20,7 @@
     font-weight: 700;
     line-height: .9;
     color: $hero-font-color;
+    @include positioner(auto, auto, bottom, $space-kilo-byte, left, $space-mega-byte);
     > span {
       display: block;
     }
