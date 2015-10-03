@@ -21,18 +21,27 @@
     line-height: .9;
     color: $about-me-title-font-color;
     &:after {
+      margin-left: -50px;
       content: '';
       background-color: $brand-primary;
-      @include positioner(50px, 1px, bottom, 0, left, 0);
+      @include positioner(100px, 1px, bottom, 0, left, 50%);
+      @media #{$medium-up} {
+        margin-left: 0;
+        width: 50px;
+        left: 0;
+      }
     }
   }
   &__subtitle {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: $space-zeta-byte;
     font-size: $about-me-subtitle-font-size;
     font-weight: 400;
     line-height: 1.2;
     color: $about-me-subtitle-font-color;
+    @media #{$medium-up} {
+      margin-bottom: 0;
+    }
   }
   &__lead {
     margin-top: 0;
