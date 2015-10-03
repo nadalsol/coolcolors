@@ -181,11 +181,3 @@ $portfolio-border-width-sm:      $space-kilo-byte !default;
 $portfolio-border-width-md:      6px !default;
 $portfolio-categories-font-size: ceil(($font-size-base * 1.14)) !default; // ~16px
 $portfolio-categories-size:      48px !default;
-
-// Viewer
-$viewer-border-width-sm:         $portfolio-border-width-sm !default;
-$viewer-border-width-md:         $portfolio-border-width-md !default;
-$viewer-title-font-size:         $font-size-h1 !default;
-$viewer-title-font-color:        $gray-cool-darker !default;
-$viewer-body-font-color:         $gray-cool-dark !default;
-$viewer-bg-color:                $gray-lightest !default;

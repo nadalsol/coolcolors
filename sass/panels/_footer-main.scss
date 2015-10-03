@@ -4,13 +4,13 @@
 
 
 .footer-main {
-  padding-top: 50px;
+  padding-top: 60px;
   background-color: white;
   @media #{$medium-up} {
-    padding-top: 70px;
+    padding-top: 90px;
   }
   @media #{$large-up} {
-    padding-top: 90px;
+    padding-top: 120px;
   }
   &__contact {
     color: $footer-main-contact-font-color;
