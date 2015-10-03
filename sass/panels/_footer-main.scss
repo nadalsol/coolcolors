@@ -6,7 +6,6 @@
 .footer-main {
   padding-top: 50px;
   background-color: white;
-  @include clearfix;
   @media #{$medium-up} {
     padding-top: 70px;
   }
@@ -14,12 +13,7 @@
     padding-top: 90px;
   }
   &__contact {
-    float: left;
-    padding-left: $space-mega-byte;
     color: $footer-main-contact-font-color;
-    @media #{$medium-up} {
-      padding-left: $space-peta-byte;
-    }
     ul {
       line-height: $btn-size;
       @include list-inline(0, 0);
