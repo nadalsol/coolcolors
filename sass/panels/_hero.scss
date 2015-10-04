@@ -5,8 +5,8 @@
 
 .hero {
   position: relative;
-  width: 100%;
   margin-top: $header-main-height;
+  @include size($hero-width, $hero-height);
   video {
     min-width: 100%;
     min-height: 100%;

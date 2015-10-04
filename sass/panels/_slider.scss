@@ -1,0 +1,10 @@
+//
+// Slider
+// --------------------------------------------------
+
+
+.slider {
+  margin-top: $header-main-height;
+  background-color: $slider-bg-color;
+  @include size($slider-width, $slider-height);
+}

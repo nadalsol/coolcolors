@@ -173,6 +173,8 @@ $header-main-height:             82px !default;
 $header-main-contact-font-color: $gray-cool-dark !default;
 
 // Hero
+$hero-width:                     100% !default;
+$hero-height:                    700px !default;
 $hero-font-color:                #fff !default;
 $hero-heading-font-size:         ceil(($font-size-base * 5.42)) !default; // ~76px
 
@@ -181,3 +183,8 @@ $portfolio-border-width-sm:      $space-kilo-byte !default;
 $portfolio-border-width-md:      6px !default;
 $portfolio-categories-font-size: ceil(($font-size-base * 1.14)) !default; // ~16px
 $portfolio-categories-size:      48px !default;
+
+// Slider
+$slider-width:                   $hero-width !default;
+$slider-height:                  $hero-height !default;
+$slider-bg-color:                $gray-lightest !default;
