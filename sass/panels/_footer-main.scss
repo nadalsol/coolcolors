@@ -32,7 +32,7 @@
       @include transition(color .3s);
       &:hover,
       &:focus {
-        color: $brand-primary;
+        color: $brand-secondary;
       }
     }
   }
