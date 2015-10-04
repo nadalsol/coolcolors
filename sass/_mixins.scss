@@ -60,6 +60,16 @@
   }
 }
 
+// Fade links
+@mixin fade($hover-opacity: .75, $transition-duration: .3s) {
+  opacity: 1;
+  @include transition(opacity $transition-duration);
+  &:hover,
+  &:focus {
+    opacity: $hover-opacity;
+  }
+}
+
 // Sizing shortcuts
 @mixin size($width, $height) {
   width: $width;
