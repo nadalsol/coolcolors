@@ -1,9 +1,9 @@
 //
-// About me
+// About
 // --------------------------------------------------
 
 
-.about-me {
+.about {
   padding-top: 70px;
   padding-bottom: 70px;
   text-align: center;
@@ -16,10 +16,10 @@
     margin-top: 0;
     margin-bottom: $space-giga-byte;
     padding-bottom: $space-giga-byte;
-    font-size: $about-me-title-font-size;
+    font-size: $about-title-font-size;
     font-weight: 300;
     line-height: .9;
-    color: $about-me-title-font-color;
+    color: $about-title-font-color;
     &:after {
       margin-left: -50px;
       content: '';
@@ -34,35 +34,44 @@
   }
   &__subtitle {
     margin-top: 0;
-    margin-bottom: $space-zeta-byte;
-    font-size: $about-me-subtitle-font-size;
+    font-size: $about-subtitle-font-size;
     font-weight: 400;
     line-height: 1.2;
-    color: $about-me-subtitle-font-color;
-    @media #{$medium-up} {
-      margin-bottom: 0;
-    }
+    color: $about-subtitle-font-color;
   }
   &__lead {
     margin-top: 0;
     margin-bottom: $space-byte;
-    font-size: $about-me-lead-font-size;
+    font-size: $about-lead-font-size;
     font-weight: 300;
-    color: $about-me-lead-font-color;
+    color: $about-lead-font-color;
   }
   &__desc {
     p,
     ul,
     ol {
       margin-bottom: $space-giga-byte;
-      font-size: $about-me-desc-font-size;
+      font-size: $about-desc-font-size;
       font-weight: 400;
-      color: $about-me-desc-font-color;
+      color: $about-desc-font-color;
     }
     p {
       &:last-child {
         margin-bottom: 0;
       }
+    }
+  }
+  &--me {
+    .about__subtitle {
+      margin-bottom: $space-zeta-byte;
+      @media #{$medium-up} {
+        margin-bottom: 0;
+      }
+    }
+  }
+  &--project {
+    .about__subtitle {
+      margin-bottom: $space-zeta-byte;
     }
   }
 }

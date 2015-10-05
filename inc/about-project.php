@@ -1,15 +1,14 @@
-<!-- About me -->
-<div class="about about--me">
+<!-- About project -->
+<div class="about about--project">
 
   <div class="row">
-    <div class="small-12 medium-11 medium-centered large-10 columns">
+    <div class="small-12 medium-8 medium-centered columns">
       <div class="row">
-        <div class="small-12 medium-3 columns">
-          <h2 class="about__title text-uppercase">Miriam Soto</h2>
-          <h3 class="about__subtitle text-uppercase">Information Architect, <abbr title="User Experience">UX</abbr> &amp; Visual Designer.</h3>
+        <div class="small-12 columns">
+          <h2 class="about__title text-uppercase">Turismo Islas Canarias</h2>
+          <h3 class="about__subtitle text-uppercase">Website</h3>
         </div>
-        <div class="small-12 medium-8 medium-offset-1 columns" lang="es-ES">
-          <h4 class="about__lead text-uppercase">Claro. Sencillo. Atractivo.</h4>
+        <div class="small-12 columns" lang="es-ES">
           <div class="about__desc">
             <p>Éstas son las palabras que describen un buen proyecto digital.</p>
             <p>En mis proyectos siempre realizo una estructura clara de la información utilizando una gran dosis de sentido común, una navegación e interfaz que proporcionen una experiencia fluida y satisfactoria hacia nuestro objetivo  utilizando la empatía con el usuario y una imagen limpia y seductora que capte la atención al instante.</p>

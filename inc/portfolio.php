@@ -3,8 +3,8 @@
   <div class="row">
     <ul>
       <?php for ($i=0; $i < 9; $i++) : ?>
-      <li class="portfolio__work">
-        <a href="/portfolio-single.php">
+      <li class="portfolio__project">
+        <a href="/portfolio-project.php">
           <ul>
             <li><abbr title="Information Architecture">IA</abbr></li>
             <li><abbr title="User Experience">UX</abbr></li>
