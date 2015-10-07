@@ -18,9 +18,9 @@
     </footer>
 
     <!-- Scripts (placed at the end of the document so the pages load faster) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/vendor/bootstrap/bootstrap.min.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/libs/jquery/jquery-1.11.3.js"></script>
+    <script src="js/libs/bootstrap/bootstrap.js"></script>
+    <script src="js/global.js"></script>
 
   </body>
 </html>
