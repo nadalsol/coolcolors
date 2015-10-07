@@ -76,6 +76,15 @@
   height: $height;
 }
 
+// Backface visibility
+// Prevent browsers from flickering when using CSS 3D transforms.
+// Default value is `visible`, but can be changed to `hidden`
+@mixin backface-visibility($visibility){
+  -webkit-backface-visibility: $visibility;
+     -moz-backface-visibility: $visibility;
+          backface-visibility: $visibility;
+}
+
 // Transformations
 @mixin scale($ratio...) {
   -webkit-transform: scale($ratio);

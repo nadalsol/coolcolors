@@ -1,5 +1,5 @@
 <!-- Hero -->
-<div class="hero" id="hero">
+<div class="hero hero--offset" id="hero">
 
   <h1 class="hero__title text-uppercase">
     <span><abbr title="User Experience">UX</abbr> &amp; Visual</span>
