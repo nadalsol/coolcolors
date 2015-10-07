@@ -18,9 +18,7 @@
     </footer>
 
     <!-- Scripts (placed at the end of the document so the pages load faster) -->
-    <script src="js/libs/jquery/jquery-1.11.3.js"></script>
-    <script src="js/libs/bootstrap/bootstrap.js"></script>
-    <script src="js/global.js"></script>
+    <script src="js/build/production.min.js"></script>
 
   </body>
 </html>
