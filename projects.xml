@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<portfolio>
+  <project>
+    <title>Turismo de Canarias</title>
+    <url>turismo-de-canarias</url>
+    <category>Website</category>
+    <tags>
+      <tag><![CDATA[<abbr title="Information Architecture">IA</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="User Experience">UX</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="Visual Design">VD</abbr>]]></tag>
+    </tags>
+    <desc>Lorem ipsum</desc>
+    <image_thumb>turismo-de-canarias.jpg</image_thumb>
+    <images>
+      <image>turismo-de-canarias-01.png</image>
+      <image>turismo-de-canarias-02.png</image>
+      <image>turismo-de-canarias-03.png</image>
+    </images>
+  </project>
+  <project>
+    <title>Arnau Vilardebò</title>
+    <url>arnau-vilardebo</url>
+    <category>Website</category>
+    <tags>
+      <tag><![CDATA[<abbr title="Information Architecture">IA</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="User Experience">UX</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="Visual Design">VD</abbr>]]></tag>
+    </tags>
+    <desc>Adescipli elit</desc>
+    <image_thumb>arnau-vilardebo.jpg</image_thumb>
+    <images>
+      <image>arnau-vilardebo-01.png</image>
+      <image>arnau-vilardebo-02.png</image>
+      <image>arnau-vilardebo-03.png</image>
+    </images>
+  </project>
+  <project>
+    <title>Croatia</title>
+    <url>croatia</url>
+    <category>Website</category>
+    <tags>
+      <tag><![CDATA[<abbr title="Information Architecture">IA</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="User Experience">UX</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="Visual Design">VD</abbr>]]></tag>
+    </tags>
+    <desc>Dolor sit amet</desc>
+    <image_thumb>croatia.png</image_thumb>
+    <images>
+      <image>croatia-01.png</image>
+      <image>croatia-02.png</image>
+      <image>croatia-03.png</image>
+    </images>
+  </project>
+</portfolio>

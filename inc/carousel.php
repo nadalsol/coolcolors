@@ -9,13 +9,13 @@
 
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="http://loremflickr.com/1440/700" alt=" ">
+      <img src="/img/portfolio/arnau-vilardebo/arnau-vilardebo-01.png" alt=" ">
     </div>
     <div class="item">
-      <img src="http://loremflickr.com/1440/700" alt=" ">
+      <img src="/img/portfolio/arnau-vilardebo/arnau-vilardebo-02.png" alt=" ">
     </div>
     <div class="item">
-      <img src="http://loremflickr.com/1440/700" alt=" ">
+      <img src="/img/portfolio/arnau-vilardebo/arnau-vilardebo-03.png" alt=" ">
     </div>
   </div>
 

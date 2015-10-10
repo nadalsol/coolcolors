@@ -2,18 +2,23 @@
 <div class="portfolio">
   <div class="row">
     <ul>
-      <?php for ($i=0; $i < 9; $i++) : ?>
+    <?php
+      $xml = simplexml_load_file('projects.xml') or die('Error: Cannot create object');
+      foreach($xml->children() as $projects) :
+    ?>
       <li class="portfolio__project">
-        <a href="/portfolio-project.php">
+        <a href="/portfolio/<?php echo $projects->url; ?>">
           <ul>
-            <li><abbr title="Information Architecture">IA</abbr></li>
-            <li><abbr title="User Experience">UX</abbr></li>
-            <li><abbr title="Visual Design">VD</abbr></li>
+          <?php
+            foreach($projects->tags->tag as $tag) {
+            echo '<li>' . $tag .'</li>';
+            }
+          ?>
           </ul>
-          <img src="img/portfolio/placeholder.jpg" alt=" ">
+          <img src="/img/portfolio/<?php echo $projects->url; ?>/<?php echo $projects->image_thumb; ?>" alt="<?php echo $projects->title; ?>">
         </a>
       </li>
-      <?php endfor; ?>
+    <?php endforeach; ?>
     </ul>
   </div>
 </div>

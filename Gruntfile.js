@@ -8,7 +8,8 @@ module.exports = function(grunt) {
     concat: {
       dist: {
         src: [
-          'js/libs/**/*.js',
+          'js/libs/jquery/*.js',
+          'js/libs/bootstrap/*.js',
           'js/*.js'
         ],
         dest: 'js/build/production.js'
@@ -26,6 +27,7 @@ module.exports = function(grunt) {
   // 3. Where we tell Grunt we plan to use this plug-in.
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  // grunt.loadNpmTasks('grunt-contrib-watch');
 
   // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
   grunt.registerTask('default', ['concat', 'uglify']);

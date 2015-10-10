@@ -7,7 +7,6 @@
 .carousel {
   position: relative;
   width: $carousel-width;
-  min-height: $carousel-height;
   &--offset {
     margin-top: $header-main-height;
   }
