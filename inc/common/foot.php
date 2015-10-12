@@ -18,7 +18,7 @@
     </footer>
 
     <!-- Scripts (placed at the end of the document so the pages load faster) -->
-    <script src="js/build/production.min.js"></script>
+    <script src="/js/build/production.min.js"></script>
 
   </body>
 </html>

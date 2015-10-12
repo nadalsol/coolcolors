@@ -33,9 +33,7 @@
   &:hover,
   &:focus,
   &.focus {
-    color: $btn-font-color-hover;
-    background-color: $btn-bg-color-hover;
-    text-decoration: none;
+    @include btn-hover($btn-font-color-hover, $btn-bg-color-hover);
   }
 
   &:active,
@@ -51,14 +49,19 @@
     opacity: .65;
   }
 
-  &--close {
-    font-size: $btn-font-size-close;
-    font-weight: $btn-font-weight-close;
-    line-height: $btn-line-height-close;
-  }
   &--top {
     font-weight: $btn-font-weight-top;
     text-transform: uppercase;
+  }
+  &--arrow-left {
+    left: 0;
+    font-size: $btn-font-size-arrow;
+    line-height: $btn-line-height-arrow;
+  }
+  &--arrow-right {
+    right: 0;
+    font-size: $btn-font-size-arrow;
+    line-height: $btn-line-height-arrow;
   }
 
 }

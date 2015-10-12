@@ -142,27 +142,20 @@ $btn-font-color-hover:           $brand-primary !default;
 $btn-bg-color:                   $brand-primary !default;
 $btn-bg-color-hover:             $gray-cool-darker !default;
 
-$btn-font-size-close:            ceil(($font-size-base * 7.14)) !default; // ~100px
-$btn-font-weight-close:          300 !default;
-$btn-line-height-close:          40px !default;
-
 $btn-font-weight-top:            800 !default;
+
+$btn-font-size-arrow:            60px !default;
+$btn-line-height-arrow:          50px !default;
 
 
 // Carousel
 // -------------------------
 
-$carousel-text-shadow:           0 1px 2px rgba(0,0,0,.6) !default;
-
-$carousel-control-color:         #fff !default;
+$carousel-width:                 100% !default;
+$carousel-height:                700px !default;
 $carousel-control-width:         15% !default;
-$carousel-control-opacity:       .5 !default;
-$carousel-control-font-size:     20px !default;
-
-$carousel-indicator-active-bg:   #fff !default;
-$carousel-indicator-border-color:#fff !default;
-
-// $carousel-caption-color:         #fff !default;
+$carousel-indicator-active-bg:   $brand-primary !default;
+$carousel-indicator-border-color:#ccc !default;
 
 
 // Panels
@@ -177,10 +170,6 @@ $about-lead-font-size:           ceil(($font-size-base * 1.78)) !default; // ~25
 $about-lead-font-color:          $gray-cool-darker !default;
 $about-desc-font-size:           ceil(($font-size-base * 1.21)) !default; // ~17px
 $about-desc-font-color:          $gray-cool-dark !default;
-
-// Carousel
-$carousel-width:                 100% !default;
-$carousel-height:                700px !default;
 
 // Footer main
 $footer-main-contact-font-color: $gray-cool-light !default;

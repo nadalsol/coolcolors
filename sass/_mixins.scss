@@ -70,6 +70,13 @@
   }
 }
 
+// Btn hover
+@mixin btn-hover($color, $bg-color) {
+  color: $color;
+  background-color: $bg-color;
+  text-decoration: none;
+}
+
 // Sizing shortcuts
 @mixin size($width, $height) {
   width: $width;

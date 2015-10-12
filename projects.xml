@@ -1,32 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <portfolio>
   <project>
-    <title>Turismo de Canarias</title>
-    <url>turismo-de-canarias</url>
+    <title>Hola Islas Canarias</title>
+    <url>/portfolio/hola-islas-canarias/</url>
     <category>Website</category>
     <tags>
       <tag><![CDATA[<abbr title="Information Architecture">IA</abbr>]]></tag>
       <tag><![CDATA[<abbr title="User Experience">UX</abbr>]]></tag>
       <tag><![CDATA[<abbr title="Visual Design">VD</abbr>]]></tag>
     </tags>
-    <desc>Lorem ipsum</desc>
-    <image_thumb>turismo-de-canarias.jpg</image_thumb>
+    <desc>
+      <![CDATA[
+      <p>Éstas son las palabras que describen un buen proyecto digital.</p>
+      <p>En mis proyectos siempre realizo una estructura clara de la información utilizando una gran dosis de sentido común, una navegación e interfaz que proporcionen una experiencia fluida y satisfactoria hacia nuestro objetivo  utilizando la empatía con el usuario y una imagen limpia y seductora que capte la atención al instante.</p>
+      <p>Todo nace en el papel en blanco, de una idea y de un objetivo.</p>
+      ]]>
+    </desc>
+    <image_thumb>hola-islas-canarias.jpg</image_thumb>
     <images>
-      <image>turismo-de-canarias-01.png</image>
-      <image>turismo-de-canarias-02.png</image>
-      <image>turismo-de-canarias-03.png</image>
+      <image>hola-islas-canarias-01.jpg</image>
+      <image>hola-islas-canarias-02.jpg</image>
+      <image>hola-islas-canarias-03.jpg</image>
     </images>
   </project>
   <project>
     <title>Arnau Vilardebò</title>
-    <url>arnau-vilardebo</url>
+    <url>/portfolio/arnau-vilardebo/</url>
     <category>Website</category>
     <tags>
       <tag><![CDATA[<abbr title="Information Architecture">IA</abbr>]]></tag>
       <tag><![CDATA[<abbr title="User Experience">UX</abbr>]]></tag>
       <tag><![CDATA[<abbr title="Visual Design">VD</abbr>]]></tag>
     </tags>
-    <desc>Adescipli elit</desc>
+    <desc>
+      <![CDATA[
+      <p>Éstas son las palabras que describen un buen proyecto digital.</p>
+      <p>En mis proyectos siempre realizo una estructura clara de la información utilizando una gran dosis de sentido común, una navegación e interfaz que proporcionen una experiencia fluida y satisfactoria hacia nuestro objetivo  utilizando la empatía con el usuario y una imagen limpia y seductora que capte la atención al instante.</p>
+      <p>Todo nace en el papel en blanco, de una idea y de un objetivo.</p>
+      ]]>
+    </desc>
     <image_thumb>arnau-vilardebo.jpg</image_thumb>
     <images>
       <image>arnau-vilardebo-01.png</image>
@@ -36,14 +48,20 @@
   </project>
   <project>
     <title>Croatia</title>
-    <url>croatia</url>
+    <url>/portfolio/croatia/</url>
     <category>Website</category>
     <tags>
       <tag><![CDATA[<abbr title="Information Architecture">IA</abbr>]]></tag>
       <tag><![CDATA[<abbr title="User Experience">UX</abbr>]]></tag>
       <tag><![CDATA[<abbr title="Visual Design">VD</abbr>]]></tag>
     </tags>
-    <desc>Dolor sit amet</desc>
+    <desc>
+      <![CDATA[
+      <p>Éstas son las palabras que describen un buen proyecto digital.</p>
+      <p>En mis proyectos siempre realizo una estructura clara de la información utilizando una gran dosis de sentido común, una navegación e interfaz que proporcionen una experiencia fluida y satisfactoria hacia nuestro objetivo  utilizando la empatía con el usuario y una imagen limpia y seductora que capte la atención al instante.</p>
+      <p>Todo nace en el papel en blanco, de una idea y de un objetivo.</p>
+      ]]>
+    </desc>
     <image_thumb>croatia.png</image_thumb>
     <images>
       <image>croatia-01.png</image>
