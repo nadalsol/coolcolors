@@ -7,7 +7,6 @@
   padding-top: 70px;
   padding-bottom: 70px;
   text-align: center;
-  background-color: white;
   @media #{$medium-up} {
     text-align: left;
   }
@@ -62,6 +61,7 @@
     }
   }
   &--me {
+    background-color: white;
     .about__subtitle {
       margin-bottom: $space-zeta-byte;
       @media #{$medium-up} {
@@ -70,6 +70,7 @@
     }
   }
   &--project {
+    background-color: $gray-lightest;
     .about__subtitle {
       margin-bottom: $space-zeta-byte;
     }
