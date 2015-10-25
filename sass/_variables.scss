@@ -24,9 +24,10 @@ $brand-primary:         #c9de55 !default;
 $brand-secondary:       #fc7e6a !default;
 
 
-// Scaffolding
+// Core
 // -------------------------
 
+// Scaffolding
 $body-bg:               #fff !default;
 $text-color:            $gray-dark !default;
 
@@ -40,55 +41,77 @@ $vertical-space-md:     25px !default;
 $vertical-space-sm:     15px !default;
 
 // Generic values for spacing
-$space-byte:      5px !default;
-$space-kilo-byte: $space-byte * 2 !default;
-$space-mega-byte: $space-byte * 3 !default;
-$space-giga-byte: $space-byte * 4 !default;
-$space-tera-byte: $space-byte * 5 !default;
-$space-peta-byte: $space-byte * 6 !default;
-$space-exa-byte : $space-byte * 7 !default;
-$space-zeta-byte: $space-byte * 8 !default;
+$space-byte:            5px !default;
+$space-kilo-byte:       $space-byte * 2 !default;
+$space-mega-byte:       $space-byte * 3 !default;
+$space-giga-byte:       $space-byte * 4 !default;
+$space-tera-byte:       $space-byte * 5 !default;
+$space-peta-byte:       $space-byte * 6 !default;
+$space-exa-byte :       $space-byte * 7 !default;
+$space-zeta-byte:       $space-byte * 8 !default;
 
 
 // Typography
-// -------------------------
+$font-family-sans-serif:"Raleway", sans-serif !default;
+$font-family-base:      $font-family-sans-serif !default;
 
-$font-family-sans-serif:  "Raleway", sans-serif !default;
-$font-family-base:        $font-family-sans-serif !default;
+$font-size-base:        14px !default;
 
-$font-size-base:          14px !default;
+$font-size-xxxl:        ceil($font-size-base * 3.42) !default;    // ~48px
+$font-size-xxl:         ceil($font-size-base * 1.71) !default;    // ~24px
+$font-size-xl:          ceil($font-size-base * 1.42) !default;    // ~20px
+$font-size-lg:          ceil($font-size-base * 1.25) !default;    // ~18px
+$font-size-md:          ceil($font-size-base * 1.07) !default;    // ~15px
+$font-size-sm:          ceil($font-size-base * 0.92) !default;    // ~13px
+$font-size-xs:          ceil($font-size-base * 0.85) !default;    // ~12px
+$font-size-xxs:         ceil($font-size-base * 0.78) !default;    // ~11px
+$font-size-xxxs:        ceil($font-size-base * 0.71) !default;    // ~10px
 
-$font-size-xxxl:          ceil($font-size-base * 3.42) !default;    // ~48px
-$font-size-xxl:           ceil($font-size-base * 1.71) !default;    // ~24px
-$font-size-xl:            ceil($font-size-base * 1.42) !default;    // ~20px
-$font-size-lg:            ceil($font-size-base * 1.25) !default;    // ~18px
-$font-size-md:            ceil($font-size-base * 1.07) !default;    // ~15px
-$font-size-sm:            ceil($font-size-base * 0.92) !default;    // ~13px
-$font-size-xs:            ceil($font-size-base * 0.85) !default;    // ~12px
-$font-size-xxs:           ceil($font-size-base * 0.78) !default;    // ~11px
-$font-size-xxxs:          ceil($font-size-base * 0.71) !default;    // ~10px
+$font-size-h1:          floor(($font-size-base * 2.6)) !default;  // ~36px
+$font-size-h2:          floor(($font-size-base * 2.15)) !default; // ~30px
+$font-size-h3:          ceil(($font-size-base * 1.7)) !default;   // ~24px
+$font-size-h4:          ceil(($font-size-base * 1.25)) !default;  // ~18px
+$font-size-h5:          $font-size-base !default;
+$font-size-h6:          ceil(($font-size-base * 0.85)) !default;  // ~12px
 
-$font-size-h1:            floor(($font-size-base * 2.6)) !default;  // ~36px
-$font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
-$font-size-h3:            ceil(($font-size-base * 1.7)) !default;   // ~24px
-$font-size-h4:            ceil(($font-size-base * 1.25)) !default;  // ~18px
-$font-size-h5:            $font-size-base !default;
-$font-size-h6:            ceil(($font-size-base * 0.85)) !default;  // ~12px
-
-$line-height-base:        1.428571429 !default; // 20/14
-$line-height-computed:    floor($font-size-base * $line-height-base) !default; // ~20px
+$line-height-base:      1.428571429 !default; // 20/14
+$line-height-computed:  floor($font-size-base * $line-height-base) !default; // ~20px
 
 // By default, this inherits from the `<body>`.
-$headings-font-family:    inherit !default;
-$headings-font-weight:    500 !default;
-$headings-line-height:    1.1 !default;
-$headings-color:          inherit !default;
+$headings-font-family:  inherit !default;
+$headings-font-weight:  500 !default;
+$headings-line-height:  1.1 !default;
+$headings-color:        inherit !default;
 
 
-// Z-index master list
+// Buttons
+$btn-size:              60px !default;
+$btn-font-size:         $font-size-lg !default;
+$btn-font-weight:       400 !default;
+$btn-line-height:       $btn-size !default;
+$btn-font-color:        #fff !default;
+$btn-font-color-hover:  $brand-primary !default;
+$btn-bg-color:          $brand-primary !default;
+$btn-bg-color-hover:    $gray-cool-darker !default;
+
+$btn-font-weight-top:   800 !default;
+
+$btn-font-size-arrow:   60px !default;
+$btn-line-height-arrow: 50px !default;
+
+
+// Common
 // -------------------------
 
-$zindex-header-main:      1000 !default;
+// Header
+$header-width:              100% !default;
+$header-height:             82px !default;
+$header-contact-font-color: $gray-cool-dark !default;
+
+// Footer
+$footer-contact-font-color: $gray-cool-light !default;
+$footer-contact-pipe-color: $gray-cool-darker !default;
+$footer-contact-font-size:  ceil(($font-size-base * 1.14)) !default; // ~16px
 
 
 // Media Queries
@@ -130,34 +153,6 @@ $xlarge-only: "#{$screen} and (min-width:#{$screen-xl-min}) and (max-width:#{$sc
 $xxlarge-up: "#{$screen} and (min-width:#{$screen-xxl-min})" !default;
 
 
-// Buttons
-// -------------------------
-
-$btn-size:                       60px !default;
-$btn-font-size:                  $font-size-lg !default;
-$btn-font-weight:                400 !default;
-$btn-line-height:                $btn-size !default;
-$btn-font-color:                 #fff !default;
-$btn-font-color-hover:           $brand-primary !default;
-$btn-bg-color:                   $brand-primary !default;
-$btn-bg-color-hover:             $gray-cool-darker !default;
-
-$btn-font-weight-top:            800 !default;
-
-$btn-font-size-arrow:            60px !default;
-$btn-line-height-arrow:          50px !default;
-
-
-// Carousel
-// -------------------------
-
-$carousel-width:                 100% !default;
-$carousel-height:                700px !default;
-$carousel-control-width:         15% !default;
-$carousel-indicator-active-bg:   $brand-primary !default;
-$carousel-indicator-border-color:#ccc !default;
-
-
 // Panels
 // -------------------------
 
@@ -171,15 +166,12 @@ $about-lead-font-color:          $gray-cool-darker !default;
 $about-desc-font-size:           ceil(($font-size-base * 1.21)) !default; // ~17px
 $about-desc-font-color:          $gray-cool-dark !default;
 
-// Footer main
-$footer-main-contact-font-color: $gray-cool-light !default;
-$footer-main-contact-pipe-color: $gray-cool-darker !default;
-$footer-main-contact-font-size:  ceil(($font-size-base * 1.14)) !default; // ~16px
-
-// Header main
-$header-main-width:              100% !default;
-$header-main-height:             82px !default;
-$header-main-contact-font-color: $gray-cool-dark !default;
+// Carousel
+$carousel-width:                 100% !default;
+$carousel-height:                700px !default;
+$carousel-control-width:         15% !default;
+$carousel-indicator-active-bg:   $brand-primary !default;
+$carousel-indicator-border-color:#ccc !default;
 
 // Hero
 $hero-width:                     $carousel-width !default;
@@ -192,3 +184,9 @@ $portfolio-border-width-sm:      $space-kilo-byte !default;
 $portfolio-border-width-md:      6px !default;
 $portfolio-categories-font-size: ceil(($font-size-base * 1.14)) !default; // ~16px
 $portfolio-categories-size:      48px !default;
+
+
+// Z-index master list
+// -------------------------
+
+$zindex-header:                  1000 !default;

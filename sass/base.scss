@@ -23,10 +23,13 @@
 
 // Core CSS
 @import "core/buttons";
-@import "core/carousel";
 @import "core/grid";
 @import "core/scaffolding";
 @import "core/type";
+
+// Common
+@import "common/footer";
+@import "common/header";
 
 // Utility classes
 @import "utilities/responsive-utilities";
@@ -34,7 +37,6 @@
 
 // Panels
 @import "panels/about";
-@import "panels/footer-main";
-@import "panels/header-main";
+@import "panels/carousel";
 @import "panels/hero";
 @import "panels/portfolio";

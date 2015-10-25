@@ -1,18 +1,18 @@
 //
-// Header main
+// Header
 // --------------------------------------------------
 
 
-.header-main {
+.header {
   padding-top: $space-giga-byte;
   padding-bottom: $space-giga-byte;
   background-color: white;
-  @include size($header-main-width, $header-main-height);
+  @include size($header-width, $header-height);
   &--fixed {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: $zindex-header-main;
+    z-index: $zindex-header;
   }
   &__brand {
     display: inline-block;
@@ -24,9 +24,9 @@
   }
   &__contact {
     font-weight: 700;
-    line-height: $header-main-height / 2;
+    line-height: $header-height / 2;
     text-align: right;
-    color: $header-main-contact-font-color;
+    color: $header-contact-font-color;
     ul {
       @include list-inline(0, 0);
     }
@@ -46,7 +46,7 @@
     a {
       padding-left: $space-mega-byte;
       padding-right: $space-mega-byte;
-      color: $header-main-contact-font-color;
+      color: $header-contact-font-color;
       @include transition(color .3s);
       &:hover,
       &:focus {

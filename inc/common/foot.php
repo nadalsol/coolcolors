@@ -1,8 +1,8 @@
     <!-- Footer -->
-    <footer class="footer-main">
+    <footer class="footer">
       <div class="row">
         <div class="small-10 columns">
-          <nav class="footer-main__contact">
+          <nav class="footer__contact">
             <ul>
               <li>© coolcolors 2015</li>
               <li>
@@ -12,7 +12,7 @@
           </nav>
         </div>
         <div class="small-2 columns">
-          <a class="footer-main__btn btn btn--top" href="#top">Up</a>
+          <a class="footer__btn btn btn--top" href="#top">Up</a>
         </div>
       </div>
     </footer>

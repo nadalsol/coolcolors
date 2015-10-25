@@ -15,13 +15,7 @@
 <div class="carousel carousel--offset slide" id="carousel" data-ride="carousel">
   <div class="row">
     <div class="small-12 columns">
-
-      <ol class="carousel-indicators">
-        <?php for ($i=0; $i < count($images_array); $i++) : ?>
-        <li data-target="#carousel" data-slide-to="<?php echo $i; ?>" <?php if($i==0) {echo 'class="active"';} ?>></li>
-        <?php endfor; ?>
-      </ol>
-
+      
       <div class="carousel-inner" role="listbox">
         <?php for ($i=0; $i < count($images_array); $i++) : ?>
         <div class="item <?php if($i==0) {echo 'active';} ?>">

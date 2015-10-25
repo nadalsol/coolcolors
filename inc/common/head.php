@@ -17,15 +17,15 @@
   <body>
 
     <!-- Header -->
-    <header class="header-main header-main--fixed" id="top">
+    <header class="header header--fixed" id="top">
       <div class="row">
         <div class="small-6 columns">
-          <a class="header-main__brand" href="/">
+          <a class="header__brand" href="/">
             <img src="/img/logo-cool-colors.png" alt="CoolColors logo">
           </a>
         </div>
         <div class="small-6 columns">
-          <nav class="header-main__contact">
+          <nav class="header__contact">
             <ul>
               <li>
                 <a href="mailto:coolcolors@gmail.com" class="text-uppercase">Contact me</a>

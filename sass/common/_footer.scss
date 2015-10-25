@@ -1,9 +1,9 @@
 //
-// Footer main
+// Footer
 // --------------------------------------------------
 
 
-.footer-main {
+.footer {
   padding-top: 60px;
   background-color: white;
   @media #{$medium-up} {
@@ -13,22 +13,22 @@
     padding-top: 120px;
   }
   &__contact {
-    color: $footer-main-contact-font-color;
+    color: $footer-contact-font-color;
     ul {
       line-height: $btn-size;
       @include list-inline(0, 0);
     }
     li {
       &:first-child {
-        font-size: $footer-main-contact-font-size;
+        font-size: $footer-contact-font-size;
       }
       &:after {
-        @include splitter-after($color: $footer-main-contact-pipe-color);
+        @include splitter-after($color: $footer-contact-pipe-color);
       }
     }
     a {
       font-weight: 700;
-      color: $footer-main-contact-font-color;
+      color: $footer-contact-font-color;
       @include transition(color .3s);
       &:hover,
       &:focus {
