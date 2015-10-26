@@ -96,38 +96,25 @@
 // ---------------------------
 
 .carousel-control {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: $carousel-control-width;
-  // We can't have this transition here because WebKit cancels the carousel
-  // animation if you trip this while in the middle of another animation.
+  @include positioner($carousel-control-width, auto, top, 0, bottom, 0);
 
-  // Set gradients for backgrounds
   &.left {
     left: 0.9375em;
-    background-color: transparent;
+    > img {
+      left: 0;
+    }
   }
   &.right {
     right: 0.9375em;
-    background-color: transparent;
-  }
-
-  // Hover/focus state
-  &:hover,
-  &:focus {
-    outline: 0;
-    text-decoration: none;
-    .btn {
-      @include btn-hover($btn-font-color-hover, $btn-bg-color-hover);
+    > img {
+      right: 0;
+      @include rotate(180deg);
     }
   }
 
-  // Toggles
-  .btn {
-    position: absolute;
-    bottom: 0;
+  > img {
+    @include positioner-v($carousel-control-img-width, $carousel-control-img-height);
     z-index: 5;
-    display: inline-block;
   }
+
 }

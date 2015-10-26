@@ -96,9 +96,6 @@ $btn-bg-color-hover:    $gray-cool-darker !default;
 
 $btn-font-weight-top:   800 !default;
 
-$btn-font-size-arrow:   60px !default;
-$btn-line-height-arrow: 50px !default;
-
 
 // Common
 // -------------------------
@@ -170,6 +167,8 @@ $about-desc-font-color:          $gray-cool-dark !default;
 $carousel-width:                 100% !default;
 $carousel-height:                700px !default;
 $carousel-control-width:         15% !default;
+$carousel-control-img-width:     24px !default;
+$carousel-control-img-height:    82px !default;
 
 // Hero
 $hero-width:                     $carousel-width !default;

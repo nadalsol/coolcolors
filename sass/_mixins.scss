@@ -207,6 +207,16 @@
   #{$h-property}: ($h-value);
 }
 
+// Positioner for vertical centering
+@mixin positioner-v($width: auto, $height: auto) {
+  position: absolute;
+  width: $width;
+  height: $height;
+  top: 50%;
+  margin-top: -($height/2);
+}
+
+// Splitter after
 @mixin splitter-after($content: '|', $pad-h: $space-mega-byte, $font-weight: 700, $color: $brand-secondary) {
   content: $content;
   padding-left: $pad-h;

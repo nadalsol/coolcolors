@@ -24,11 +24,13 @@
         <?php endfor; ?>
       </div>
 
-      <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-        <span class="btn btn--arrow-left">‹</span>
+      <a class="carousel-control left" href="#carousel" role="button" data-slide="prev">
+        <img src="/img/arrow.png" width="24" height="82" alt="Left">
+        <!-- <img src="/img/arrow.svg" width="24" height="82" alt="Left"> -->
       </a>
-      <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-        <span class="btn btn--arrow-right">›</span>
+      <a class="carousel-control right" href="#carousel" role="button" data-slide="next">
+        <img src="/img/arrow.png" width="24" height="82" alt="Right">
+        <!-- <img src="/img/arrow.svg" width="24" height="82" alt="Right"> -->
       </a>
 
     </div>
