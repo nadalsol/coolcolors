@@ -37,6 +37,23 @@
     font-weight: 400;
     line-height: 1.2;
     color: $about-subtitle-font-color;
+    &__category {
+      &:after {
+        content: ' / ';
+        color: $brand-secondary;
+      }
+    }
+    &__tag {
+      &:after {
+        content: ' | ';
+        color: $brand-secondary;
+      }
+      &:last-child {
+        &:after {
+          content: '';
+        }
+      }
+    }
   }
   &__lead {
     margin-top: 0;
