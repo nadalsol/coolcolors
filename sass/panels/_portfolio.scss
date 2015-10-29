@@ -16,13 +16,13 @@
     width: 97%;
     margin-left: 1.5%;
     margin-right: 1.5%;
-    border-bottom: $portfolio-border-width-sm solid $body-bg;
+    border-top: $portfolio-border-width-sm solid $body-bg;
     @media #{$medium-up} {
       float: left;
       width: 33.055555555556%; // 476px / 1440px
       margin-left: 0;
       margin-right: .416666666667%; // 6px / 1440px
-      border-bottom-width: $portfolio-border-width-md;
+      border-top-width: $portfolio-border-width-md;
     }
     &:nth-child(3n+0) {
       margin-right: 0;
