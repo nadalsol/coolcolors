@@ -96,6 +96,7 @@
 // ---------------------------
 
 .carousel-control {
+  @include fade(.5);
   @include positioner($carousel-control-width, auto, top, 0, bottom, 0);
 
   &.left {
