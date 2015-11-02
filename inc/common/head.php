@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Miriam Soto Romero - Visual Designer, Lead UX / UI Design</title>
-    <meta name="description" content="Miriam Soto Romero - Visual Designer, Lead UX / UI Design">
-    <meta name="keywords" content="web, design, webdesign, interface, designer, ux, ui, architecture, information architecture, direction, barcelona">
+    <title>Visual Designer - Lead UX / UI Design - Barcelona</title>
+    <meta name="description" content="Miriam Soto Romero. Visual Designer, Lead UX / UI Design based in Barcelona">
+    <meta name="keywords" content="web, design, webdesign, interface, visual, designer, ux, ui, architecture, information architecture, direction, barcelona">
     <meta name="author" content="Miriam Soto, Nadal Soler">
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1">
