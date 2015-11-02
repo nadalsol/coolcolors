@@ -19,6 +19,18 @@
         </a>
       </li>
     <?php endforeach; ?>
+    <?php for ($i=0; $i < 3; $i++) : ?>
+      <li class="portfolio__project portfolio__project--soon">
+        <a href="#">
+          <ul>
+            <li>Coming soon&hellip;</li>
+          </ul>
+          <span>
+            <img src="/img/portfolio/rocket.svg" alt="Coming soon&hellip;">
+          </span>
+        </a>
+      </li>
+    <?php endfor; ?>
     </ul>
   </div>
 </div>
