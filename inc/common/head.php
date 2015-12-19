@@ -11,7 +11,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js');</script>
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800" rel="stylesheet">
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="/css/base.css" rel="stylesheet">
   </head>
   <body>
@@ -21,7 +20,7 @@
       <div class="row">
         <div class="small-6 columns">
           <a class="header__brand" href="/">
-            <img src="/img/logo-cool-colors.svg" width="242" height="42" alt="CoolColors logo">
+            <img src="/img/cool-colors-logo.svg" width="242" height="42" alt="CoolColors">
           </a>
         </div>
         <div class="small-6 columns">
@@ -32,7 +31,7 @@
               </li>
               <li>
                 <a href="https://www.linkedin.com/in/miriamsoto" target="_blank">
-                  <i class="fa fa-linkedin"></i>
+                  <img src="/img/linkedin-logo.svg" width="20" alt="LinkedIn">
                 </a>
               </li>
             </ul>
