@@ -4,13 +4,16 @@
 
 
 .portfolio {
+
   background-color: white;
+
   > .row {
     > ul {
       @include list-reset;
       @include clearfix;
     }
   }
+
   &__project {
     // sm (2 cols)
     position: relative;
@@ -33,17 +36,47 @@
       margin-right: .33333333333333%;
       border-top-width: $portfolio-border-width-lg;
     }
-    a {
+    > a {
       display: block;
-      @include fade;
+      position: relative;
+      > div {
+        padding-left: $space-kilo-byte;
+        padding-right: $space-kilo-byte;
+        @include positioner(100%, $portfolio-categories-size, bottom, 0, left, 0);
+        @include rgba-bg(black, 0, 0, 0, .7);
+      }
+      &:hover {
+        > div {
+          height: 100%;
+        }
+        h5 {
+          display: block;
+        }
+      }
     }
+    h5,
     ul {
       font-size: $portfolio-categories-font-size;
-      line-height: $portfolio-categories-size;
       text-align: center;
       color: white;
-      @include positioner(100%, $portfolio-categories-size, bottom, 0, left, 0);
-      @include rgba-bg(black, 0, 0, 0, .7);
+    }
+    h5 {
+      display: none;
+      padding-top: $space-zeta-byte;
+      @media #{$medium-up} {
+        padding-top: $space-zeta-byte * 2;
+      }
+      @media #{$large-up} {
+        padding-top: $space-zeta-byte * 3;
+      }
+      > span {
+        display: block;
+        padding-top: $space-kilo-byte;
+        text-transform: uppercase;
+      }
+    }
+    ul {
+      line-height: $portfolio-categories-size;
       @include list-inline(0, 0);
     }
     li {
@@ -59,14 +92,18 @@
       @include size(100%, auto);
     }
     &--soon {
-      span {
-        display: block;
-        padding: 25%;
-        background-color: $brand-secondary;
+      > a {
+        pointer-events: none;
+        > span {
+          display: block;
+          padding: 25%;
+          background-color: $brand-secondary;
+        }
       }
       img {
         opacity: .2;
       }
     }
   }
+
 }
