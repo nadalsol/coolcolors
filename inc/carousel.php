@@ -24,12 +24,14 @@
         <?php endfor; ?>
       </div>
 
+      <?php if (count($images_array) > 1) : ?>
       <a class="carousel-control left" href="#carousel" role="button" data-slide="prev">
         <img src="/img/arrow.svg" alt="Left">
       </a>
       <a class="carousel-control right" href="#carousel" role="button" data-slide="next">
         <img src="/img/arrow.svg" alt="Right">
       </a>
+      <?php endif; ?>
 
     </div>
   </div>
