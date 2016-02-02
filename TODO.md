@@ -1,0 +1,13 @@
+- [x] Added tags to "About Project".
+- [x] Rollover arrows carousel.
+- [x] sm (2 cols) - md (4 cols) - xl (6 cols).
+- [ ] "UP" button 'right: 0'.
+- [ ] Header: "coolcolors" logo and "contace me" overlaped for small devices.
+- [ ] Footer: "UP" logo and "contace me" overlaped for small devices.
+- [ ] Hero: broken layout for small devices.
+- [ ] Hero: video doesn't autoplay for small devices.
+- [ ] About Project: Replace acronyms (i.e "UI") for entire text (i.e. "User Interface").
+- [x] Project thumbnail: Show project details on rollover.
+- [ ] Replace LinkedIn SVG color (from black to grey).
+- [ ] Prevent browser reflows.
+- [ ] Add meta 'description' and 'keywords' to every single page.
