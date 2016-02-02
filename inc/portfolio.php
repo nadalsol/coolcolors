@@ -25,7 +25,7 @@
         </a>
       </li>
     <?php endforeach; ?>
-    <?php for ($i=0; $i < 3; $i++) : ?>
+    <?php for ($i=0; $i < 1; $i++) : ?>
       <li class="portfolio__project portfolio__project--soon">
         <a href="#">
           <div>
