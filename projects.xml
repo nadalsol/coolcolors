@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <portfolio>
+
   <project>
     <title>Turismo de Andalucía</title>
     <url>/portfolio/turismo-de-andalucia/</url>
@@ -20,6 +21,7 @@
       <image>turismo-de-andalucia-03.jpg</image>
     </images>
   </project>
+
   <project>
     <title>Turismo de Croacia</title>
     <url>/portfolio/turismo-de-croacia/</url>
@@ -42,6 +44,7 @@
       <image>turismo-de-croacia-03.jpg</image>
     </images>
   </project>
+
   <project>
     <title>Turismo de Canarias</title>
     <url>/portfolio/turismo-de-canarias/</url>
@@ -54,6 +57,7 @@
     <desc>
       <![CDATA[
       <p>Un site planteado en 14 idiomas para adaptarse a los diferentes momentos del viajero: antes, durante y después del viaje (Descubre - Planifica - Comparte). Sesión de fotos ad-hoc de la mano de Alex Martín de más de 700 lugares de las islas para su geolocalización y gran cantidad de contenidos mostrados según su función: audiovisuales, infografías, pictogramas e ilustraciones.</p>
+      <p><a href="http://www.holaislascanarias.com/" target="_blank">www.holaislascanarias.com</a></p>
       ]]>
     </desc>
     <image_thumb>turismo-de-canarias.jpg</image_thumb>
@@ -64,4 +68,358 @@
       <image>turismo-de-canarias-04.jpg</image>
     </images>
   </project>
+
+  <project>
+    <title>Turismo de Canarias Stop BlueMonday</title>
+    <url>/portfolio/turismo-de-canarias-stop-bluemonday/</url>
+    <category>Website</category>
+    <tags>
+      <tag><![CDATA[<abbr title="Information Architecture">IA</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="User Experience">UX</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="Visual Design">VD</abbr>]]></tag>
+    </tags>
+    <desc>
+      <![CDATA[
+      <p>Site responsive planteado en 14 idiomas con navegación horizontal pensado para reivindicar la desaparción del día más triste del año llamado “Bluemonday” con la colaboración de su creador: Cliff Arnall. Los usuarios pueden crear su cartel como apoyo al movimiento y compartirlo en redes sociales.</p>
+      ]]>
+    </desc>
+    <image_thumb>turismo-de-canarias-stop-bluemonday.jpg</image_thumb>
+    <images>
+      <image>turismo-de-canarias-stop-bluemonday-01.jpg</image>
+      <image>turismo-de-canarias-stop-bluemonday-02.jpg</image>
+      <image>turismo-de-canarias-stop-bluemonday-03.jpg</image>
+      <image>turismo-de-canarias-stop-bluemonday-04.jpg</image>
+      <image>turismo-de-canarias-stop-bluemonday-05.jpg</image>
+      <image>turismo-de-canarias-stop-bluemonday-06.jpg</image>
+      <image>turismo-de-canarias-stop-bluemonday-07.jpg</image>
+    </images>
+  </project>
+
+  <project>
+    <title>Arnau Vilardebò</title>
+    <url>/portfolio/arnau-vilardebo/</url>
+    <category>Website</category>
+    <tags>
+      <tag><![CDATA[<abbr title="Information Architecture">IA</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="User Experience">UX</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="Visual Design">VD</abbr>]]></tag>
+    </tags>
+    <desc>
+      <![CDATA[
+      <p>Site responsive para el actor y cuentero catalán Arnau Vilardebò con dos funciones básicas: vender entradas de la obra en cartel y tener presencia online para deifundir su obra y biografía.</p>
+      ]]>
+    </desc>
+    <image_thumb>arnau-vilardebo.jpg</image_thumb>
+    <images>
+      <image>arnau-vilardebo-01.jpg</image>
+      <image>arnau-vilardebo-02.jpg</image>
+      <image>arnau-vilardebo-03.jpg</image>
+      <image>arnau-vilardebo-04.jpg</image>
+      <image>arnau-vilardebo-05.jpg</image>
+      <image>arnau-vilardebo-06.jpg</image>
+      <image>arnau-vilardebo-07.jpg</image>
+    </images>
+  </project>
+
+  <project>
+    <title>Banc Sabadell - Negocio Internacional</title>
+    <url>/portfolio/banc-sabadell-internacional/</url>
+    <category>Website</category>
+    <tags>
+      <tag><![CDATA[<abbr title="User Experience">UX</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="Visual Design">VD</abbr>]]></tag>
+    </tags>
+    <desc>
+      <![CDATA[
+      <p>Web responsive para el departamento de creación de empresa internacional del Banc Sabadell. Uno de los objetivos fue modernizar la imagen online de la marca.</p>
+      ]]>
+    </desc>
+    <image_thumb>banc-sabadell-internacional.jpg</image_thumb>
+    <images>
+      <image>banc-sabadell-internacional-01.jpg</image>
+      <image>banc-sabadell-internacional-02.jpg</image>
+      <image>banc-sabadell-internacional-03.jpg</image>
+      <image>banc-sabadell-internacional-04.jpg</image>
+    </images>
+  </project>
+
+  <project>
+    <title>Banc Sabadell - Banca Online</title>
+    <url>/portfolio/banc-sabadell-banca-online/</url>
+    <category>Website</category>
+    <tags>
+      <tag><![CDATA[<abbr title="Information Architecture">IA</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="User Experience">UX</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="Visual Design">VD</abbr>]]></tag>
+    </tags>
+    <desc>
+      <![CDATA[
+      <p>Proyecto de mejora de la experiencia de usuario para la sección BS Online, donde los usuarios que tienen cuenta en la firma pueden gestionar sus cuentas bancarias.</p>
+      ]]>
+    </desc>
+    <image_thumb>banc-sabadell-banca-online.jpg</image_thumb>
+    <images>
+      <image>banc-sabadell-banca-online-01.jpg</image>
+      <image>banc-sabadell-banca-online-02.jpg</image>
+      <image>banc-sabadell-banca-online-03.jpg</image>
+    </images>
+  </project>
+
+  <project>
+    <title>AudiClass</title>
+    <url>/portfolio/audi-class/</url>
+    <category>Website</category>
+    <tags>
+      <tag><![CDATA[<abbr title="Information Architecture">IA</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="User Experience">UX</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="Visual Design">VD</abbr>]]></tag>
+    </tags>
+    <desc>
+      <![CDATA[
+      <p>Web dedicada a los clientes de Audi para ofrecer toda la información relativa a su vehículo desde su compra. Seguimiento del pedido, calendario de eventos, avisos de revisiones de mantenimiento y sus emails correspondientes.</p>
+      ]]>
+    </desc>
+    <image_thumb>audi-class.jpg</image_thumb>
+    <images>
+      <image>audi-class-01.jpg</image>
+      <image>audi-class-02.jpg</image>
+    </images>
+  </project>
+
+  <project>
+    <title>SB Hotels &amp; Inedit</title>
+    <url>/portfolio/inedit-escapadas/</url>
+    <category>Ecommerce</category>
+    <tags>
+      <tag><![CDATA[<abbr title="Information Architecture">IA</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="User Experience">UX</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="Visual Design">VD</abbr>]]></tag>
+    </tags>
+    <desc>
+      <![CDATA[
+      <p>Ecommerce de los packs de experiencias creados de la asociación de las marcas SB Hotels & Inedit. Cada experiencia incluye una noche en un hotel SB y la degustación de una Inedit.</p>
+      ]]>
+    </desc>
+    <image_thumb>inedit-escapadas.jpg</image_thumb>
+    <images>
+      <image>inedit-escapadas-01.jpg</image>
+      <image>inedit-escapadas-02.jpg</image>
+      <image>inedit-escapadas-03.jpg</image>
+      <image>inedit-escapadas-04.jpg</image>
+      <image>inedit-escapadas-05.jpg</image>
+      <image>inedit-escapadas-06.jpg</image>
+      <image>inedit-escapadas-07.jpg</image>
+      <image>inedit-escapadas-08.jpg</image>
+    </images>
+  </project>
+
+  <project>
+    <title>Munich</title>
+    <url>/portfolio/munich/</url>
+    <category>Ecommerce</category>
+    <tags>
+      <tag><![CDATA[<abbr title="Information Architecture">IA</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="User Experience">UX</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="Visual Design">VD</abbr>]]></tag>
+    </tags>
+    <desc>
+      <![CDATA[
+      <p>Ecommerce para la marca de zapatillas Munich, además de la venta del producto el objetivo era hacer un paralelismo online de sus tiendas físicas.</p>
+      ]]>
+    </desc>
+    <image_thumb>munich.jpg</image_thumb>
+    <images>
+      <image>munich-01.jpg</image>
+      <image>munich-02.jpg</image>
+      <image>munich-03.jpg</image>
+      <image>munich-04.jpg</image>
+      <image>munich-05.jpg</image>
+    </images>
+  </project>
+
+  <project>
+    <title>Blog Turismo de Canarias</title>
+    <url>/portfolio/turismo-de-canarias-blog/</url>
+    <category>Blog</category>
+    <tags>
+      <tag><![CDATA[<abbr title="Information Architecture">IA</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="User Experience">UX</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="Visual Design">VD</abbr>]]></tag>
+    </tags>
+    <desc>
+      <![CDATA[
+      <p>Blog oficial de Turismo Islas Canarias responsive, con artículos de interés que enlazan a la web de Turismo, redactados por personajes especialistas en cada motivación de viaje del usuario (descanso, deporte… etc.).</p>
+      ]]>
+    </desc>
+    <image_thumb>turismo-de-canarias-blog.jpg</image_thumb>
+    <images>
+      <image>turismo-de-canarias-blog-01.jpg</image>
+      <image>turismo-de-canarias-blog-02.jpg</image>
+    </images>
+  </project>
+
+  <project>
+    <title>AudiClass</title>
+    <url>/portfolio/audi-class/</url>
+    <category>Website</category>
+    <tags>
+      <tag><![CDATA[<abbr title="Information Architecture">IA</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="User Experience">UX</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="Visual Design">VD</abbr>]]></tag>
+    </tags>
+    <desc>
+      <![CDATA[
+      <p>Web dedicada a los clientes de Audi para ofrecer toda la información relativa a su vehículo desde su compra. Seguimiento del pedido, calendario de eventos, avisos de revisiones de mantenimiento y sus emails correspondientes.</p>
+      ]]>
+    </desc>
+    <image_thumb>audi-class.jpg</image_thumb>
+    <images>
+      <image>audi-class-01.jpg</image>
+      <image>audi-class-02.jpg</image>
+    </images>
+  </project>
+
+  <project>
+    <title>Nissan</title>
+    <url>/portfolio/nissan/</url>
+    <category>Plan CRM</category>
+    <tags>
+      <tag><![CDATA[<abbr title="Information Architecture">IA</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="User Experience">UX</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="Visual Design">VD</abbr>]]></tag>
+    </tags>
+    <desc>
+      <![CDATA[
+      <p>Ideación del concepto de comunicación e imagen gráfica del actual plan de CRM de Nissan. Las comunicaciones se centran en la persona, no en el coche. Emails responsive.</p>
+      ]]>
+    </desc>
+    <image_thumb>nissan.jpg</image_thumb>
+    <images>
+      <image>nissan-01.jpg</image>
+      <image>nissan-02.jpg</image>
+      <image>nissan-03.jpg</image>
+    </images>
+  </project>
+
+  <project>
+    <title>Volkswagen</title>
+    <url>/portfolio/volkswagen-email/</url>
+    <category>Plan CRM</category>
+    <tags>
+      <tag><![CDATA[Creatividad]]></tag>
+      <tag><![CDATA[<abbr title="Visual Design">VD</abbr>]]></tag>
+    </tags>
+    <desc>
+      <![CDATA[
+      <p>Plan de CRM de Volkswagen postventa. Este es un ejemplo de cuando existía una demora en la entrega del vehículo.</p>
+      ]]>
+    </desc>
+    <image_thumb>volkswagen-email.jpg</image_thumb>
+    <images>
+      <image>volkswagen-email-01.jpg</image>
+    </images>
+  </project>
+
+  <project>
+    <title>Pronovias</title>
+    <url>/portfolio/pronovias-app/</url>
+    <category><![CDATA[<abbr title="Application">APP</abbr>]]></category>
+    <tags>
+      <tag><![CDATA[<abbr title="Visual Design">VD</abbr>]]></tag>
+    </tags>
+    <desc>
+      <![CDATA[
+      <p>Aplicación con el objetivo principal de concertar cita para prueba de vestido, donde también se pueden consultar las diferentes colecciones.</p>
+      ]]>
+    </desc>
+    <image_thumb>pronovias-app.jpg</image_thumb>
+    <images>
+      <image>pronovias-app-01.jpg</image>
+    </images>
+  </project>
+
+  <project>
+    <title>Audi APP</title>
+    <url>/portfolio/audi-app/</url>
+    <category><![CDATA[<abbr title="Application">APP</abbr>]]></category>
+    <tags>
+      <tag><![CDATA[<abbr title="User Experience">UX</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="Visual Design">VD</abbr>]]></tag>
+    </tags>
+    <desc>
+      <![CDATA[
+      <p>Aplicación creada para el Salón del Automóvil para Audi pensada para la captación de datos y para mejorar la base de datos de sus clientes.</p>
+      ]]>
+    </desc>
+    <image_thumb>audi-app.jpg</image_thumb>
+    <images>
+      <image>audi-app-01.jpg</image>
+      <image>audi-app-02.jpg</image>
+    </images>
+  </project>
+
+  <project>
+    <title>Requena i Sanchez Advocats</title>
+    <url>/portfolio/requena-i-sanchez/</url>
+    <category>Logo</category>
+    <tags>
+      <tag>Marca</tag>
+      <tag>Papelería</tag>
+    </tags>
+    <desc>
+      <![CDATA[
+      <p>Creación de la imagen corporativa para un bufete de abogados, marca y papelería.</p>
+      ]]>
+    </desc>
+    <image_thumb>requena-i-sanchez.png</image_thumb>
+    <images>
+      <image>requena-i-sanchez-01.jpg</image>
+      <image>requena-i-sanchez-02.jpg</image>
+    </images>
+  </project>
+
+  <project>
+    <title>Interpartes</title>
+    <url>/portfolio/interpartes/</url>
+    <category>Logo</category>
+    <tags>
+      <tag>Marca</tag>
+      <tag>Papelería</tag>
+    </tags>
+    <desc>
+      <![CDATA[
+      <p>Creación de la imagen corporativa para la empresa Interpartes, que se dedica a la intermediación en el asesoramiento jurídico, económico y urbanístico y el asesoramiento en marketing y management a empresas, profesionales, instituciones y administraciones públicas.</p>
+      ]]>
+    </desc>
+    <image_thumb>interpartes.png</image_thumb>
+    <images>
+      <image>interpartes-01.jpg</image>
+      <image>interpartes-02.jpg</image>
+    </images>
+  </project>
+
+  <project>
+    <title>The Mount Data</title>
+    <url>/portfolio/the-mount-data/</url>
+    <category>Logo &amp; Website</category>
+    <tags>
+      <tag>Marca</tag>
+      <tag>Papelería</tag>
+      <tag><![CDATA[<abbr title="Information Architecture">IA</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="User Experience">UX</abbr>]]></tag>
+      <tag><![CDATA[<abbr title="Visual Design">VD</abbr>]]></tag>
+    </tags>
+    <desc>
+      <![CDATA[
+      <p>Creación de la imagen corporativa para Mountdata, dedicada al análisis de datos para mejorar la gestión y los resultados de las campañas de marketing. Site responsive en 3 idiomas.</p>
+      <p><a href="http://www.themountdata.com/" target="_blank">www.themountdata.com</a></p>
+      ]]>
+    </desc>
+    <image_thumb>the-mount-data.png</image_thumb>
+    <images>
+      <image>the-mount-data-01.jpg</image>
+      <image>the-mount-data-02.jpg</image>
+    </images>
+  </project>
+
 </portfolio>
