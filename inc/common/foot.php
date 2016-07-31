@@ -12,7 +12,7 @@
           </nav>
         </div>
         <div class="small-2 columns">
-          <a class="footer__btn btn btn--top" href="#top">Up</a>
+          <a class="footer__btn btn btn--top" href="#">Up</a>
         </div>
       </div>
     </footer>

@@ -16,7 +16,7 @@
   <body>
 
     <!-- Header -->
-    <header class="header header--fixed" id="top">
+    <header class="header header--fixed">
       <div class="row">
         <div class="small-6 columns">
           <a class="header__brand" href="/">
