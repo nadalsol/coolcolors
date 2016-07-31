@@ -4,14 +4,12 @@
 
 
 .hero {
+
   position: relative;
-  @include size($hero-width, $hero-height);
+
   video {
-    min-width: 100%;
-    min-height: 100%;
     z-index: -1;
-    @include translate(-50%, -50%);
-    @include positioner(auto, auto, top, 50%, left, 50%);
+    @include size(100%, auto);
   }
   &__title {
     margin: 0;
@@ -19,7 +17,10 @@
     font-weight: 700;
     line-height: .9;
     color: $hero-font-color;
-    @include positioner(auto, auto, bottom, $space-kilo-byte, left, $space-mega-byte);
+    @include positioner(auto, auto, bottom, $space-mega-byte, left, $space-mega-byte);
+    @media #{$large-up} {
+      bottom: 130px;
+    }
     > span {
       display: block;
     }
@@ -27,4 +28,5 @@
   &--offset {
     margin-top: $header-height;
   }
+
 }

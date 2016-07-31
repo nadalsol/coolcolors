@@ -10689,29 +10689,9 @@ if (typeof jQuery === 'undefined') {
  * The document ready event executes already when the HTML-Document is loaded
  * and the DOM is ready, even if all the graphics haven’t loaded yet.
  */
-$(document).ready(function() {
-
-  /*
-   * Set Hero height
-   *
-   * Get Viewport height - Header Main height
-   * and assign it to the Hero.
-   *
-   */
-  function setHeroHeight() {
-    var viewportHeight = $(window).height(),
-        headerMainHeight = $('#top').outerHeight(),
-        heroHeight = viewportHeight - headerMainHeight;
-    $('#hero').css('height', heroHeight);
-  }
-  // On window load
-  setHeroHeight();
-  // On window resize
-  $(window).resize(function() {
-    setHeroHeight();
-  });
-
-});
+// $(document).ready(function() {
+  // Your code here...
+// });
 
 
 /*
