@@ -20,7 +20,7 @@
       <div class="row">
         <div class="small-6 columns">
           <a class="header__brand" href="/">
-            <img src="/img/cool-colors-logo.svg" width="242" height="42" alt="CoolColors">
+            <img src="/img/cool-colors-logo.svg" alt="CoolColors">
           </a>
         </div>
         <div class="small-6 columns">

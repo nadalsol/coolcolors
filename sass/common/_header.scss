@@ -4,22 +4,31 @@
 
 
 .header {
+
   padding-top: $space-giga-byte;
   padding-bottom: $space-giga-byte;
   background-color: white;
   @include size($header-width, $header-height);
+
   &--fixed {
     position: fixed;
     top: 0;
     left: 0;
     z-index: $zindex-header;
   }
+
   &__brand {
     display: inline-block;
     @include transition(transform .3s);
     &:hover,
     &:focus {
       @include scale(1.05);
+    }
+    > img {
+      width: 100%;
+      @media #{$medium-up} {
+        width: auto;
+      }
     }
   }
   &__contact {
@@ -57,4 +66,5 @@
       vertical-align: text-bottom;
     }
   }
+  
 }
