@@ -11,20 +11,25 @@
     z-index: -1;
     @include size(100%, auto);
   }
+
   &__title {
     margin: 0;
-    font-size: $hero-heading-font-size;
     font-weight: 700;
     line-height: .9;
     color: $hero-font-color;
     @include positioner(auto, auto, bottom, $space-mega-byte, left, $space-mega-byte);
+    @media #{$medium-up} {
+      font-size: $hero-heading-font-size-md;
+    }
     @media #{$large-up} {
+      font-size: $hero-heading-font-size-lg;
       bottom: 130px;
     }
     > span {
       display: block;
     }
   }
+
   &--offset {
     margin-top: $header-height;
   }

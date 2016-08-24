@@ -20,6 +20,10 @@
   &__brand {
     display: inline-block;
     @include transition(transform .3s);
+    @media #{$small-only} {
+      padding-top: $space-byte;
+      padding-bottom: $space-byte;
+    }
     &:hover,
     &:focus {
       @include scale(1.05);
@@ -40,8 +44,8 @@
       @include list-inline(0, 0);
     }
     li {
-      &:first-child {
-        &:after {
+      &:first-child:after {
+        @media #{$medium-up} {
           content: '|';
           color: $brand-secondary;
         }
@@ -53,10 +57,14 @@
       }
     }
     a {
-      padding-left: $space-mega-byte;
-      padding-right: $space-mega-byte;
+      padding-left: $space-byte;
+      padding-right: $space-byte;
       color: $header-contact-font-color;
       @include transition(color .3s);
+      @media #{$medium-up} {
+        padding-left: $space-mega-byte;
+        padding-right: $space-mega-byte;
+      }
       &:hover,
       &:focus {
         color: $brand-secondary;
