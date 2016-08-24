@@ -41,10 +41,14 @@
       display: block;
       position: relative;
       > div {
-        padding-left: $space-kilo-byte;
-        padding-right: $space-kilo-byte;
-        @include positioner(100%, $portfolio-categories-size, bottom, 0, left, 0);
-        @include rgba-bg(black, 0, 0, 0, .7);
+        display: none;
+        @media #{$medium-up} {
+          display: block;
+          padding-left: $space-kilo-byte;
+          padding-right: $space-kilo-byte;
+          @include positioner(100%, $portfolio-categories-size, bottom, 0, left, 0);
+          @include rgba-bg(black, 0, 0, 0, .7);
+        }
       }
       &:hover {
         > div {
