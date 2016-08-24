@@ -96,19 +96,6 @@
       display: block;
       @include size(100%, auto);
     }
-    &--soon {
-      > a {
-        pointer-events: none;
-        > span {
-          display: block;
-          padding: 25%;
-          background-color: $brand-secondary;
-        }
-      }
-      img {
-        opacity: .2;
-      }
-    }
   }
 
 }
