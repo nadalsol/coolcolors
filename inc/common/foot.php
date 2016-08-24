@@ -1,17 +1,10 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="row">
-        <div class="small-10 columns">
-          <nav class="footer__contact">
-            <ul>
-              <li>© coolcolors 2015</li>
-              <li>
-                <a href="mailto:coolcolors@gmail.com" class="text-uppercase">Contact me</a>
-              </li>
-            </ul>
-          </nav>
+        <div class="small-12 medium-10 columns">
+          <?php include_once ($_SERVER['DOCUMENT_ROOT'].'/inc/common/contact-foot.php'); ?>
         </div>
-        <div class="small-2 columns">
+        <div class="small-12 medium-2 columns">
           <a class="footer__btn btn btn--top" href="#">Up</a>
         </div>
       </div>

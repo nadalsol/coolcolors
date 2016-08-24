@@ -102,15 +102,13 @@ $btn-font-weight-top:   800 !default;
 // Common
 // -------------------------
 
+// Contact
+$contact-font-color-header: $gray-cool-dark !default;
+$contact-font-color-footer: $gray-cool-light !default;
+
 // Header
 $header-width:              100% !default;
 $header-height:             82px !default;
-$header-contact-font-color: $gray-cool-dark !default;
-
-// Footer
-$footer-contact-font-color: $gray-cool-light !default;
-$footer-contact-pipe-color: $gray-cool-darker !default;
-$footer-contact-font-size:  ceil(($font-size-base * 1.14)) !default; // ~16px
 
 
 // Media Queries

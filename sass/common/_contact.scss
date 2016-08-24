@@ -1,0 +1,58 @@
+//
+// Contact
+// --------------------------------------------------
+
+
+.contact {
+
+  ul {
+    @include list-inline(0, 0);
+  }
+  li {
+    &:after {
+      @include splitter;
+    }
+    &:last-child {
+      opacity: .55;
+      &:after {
+        @include splitter($content: '', $pad-h: 0);
+      }
+    }
+  }
+  a {
+    font-weight: 700;
+    @include transition(color .3s);
+    &:hover,
+    &:focus {
+      color: $brand-secondary;
+    }
+  }
+  img {
+    vertical-align: text-bottom;
+  }
+
+  &--header {
+    color: $contact-font-color-header;
+    line-height: $header-height / 2;
+    text-align: right;
+    a {
+      color: $contact-font-color-header;
+    }
+  }
+
+  &--footer {
+    color: $contact-font-color-footer;
+    ul {
+      @media #{$small-only} {
+        margin-bottom: $space-giga-byte;
+      }
+      @media #{$medium-up} {
+        line-height: $btn-size;
+      }
+    }
+    a {
+      color: $contact-font-color-footer;
+    }
+  }
+  
+}

@@ -86,10 +86,10 @@
     }
     li {
       &:after {
-        @include splitter-after;
+        @include splitter($font-weight: 700);
       }
       &:last-child:after {
-        @include splitter-after($content: '', $pad-h: 0);
+        @include splitter($content: '', $pad-h: 0);
       }
     }
     img {

@@ -216,13 +216,21 @@
   margin-top: -($height/2);
 }
 
-// Splitter after
-@mixin splitter-after($content: '|', $pad-h: $space-mega-byte, $font-weight: 700, $color: $brand-secondary) {
+// Splitter
+@mixin splitter($content: '|', $pad-h: $space-byte, $font-weight: 400, $color: $brand-secondary) {
   content: $content;
   padding-left: $pad-h;
   padding-right: $pad-h;
   font-weight: $font-weight;
   color: $color;
+  @media #{$medium-up} {
+    padding-left: floor($pad-h * 2);
+    padding-right: floor($pad-h * 2);
+  }
+  @media #{$large-up} {
+    padding-left: floor($pad-h * 3);
+    padding-right: floor($pad-h * 3);
+  }
 }
 
 // WebKit-style focus

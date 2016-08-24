@@ -35,44 +35,5 @@
       }
     }
   }
-  &__contact {
-    font-weight: 700;
-    line-height: $header-height / 2;
-    text-align: right;
-    color: $header-contact-font-color;
-    ul {
-      @include list-inline(0, 0);
-    }
-    li {
-      &:first-child:after {
-        @media #{$medium-up} {
-          content: '|';
-          color: $brand-secondary;
-        }
-      }
-      &:last-child {
-        a {
-          padding-right: 0;
-        }
-      }
-    }
-    a {
-      padding-left: $space-byte;
-      padding-right: $space-byte;
-      color: $header-contact-font-color;
-      @include transition(color .3s);
-      @media #{$medium-up} {
-        padding-left: $space-mega-byte;
-        padding-right: $space-mega-byte;
-      }
-      &:hover,
-      &:focus {
-        color: $brand-secondary;
-      }
-    }
-    img {
-      vertical-align: text-bottom;
-    }
-  }
   
 }

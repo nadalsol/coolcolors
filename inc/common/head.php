@@ -24,18 +24,7 @@
           </a>
         </div>
         <div class="small-6 columns">
-          <nav class="header__contact">
-            <ul>
-              <li>
-                <a href="mailto:coolcolors@gmail.com" class="text-uppercase">Contact me</a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/in/miriamsoto" target="_blank">
-                  <img src="/img/linkedin-logo.svg" width="20" alt="LinkedIn">
-                </a>
-              </li>
-            </ul>
-          </nav>
+          <?php include_once ($_SERVER['DOCUMENT_ROOT'].'/inc/common/contact-head.php'); ?>
         </div>
       </div>
     </header>

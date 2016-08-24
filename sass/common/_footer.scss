@@ -7,33 +7,14 @@
 
   background-color: white;
   @include spacer-v-top(60px);
-
-  &__contact {
-    color: $footer-contact-font-color;
-    ul {
-      line-height: $btn-size;
-      @include list-inline(0, 0);
-    }
-    li {
-      &:first-child {
-        font-size: $footer-contact-font-size;
-      }
-      &:after {
-        @include splitter-after($color: $footer-contact-pipe-color);
-      }
-    }
-    a {
-      font-weight: 700;
-      color: $footer-contact-font-color;
-      @include transition(color .3s);
-      &:hover,
-      &:focus {
-        color: $brand-secondary;
-      }
-    }
+  @media #{$small-only} {
+    text-align: center;
   }
+
   &__btn {
-    float: right;
+    @media #{$medium-up} {
+      float: right;
+    }
   }
   
 }
