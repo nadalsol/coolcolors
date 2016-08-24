@@ -4,12 +4,13 @@
 
 
 .about {
-  padding-top: 70px;
-  padding-bottom: 70px;
+
   text-align: center;
+  @include spacer-v;
   @media #{$medium-up} {
     text-align: left;
   }
+
   &__title {
     position: relative;
     margin-top: 0;
@@ -77,6 +78,7 @@
       }
     }
   }
+
   &--me {
     background-color: white;
     .about__subtitle {
@@ -92,4 +94,5 @@
       margin-bottom: $space-zeta-byte;
     }
   }
+  
 }

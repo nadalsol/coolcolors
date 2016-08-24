@@ -4,14 +4,10 @@
 
 
 .footer {
-  padding-top: 60px;
+
   background-color: white;
-  @media #{$medium-up} {
-    padding-top: 90px;
-  }
-  @media #{$large-up} {
-    padding-top: 120px;
-  }
+  @include spacer-v-top(60px);
+
   &__contact {
     color: $footer-contact-font-color;
     ul {
@@ -39,4 +35,5 @@
   &__btn {
     float: right;
   }
+  
 }

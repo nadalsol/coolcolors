@@ -243,3 +243,32 @@
   display: none !important;
   visibility: hidden !important;
 }
+
+//
+// Responsive vertical spacer
+//
+// Spacing configuration for padding visual consistency,
+// for small, medium and large devices.
+//
+@mixin spacer-v($pad: $space-zeta-byte) {
+  padding-top: $pad;
+  padding-bottom: $pad;
+  @media #{$medium-up} {
+    padding-top: floor($pad * 1.5);
+    padding-bottom: floor($pad * 1.5);
+  }
+  @media #{$large-up} {
+    padding-top: floor($pad * 2);
+    padding-bottom: floor($pad * 2);
+  }
+}
+
+@mixin spacer-v-top($pad: $space-zeta-byte) {
+  padding-top: $pad;
+  @media #{$medium-up} {
+    padding-top: floor($pad * 1.5);
+  }
+  @media #{$large-up} {
+    padding-top: floor($pad * 2);
+  }
+}
