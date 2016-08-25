@@ -12,7 +12,7 @@
 ?>
 
 <!-- Carousel -->
-<div class="carousel carousel--offset slide" id="carousel" data-ride="carousel">
+<div class="carousel slide" id="carousel" data-ride="carousel">
   <div class="row">
     <div class="small-12 columns">
       
