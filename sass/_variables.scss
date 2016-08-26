@@ -21,8 +21,8 @@ $gray-cool-light:       #84909f !default;
 $gray-cool-lighter:     #bdc6d2 !default;
 
 $brand-primary:         #c9de55 !default;
-$brand-secondary-light: #fc7e6a !default;
 $brand-secondary-dark:  #ef6952 !default;
+$brand-secondary-light: #fc7e6a !default;
 
 
 // Core
@@ -58,8 +58,9 @@ $font-family-base:      $font-family-sans-serif !default;
 
 $font-size-base:        14px !default;
 
-$font-size-4xl:         ceil($font-size-base * 5.42) !default;    // ~76px
-$font-size-3xl:         ceil($font-size-base * 3.42) !default;    // ~48px
+$font-size-5xl:         ceil($font-size-base * 3.42) !default;    // ~48px
+$font-size-4xl:         floor(($font-size-base * 2.6)) !default;  // ~36px
+$font-size-3xl:         floor(($font-size-base * 2.15)) !default; // ~30px
 $font-size-2xl:         ceil($font-size-base * 1.71) !default;    // ~24px
 $font-size-xl:          ceil($font-size-base * 1.42) !default;    // ~20px
 $font-size-lg:          ceil($font-size-base * 1.25) !default;    // ~18px
@@ -70,12 +71,12 @@ $font-size-2xs:         ceil($font-size-base * 0.78) !default;    // ~11px
 $font-size-3xs:         ceil($font-size-base * 0.71) !default;    // ~10px
 $font-size-4xs:         ceil($font-size-base * 0.64) !default;    // ~9px
 
-$font-size-h1:          floor(($font-size-base * 2.6)) !default;  // ~36px
-$font-size-h2:          floor(($font-size-base * 2.15)) !default; // ~30px
-$font-size-h3:          ceil(($font-size-base * 1.7)) !default;   // ~24px
-$font-size-h4:          ceil(($font-size-base * 1.25)) !default;  // ~18px
+$font-size-h1:          $font-size-4xl !default;
+$font-size-h2:          $font-size-3xl !default;
+$font-size-h3:          $font-size-2xl !default;
+$font-size-h4:          $font-size-lg !default;
 $font-size-h5:          $font-size-base !default;
-$font-size-h6:          ceil(($font-size-base * 0.85)) !default;  // ~12px
+$font-size-h6:          $font-size-xs !default;
 
 $line-height-base:      1.428571429 !default; // 20/14
 $line-height-computed:  floor($font-size-base * $line-height-base) !default; // ~20px
@@ -155,9 +156,11 @@ $xxlarge-up: "#{$screen} and (min-width:#{$screen-xxl-min})" !default;
 // -------------------------
 
 // About
-$about-title-font-size:          $font-size-3xl !default;
+$about-title-font-size-sm:       $font-size-4xl !default;
+$about-title-font-size-md:       $font-size-5xl !default;
 $about-title-font-color:         $gray-cool-darker !default;
-$about-subtitle-font-size:       $font-size-xl !default;
+$about-subtitle-font-size-sm:    $font-size-md !default;
+$about-subtitle-font-size-md:    $font-size-xl !default;
 $about-subtitle-font-color:      $gray-cool-dark !default;
 $about-lead-font-size:           ceil(($font-size-base * 1.78)) !default; // ~25px
 $about-lead-font-color:          $gray-cool-darker !default;

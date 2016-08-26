@@ -16,10 +16,12 @@
     margin-top: 0;
     margin-bottom: $space-giga-byte;
     padding-bottom: $space-giga-byte;
-    font-size: $about-title-font-size;
+    font-size: $about-title-font-size-sm;
     font-weight: 300;
-    line-height: .9;
     color: $about-title-font-color;
+    @media #{$medium-up} {
+      font-size: $about-title-font-size-md;
+    }
     &:after {
       margin-left: -50px;
       content: '';
@@ -34,10 +36,13 @@
   }
   &__subtitle {
     margin-top: 0;
-    font-size: $about-subtitle-font-size;
+    font-size: $about-subtitle-font-size-sm;
     font-weight: 400;
     line-height: 1.2;
     color: $about-subtitle-font-color;
+    @media #{$medium-up} {
+      font-size: $about-subtitle-font-size-md;
+    }
     &__category {
       &:after {
         content: ' / ';
@@ -91,7 +96,10 @@
   &--project {
     background-color: $gray-lightest;
     .about__subtitle {
-      margin-bottom: $space-zeta-byte;
+      margin-bottom: $space-giga-byte;
+      @media #{$medium-up} {
+        margin-bottom: $space-zeta-byte;
+      }
     }
   }
   
