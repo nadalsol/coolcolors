@@ -21,7 +21,8 @@ $gray-cool-light:       #84909f !default;
 $gray-cool-lighter:     #bdc6d2 !default;
 
 $brand-primary:         #c9de55 !default;
-$brand-secondary:       #fc7e6a !default;
+$brand-secondary-light: #fc7e6a !default;
+$brand-secondary-dark:  #ef6952 !default;
 
 
 // Core
@@ -92,9 +93,9 @@ $btn-font-size:         $font-size-lg !default;
 $btn-font-weight:       400 !default;
 $btn-line-height:       $btn-size !default;
 $btn-font-color:        #fff !default;
-$btn-font-color-hover:  $brand-primary !default;
+$btn-font-color-hover:  #fff !default;
 $btn-bg-color:          $brand-primary !default;
-$btn-bg-color-hover:    $gray-cool-darker !default;
+$btn-bg-color-hover:    $brand-secondary-dark !default;
 
 $btn-font-weight-top:   800 !default;
 

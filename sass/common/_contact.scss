@@ -24,7 +24,7 @@
     @include transition(color .3s);
     &:hover,
     &:focus {
-      color: $brand-secondary;
+      color: $brand-secondary-dark;
     }
   }
   img {

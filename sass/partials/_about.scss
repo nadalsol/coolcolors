@@ -41,13 +41,13 @@
     &__category {
       &:after {
         content: ' / ';
-        color: $brand-secondary;
+        color: $brand-secondary-light;
       }
     }
     &__tag {
       &:after {
         content: ' | ';
-        color: $brand-secondary;
+        color: $brand-secondary-light;
       }
       &:last-child {
         &:after {

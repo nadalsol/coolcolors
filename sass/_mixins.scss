@@ -217,7 +217,7 @@
 }
 
 // Splitter
-@mixin splitter($content: '|', $pad-h: $space-byte, $font-weight: 400, $color: $brand-secondary) {
+@mixin splitter($content: '|', $pad-h: $space-byte, $font-weight: 400, $color: $brand-secondary-light) {
   content: $content;
   padding-left: $pad-h;
   padding-right: $pad-h;
