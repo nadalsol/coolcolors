@@ -1,10 +1,11 @@
 //
-// About
+// Briefing
 // --------------------------------------------------
 
 
-.about {
+.briefing {
 
+  background-color: $gray-lightest;
   text-align: center;
   @include spacer-v;
   @media #{$medium-up} {
@@ -16,11 +17,11 @@
     margin-top: 0;
     margin-bottom: $space-giga-byte;
     padding-bottom: $space-giga-byte;
-    font-size: $about-title-font-size-sm;
+    font-size: $briefing-title-font-size-sm;
     font-weight: 300;
-    color: $about-title-font-color;
+    color: $briefing-title-font-color;
     @media #{$medium-up} {
-      font-size: $about-title-font-size-md;
+      font-size: $briefing-title-font-size-md;
     }
     &:after {
       margin-left: -50px;
@@ -36,12 +37,14 @@
   }
   &__subtitle {
     margin-top: 0;
-    font-size: $about-subtitle-font-size-sm;
+    margin-bottom: $space-giga-byte;
+    font-size: $briefing-subtitle-font-size-sm;
     font-weight: 400;
     line-height: 1.2;
-    color: $about-subtitle-font-color;
+    color: $briefing-subtitle-font-color;
     @media #{$medium-up} {
-      font-size: $about-subtitle-font-size-md;
+      margin-bottom: $space-zeta-byte;
+      font-size: $briefing-subtitle-font-size-md;
     }
     &__category {
       &:after {
@@ -64,41 +67,22 @@
   &__lead {
     margin-top: 0;
     margin-bottom: $space-byte;
-    font-size: $about-lead-font-size;
+    font-size: $briefing-lead-font-size;
     font-weight: 300;
-    color: $about-lead-font-color;
+    color: $briefing-lead-font-color;
   }
   &__desc {
     p,
     ul,
     ol {
       margin-bottom: $space-giga-byte;
-      font-size: $about-desc-font-size;
+      font-size: $briefing-desc-font-size;
       font-weight: 400;
-      color: $about-desc-font-color;
+      color: $briefing-desc-font-color;
     }
     p {
       &:last-child {
         margin-bottom: 0;
-      }
-    }
-  }
-
-  &--me {
-    background-color: white;
-    .about__subtitle {
-      margin-bottom: $space-zeta-byte;
-      @media #{$medium-up} {
-        margin-bottom: 0;
-      }
-    }
-  }
-  &--project {
-    background-color: $gray-lightest;
-    .about__subtitle {
-      margin-bottom: $space-giga-byte;
-      @media #{$medium-up} {
-        margin-bottom: $space-zeta-byte;
       }
     }
   }

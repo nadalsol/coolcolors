@@ -23,6 +23,7 @@ $gray-cool-lighter:     #bdc6d2 !default;
 $brand-primary:         #c9de55 !default;
 $brand-secondary-dark:  #ef6952 !default;
 $brand-secondary-light: #fc7e6a !default;
+$brand-tertiary:        #a5f6ed !default;
 
 
 // Core
@@ -152,20 +153,23 @@ $xlarge-only: "#{$screen} and (min-width:#{$screen-xl-min}) and (max-width:#{$sc
 $xxlarge-up: "#{$screen} and (min-width:#{$screen-xxl-min})" !default;
 
 
-// Panels
+// Partials
 // -------------------------
 
-// About
-$about-title-font-size-sm:       $font-size-4xl !default;
-$about-title-font-size-md:       $font-size-5xl !default;
-$about-title-font-color:         $gray-cool-darker !default;
-$about-subtitle-font-size-sm:    $font-size-md !default;
-$about-subtitle-font-size-md:    $font-size-xl !default;
-$about-subtitle-font-color:      $gray-cool-dark !default;
-$about-lead-font-size:           ceil(($font-size-base * 1.78)) !default; // ~25px
-$about-lead-font-color:          $gray-cool-darker !default;
-$about-desc-font-size:           ceil(($font-size-base * 1.21)) !default; // ~17px
-$about-desc-font-color:          $gray-cool-dark !default;
+// About me
+// $aboutme
+
+// Briefing
+$briefing-title-font-size-sm:    $font-size-4xl !default;
+$briefing-title-font-size-md:    $font-size-5xl !default;
+$briefing-title-font-color:      $gray-cool-darker !default;
+$briefing-subtitle-font-size-sm: $font-size-md !default;
+$briefing-subtitle-font-size-md: $font-size-xl !default;
+$briefing-subtitle-font-color:   $gray-cool-dark !default;
+$briefing-lead-font-size:        ceil(($font-size-base * 1.78)) !default; // ~25px
+$briefing-lead-font-color:       $gray-cool-darker !default;
+$briefing-desc-font-size:        ceil(($font-size-base * 1.21)) !default; // ~17px
+$briefing-desc-font-color:       $gray-cool-dark !default;
 
 // Carousel
 $carousel-width:                 100% !default;

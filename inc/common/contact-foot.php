@@ -7,7 +7,7 @@
   <ul>
     <li>© coolcolors 2015-<?php echo $current_year; ?></li>
     <li>
-      <a href="mailto:coolcolors@gmail.com" class="text-uppercase">About me</a>
+      <a href="/about-me" class="text-uppercase">About me</a>
     </li>
     <li>
       <a href="https://www.linkedin.com/in/miriamsoto" target="_blank">

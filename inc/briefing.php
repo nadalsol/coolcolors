@@ -13,25 +13,25 @@
   endforeach;
 ?>
 
-<!-- About project -->
-<div class="about about--project">
+<!-- Briefing -->
+<div class="briefing">
 
   <div class="row">
     <div class="small-12 medium-8 medium-centered columns">
       <div class="row">
         <div class="small-12 columns">
-          <h2 class="about__title text-uppercase"><?php echo $projects_title; ?></h2>
-          <h3 class="about__subtitle text-uppercase">
+          <h1 class="briefing__title text-uppercase"><?php echo $projects_title; ?></h1>
+          <h2 class="briefing__subtitle text-uppercase">
           <?php
-            echo '<span class="about__subtitle__category">' . $projects_category . '</span>';
+            echo '<span class="briefing__subtitle__category">' . $projects_category . '</span>';
             for ($i=0; $i < count($tags_array); $i++) {
-              echo '<span class="about__subtitle__tag">' . $tags_array[$i] . '</span>';
+              echo '<span class="briefing__subtitle__tag">' . $tags_array[$i] . '</span>';
             }
           ?>
-          </h3>
+          </h2>
         </div>
         <div class="small-12 columns" lang="es-ES">
-          <div class="about__desc"><?php echo $projects_desc; ?></div>
+          <div class="briefing__desc"><?php echo $projects_desc; ?></div>
         </div>
       </div>
     </div>

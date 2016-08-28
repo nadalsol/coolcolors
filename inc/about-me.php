@@ -1,23 +1,27 @@
 <!-- About me -->
-<div class="about about--me">
+<div class="about-me">
 
-  <div class="row">
-    <div class="small-12 medium-11 medium-centered large-10 columns">
-      <div class="row">
-        <div class="small-12 medium-3 columns">
-          <h2 class="about__title text-uppercase">Miriam Soto</h2>
-          <h3 class="about__subtitle text-uppercase">Information Architect, <abbr title="User Experience">UX</abbr> &amp; Visual Designer.</h3>
-        </div>
-        <div class="small-12 medium-8 medium-offset-1 columns" lang="es-ES">
-          <h4 class="about__lead text-uppercase">Claro. Sencillo. Atractivo.</h4>
-          <div class="about__desc">
-            <p>Éstas son las palabras que describen un buen proyecto digital.</p>
-            <p>En mis proyectos siempre realizo una estructura clara de la información utilizando una gran dosis de sentido común, una navegación e interfaz que proporcionen una experiencia fluida y satisfactoria hacia nuestro objetivo  utilizando la empatía con el usuario y una imagen limpia y seductora que capte la atención al instante.</p>
-            <p>Todo nace en el papel en blanco, de una idea y de un objetivo.</p>
-          </div>
-        </div>
-      </div>
+  <div class="about-me__bio">
+    <p class="about-me__bio__img">
+      <img src="/img/about-me/miriam-smiling.jpg" alt="Miriam Soto">
+    </p>
+    <div class="about-me__bio__info">
+      <h2>Miriam Soto</h2>
+      <h1>UX & Visual Designer</h1>
+      <p>
+        Contact me<br />
+        <a href="mailto:coolcolors@gmail.com">coolcolors@gmail.com</a>
+      </p>
     </div>
+  </div>
+
+  <div class="about-me__desc">
+    <p>Como diseñadora de proyectos digitales, desarrollo el concepto, la estructura (Arquitectura de la información), el prototipado de wireframes y diseño de la experiencia de usuario (<abbr title="User Experience">UX</abbr>/<abbr title="User Interface">UI</abbr>) y el lenguaje gráfico (Diseño visual, VD).</p>
+    <p>Cuento con amplia experiencia en el campo de la Comunicación y el Branding.</p>
+    <p>
+      Todo nace en el papel en blanco, de una idea y de un objetivo.<br />
+      ¿Empezamos?
+    </p>
   </div>
 
 </div>

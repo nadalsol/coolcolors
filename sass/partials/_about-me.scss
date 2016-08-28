@@ -1,0 +1,36 @@
+//
+// About me
+// --------------------------------------------------
+
+
+.about-me {
+
+  // background-color: $gray-lightest;
+  // text-align: center;
+  // @include spacer-v;
+  // @media #{$medium-up} {
+  //   text-align: left;
+  // }
+
+  &__bio {
+    background-color: $brand-tertiary;
+    @include clearfix;
+    &__img {
+      float: left;
+      width: 50%;
+      margin-bottom: 0;
+      > img {
+        @include size(100%, auto);
+      }
+    }
+    &__info {
+      float: left;
+      width: 50%;
+    }
+  }
+
+  &__desc {
+    //
+  }
+  
+}

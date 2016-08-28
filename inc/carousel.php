@@ -2,6 +2,7 @@
   $xml = simplexml_load_file($_SERVER['DOCUMENT_ROOT'].'/projects.xml') or die('Error: Cannot create object');
   foreach($xml->children() as $projects) :
     if ($projects->url == $_SERVER['REQUEST_URI']) {
+      $projects_title = $projects->title;
       $projects_url = $projects->url;
       $images_array = array();
       foreach($projects->images->image as $image) {
@@ -19,7 +20,7 @@
       <div class="carousel-inner" role="listbox">
         <?php for ($i=0; $i < count($images_array); $i++) : ?>
         <div class="item <?php if($i==0) {echo 'active';} ?>">
-          <img src="/img<?php echo $projects_url; ?><?php echo $images_array[$i]; ?>" alt=" ">
+          <img src="/img<?php echo $projects_url . $images_array[$i]; ?>" alt="<?php echo $projects_title . ' - ' . $i; ?>">
         </div>
         <?php endfor; ?>
       </div>
