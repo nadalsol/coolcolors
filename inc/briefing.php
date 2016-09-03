@@ -20,7 +20,7 @@
     <div class="small-12 medium-8 medium-centered columns">
       <div class="row">
         <div class="small-12 columns">
-          <h1 class="briefing__title text-uppercase"><?php echo $projects_title; ?></h1>
+          <h1 class="briefing__title text-uppercase hr-bot"><?php echo $projects_title; ?></h1>
           <h2 class="briefing__subtitle text-uppercase">
           <?php
             echo '<span class="briefing__subtitle__category">' . $projects_category . '</span>';

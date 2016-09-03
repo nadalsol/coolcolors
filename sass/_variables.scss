@@ -15,7 +15,8 @@ $gray-light:            lighten($gray-base, 46.7%) !default; // #777
 $gray-lighter:          lighten($gray-base, 60%) !default;   // #999
 $gray-lightest:         lighten($gray-base, 93.5%) !default; // #eee
 
-$gray-cool-darker:      #2b2e32 !default;
+$gray-cool-darkest:     #2b2e32 !default;
+$gray-cool-darker:      #51555b !default;
 $gray-cool-dark:        #5c6470 !default;
 $gray-cool-light:       #84909f !default;
 $gray-cool-lighter:     #bdc6d2 !default;
@@ -59,6 +60,7 @@ $font-family-base:      $font-family-sans-serif !default;
 
 $font-size-base:        14px !default;
 
+$font-size-6xl:         ceil($font-size-base * 4.28) !default;    // ~60px
 $font-size-5xl:         ceil($font-size-base * 3.42) !default;    // ~48px
 $font-size-4xl:         floor(($font-size-base * 2.6)) !default;  // ~36px
 $font-size-3xl:         floor(($font-size-base * 2.15)) !default; // ~30px
@@ -84,7 +86,7 @@ $line-height-computed:  floor($font-size-base * $line-height-base) !default; // 
 
 // By default, this inherits from the `<body>`.
 $headings-font-family:  inherit !default;
-$headings-font-weight:  500 !default;
+$headings-font-weight:  400 !default;
 $headings-line-height:  1.1 !default;
 $headings-color:        inherit !default;
 
@@ -157,36 +159,50 @@ $xxlarge-up: "#{$screen} and (min-width:#{$screen-xxl-min})" !default;
 // -------------------------
 
 // About me
-// $aboutme
+$aboutme-name-font-size-sm:             $font-size-2xl !default;
+$aboutme-name-font-size-md:             $font-size-3xl !default;
+$aboutme-name-font-color:               $gray-cool-darker !default;
+$aboutme-role-font-size-sm:             $font-size-5xl !default;
+$aboutme-role-font-size-md:             $font-size-6xl !default;
+$aboutme-role-font-color:               #fff !default;
+$aboutme-contact-font-size-sm:          $font-size-lg !default;
+$aboutme-contact-font-size-md:          $font-size-xl !default;
+$aboutme-contact-font-color:            $gray-cool-dark !default;
+$aboutme-contact-link-font-size-sm:     $font-size-md !default;
+$aboutme-contact-link-font-size-md:     $font-size-lg !default;
+$aboutme-contact-link-font-color:       $gray-cool-darkest !default;
+$aboutme-contact-link-font-color-hover: white !default;
+$aboutme-desc-font-size:                ceil(($font-size-base * 1.14)) !default; // ~16px
+$aboutme-desc-font-color:               $gray-cool-darkest !default;
 
 // Briefing
-$briefing-title-font-size-sm:    $font-size-4xl !default;
-$briefing-title-font-size-md:    $font-size-5xl !default;
-$briefing-title-font-color:      $gray-cool-darker !default;
-$briefing-subtitle-font-size-sm: $font-size-md !default;
-$briefing-subtitle-font-size-md: $font-size-xl !default;
-$briefing-subtitle-font-color:   $gray-cool-dark !default;
-$briefing-lead-font-size:        ceil(($font-size-base * 1.78)) !default; // ~25px
-$briefing-lead-font-color:       $gray-cool-darker !default;
-$briefing-desc-font-size:        ceil(($font-size-base * 1.21)) !default; // ~17px
-$briefing-desc-font-color:       $gray-cool-dark !default;
+$briefing-title-font-size-sm:           $font-size-4xl !default;
+$briefing-title-font-size-md:           $font-size-5xl !default;
+$briefing-title-font-color:             $gray-cool-darkest !default;
+$briefing-subtitle-font-size-sm:        $font-size-md !default;
+$briefing-subtitle-font-size-md:        $font-size-xl !default;
+$briefing-subtitle-font-color:          $gray-cool-dark !default;
+$briefing-lead-font-size:               ceil(($font-size-base * 1.78)) !default; // ~25px
+$briefing-lead-font-color:              $gray-cool-darkest !default;
+$briefing-desc-font-size:               ceil(($font-size-base * 1.21)) !default; // ~17px
+$briefing-desc-font-color:              $gray-cool-dark !default;
 
 // Carousel
-$carousel-width:                 100% !default;
-$carousel-height:                700px !default;
-$carousel-control-width:         15% !default;
-$carousel-control-img-width:     26px !default;
-$carousel-control-img-height:    81px !default;
+$carousel-width:                        100% !default;
+$carousel-height:                       700px !default;
+$carousel-control-width:                15% !default;
+$carousel-control-img-width:            26px !default;
+$carousel-control-img-height:           81px !default;
 
 // Portfolio
-$portfolio-border-width-sm:      $space-byte !default;
-$portfolio-border-width-md:      $space-kilo-byte !default;
-$portfolio-border-width-lg:      $space-mega-byte !default;
-$portfolio-categories-font-size: ceil(($font-size-base * 1.14)) !default; // ~16px
-$portfolio-categories-size:      48px !default;
+$portfolio-border-width-sm:             $space-byte !default;
+$portfolio-border-width-md:             $space-kilo-byte !default;
+$portfolio-border-width-lg:             $space-mega-byte !default;
+$portfolio-categories-font-size:        ceil(($font-size-base * 1.14)) !default; // ~16px
+$portfolio-categories-size:             48px !default;
 
 
 // Z-index master list
 // -------------------------
 
-$zindex-header:                  1000 !default;
+$zindex-header:                         1000 !default;

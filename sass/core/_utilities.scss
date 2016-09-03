@@ -1,0 +1,35 @@
+//
+// Utilities
+// --------------------------------------------------
+
+
+// Horizontal rule
+// -------------------------
+
+.hr-bot {
+
+  position: relative;
+  margin-top: 0;
+  margin-bottom: $space-giga-byte;
+  padding-bottom: $space-giga-byte;
+  &:after {
+    content: '';
+    margin-left: -50px;
+    background-color: $brand-primary;
+    @include positioner(100px, 1px, bottom, 0, left, 50%);
+    @media #{$medium-up} {
+      margin-left: 0;
+      width: 50px;
+      left: 0;
+    }
+  }
+
+  &--light {
+    margin-bottom: $space-peta-byte;
+    padding-bottom: $space-peta-byte;
+    &:after {
+      background-color: white;
+    }
+  }
+
+}

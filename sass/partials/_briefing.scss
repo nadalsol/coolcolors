@@ -13,26 +13,11 @@
   }
 
   &__title {
-    position: relative;
-    margin-top: 0;
-    margin-bottom: $space-giga-byte;
-    padding-bottom: $space-giga-byte;
     font-size: $briefing-title-font-size-sm;
     font-weight: 300;
     color: $briefing-title-font-color;
     @media #{$medium-up} {
       font-size: $briefing-title-font-size-md;
-    }
-    &:after {
-      margin-left: -50px;
-      content: '';
-      background-color: $brand-primary;
-      @include positioner(100px, 1px, bottom, 0, left, 50%);
-      @media #{$medium-up} {
-        margin-left: 0;
-        width: 50px;
-        left: 0;
-      }
     }
   }
   &__subtitle {

@@ -5,32 +5,92 @@
 
 .about-me {
 
-  // background-color: $gray-lightest;
-  // text-align: center;
-  // @include spacer-v;
-  // @media #{$medium-up} {
-  //   text-align: left;
-  // }
-
   &__bio {
     background-color: $brand-tertiary;
     @include clearfix;
     &__img {
-      float: left;
-      width: 50%;
       margin-bottom: 0;
       > img {
         @include size(100%, auto);
       }
+      @media #{$medium-up} {
+        float: left;
+        width: 50%;
+      }
     }
     &__info {
-      float: left;
-      width: 50%;
+      padding: $space-zeta-byte $space-giga-byte;
+      text-align: center;
+      @media #{$medium-up} {
+        float: left;
+        width: 50%;
+        padding: 50px 60px;
+        text-align: left;
+      }
+      &__name {
+        font-size: $aboutme-name-font-size-sm;
+        font-weight: 300;
+        color: $aboutme-name-font-color;
+        text-transform: uppercase;
+        @media #{$medium-up} {
+          font-size: $aboutme-name-font-size-md;
+        }
+      }
+      &__role {
+        font-size: $aboutme-role-font-size-sm;
+        font-weight: 600;
+        color: white;
+        text-transform: uppercase;
+        @media #{$medium-up} {
+          font-size: $aboutme-role-font-size-md;
+        }
+      }
+      &__contact {
+        margin-bottom: 0;
+        color: $aboutme-contact-font-color;
+        > span {
+          display: block;
+          margin-bottom: $space-kilo-byte;
+          font-size: $aboutme-contact-font-size-sm;
+          text-transform: uppercase;
+          @media #{$medium-up} {
+            font-size: $aboutme-contact-font-size-md;
+          }
+        }
+        > a {
+          font-size: $aboutme-contact-link-font-size-sm;
+          color: $aboutme-contact-link-font-color;
+          @include transition(color .3s);
+          &:hover,
+          &:focus {
+            color: $aboutme-contact-link-font-color-hover;
+          }
+          @media #{$medium-up} {
+            font-size: $aboutme-contact-link-font-size-md;
+          }
+        }
+      }
     }
   }
 
   &__desc {
-    //
+    font-size: $aboutme-desc-font-size;
+    color: $aboutme-desc-font-color;
+    background-color: white;
+    text-align: center;
+    @include spacer-v;
+    @media #{$medium-up} {
+      line-height: 1.8;
+    }
+    p {
+      margin-bottom: $space-giga-byte;
+      @media #{$medium-up} {
+        margin-bottom: $space-peta-byte;
+      }
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
   }
   
 }
