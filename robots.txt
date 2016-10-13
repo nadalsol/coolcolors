@@ -1,3 +1,8 @@
 User-agent: *
 Disallow: /v1/
 Disallow: /v2/
+Disallow: /portfolio/turismo-de-andalucia/
+Disallow: /portfolio/turismo-de-canarias-stop-bluemonday/
+Disallow: /portfolio/inedit-escapadas/
+Disallow: /portfolio/turismo-de-canarias-blog/
+Disallow: /portfolio/nissan/

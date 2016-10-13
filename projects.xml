@@ -2,6 +2,7 @@
 <portfolio>
 
   <project>
+    <visibility>false</visibility>
     <title>Turismo de Andalucía</title>
     <url>/portfolio/turismo-de-andalucia/</url>
     <category>Website</category>
@@ -23,6 +24,7 @@
   </project>
 
   <project>
+    <visibility>true</visibility>
     <title>Turismo de Croacia</title>
     <url>/portfolio/turismo-de-croacia/</url>
     <category>Website</category>
@@ -46,6 +48,7 @@
   </project>
 
   <project>
+    <visibility>true</visibility>
     <title>Turismo de Canarias</title>
     <url>/portfolio/turismo-de-canarias/</url>
     <category>Website</category>
@@ -70,6 +73,7 @@
   </project>
 
   <project>
+    <visibility>false</visibility>
     <title>Turismo de Canarias Stop BlueMonday</title>
     <url>/portfolio/turismo-de-canarias-stop-bluemonday/</url>
     <category>Website</category>
@@ -96,6 +100,7 @@
   </project>
 
   <project>
+    <visibility>true</visibility>
     <title>Arnau Vilardebò</title>
     <url>/portfolio/arnau-vilardebo/</url>
     <category>Website</category>
@@ -122,6 +127,7 @@
   </project>
 
   <project>
+    <visibility>true</visibility>
     <title>Banc Sabadell - Negocio Internacional</title>
     <url>/portfolio/banc-sabadell-internacional/</url>
     <category>Website</category>
@@ -144,6 +150,7 @@
   </project>
 
   <project>
+    <visibility>true</visibility>
     <title>Banc Sabadell - Banca Online</title>
     <url>/portfolio/banc-sabadell-banca-online/</url>
     <category>Website</category>
@@ -166,6 +173,7 @@
   </project>
 
   <project>
+    <visibility>true</visibility>
     <title>AudiClass</title>
     <url>/portfolio/audi-class/</url>
     <category>Website</category>
@@ -187,6 +195,7 @@
   </project>
 
   <project>
+    <visibility>false</visibility>
     <title>SB Hotels &amp; Inedit</title>
     <url>/portfolio/inedit-escapadas/</url>
     <category>Ecommerce</category>
@@ -214,6 +223,7 @@
   </project>
 
   <project>
+    <visibility>true</visibility>
     <title>Munich</title>
     <url>/portfolio/munich/</url>
     <category>Ecommerce</category>
@@ -238,6 +248,7 @@
   </project>
 
   <project>
+    <visibility>false</visibility>
     <title>Blog Turismo de Canarias</title>
     <url>/portfolio/turismo-de-canarias-blog/</url>
     <category>Blog</category>
@@ -259,6 +270,7 @@
   </project>
 
   <project>
+    <visibility>true</visibility>
     <title>AudiClass</title>
     <url>/portfolio/audi-class/</url>
     <category>Website</category>
@@ -280,6 +292,7 @@
   </project>
 
   <project>
+    <visibility>false</visibility>
     <title>Nissan</title>
     <url>/portfolio/nissan/</url>
     <category>Plan CRM</category>
@@ -302,6 +315,7 @@
   </project>
 
   <project>
+    <visibility>true</visibility>
     <title>Volkswagen</title>
     <url>/portfolio/volkswagen-email/</url>
     <category>Plan CRM</category>
@@ -321,6 +335,7 @@
   </project>
 
   <project>
+    <visibility>true</visibility>
     <title>Pronovias</title>
     <url>/portfolio/pronovias-app/</url>
     <category><![CDATA[<abbr title="Application">APP</abbr>]]></category>
@@ -339,6 +354,7 @@
   </project>
 
   <project>
+    <visibility>true</visibility>
     <title>Audi APP</title>
     <url>/portfolio/audi-app/</url>
     <category><![CDATA[<abbr title="Application">APP</abbr>]]></category>
@@ -359,6 +375,7 @@
   </project>
 
   <project>
+    <visibility>true</visibility>
     <title>Requena i Sanchez Advocats</title>
     <url>/portfolio/requena-i-sanchez/</url>
     <category>Logo</category>
@@ -379,6 +396,7 @@
   </project>
 
   <project>
+    <visibility>true</visibility>
     <title>Interpartes</title>
     <url>/portfolio/interpartes/</url>
     <category>Logo</category>
@@ -399,6 +417,7 @@
   </project>
 
   <project>
+    <visibility>true</visibility>
     <title>The Mount Data</title>
     <url>/portfolio/the-mount-data/</url>
     <category>Logo &amp; Website</category>
